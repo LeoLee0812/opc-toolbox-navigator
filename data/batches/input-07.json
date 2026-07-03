@@ -1,0 +1,236 @@
+[
+ {
+  "id": "ocbc-singapore",
+  "name": "OCBC 新加坡华侨银行",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.ocbc.com/personal-banking/accounts-deposits/save-basic",
+  "pricing_facts": "无账户管理费、无年费、无最低存款要求。定期存款无手续费。国际转账费用按线路不同而异,国内SWIFT汇款约15-20新币(核实于2026-07)",
+  "china_facts": "内地用户可全程线上视频见证开户,无需赴新加坡,支持中文网银和中文客服。接受身份证+港澳通行证出入境记录或护照。可获实体万事达卡在国内ATM取现(核实于2026-07)",
+  "gotchas_facts": "开户可能需等待10-15个工作日;视频见证需稳定网络和良好英文沟通;汇款速度3-5工作日;美元账户利息极低;新加坡时差问题可能影响沟通",
+  "fun_facts": "新加坡本地最大银行之一,安全等级高;支持多币种账户(美元、欧元、港币、日元、英镑、离岸人民币等);非常适合需要新加坡账户做跨境业务的创业者;电子银行系统稳定",
+  "use_case_hint": "新加坡公司收款、亚洲区域资金中心、国际投资账户、多币种资产配置",
+  "alternatives_hint": [
+   "渣打银行新加坡",
+   "DBS新加坡",
+   "汇丰新加坡",
+   "ZA Bank"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "需海外手机号",
+   "有中文"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "us-llc-registration",
+  "name": "美国 LLC 注册",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.irs.gov/businesses/small-businesses-self-employed/forming-a-corporation",
+  "pricing_facts": "不同州费用不同:怀俄明州60-300美元/年,特拉华州90-500美元/年,加州300-500美元。通过代理一次性注册约260-1500美元(核实于2026-07,不含州年费)",
+  "china_facts": "无国籍限制,18岁以上任何人包括中国居民都可注册。无需美国银行卡,无需赴美,完全可远程办理。需确定公司名、营业范围、注册地址(可用虚拟办公室地址)(核实于2026-07)",
+  "gotchas_facts": "不是开银行账户,只是商业实体;注册后需要SSN或EIN才能开银行账户;需年度年审和税务申报;某些州对非美国居民要求代理人;需考虑长期维护成本",
+  "fun_facts": "美国LLC是全球最受欢迎的创业实体形式之一;提供有限责任保护;怀俄明州以其完美的隐私保护和零州所得税成为首选;不同于中国,不需要实缴资本;可灵活转让和融资",
+  "use_case_hint": "注册美国公司、开设美国银行账户、申请EIN税号、国际支付接入、品牌保护",
+  "alternatives_hint": [
+   "C-Corp",
+   "S-Corp",
+   "香港公司",
+   "新加坡公司"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "待核实"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "hong-kong-company",
+  "name": "香港公司注册",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.idir.gov.hk/eng/services/cr.htm",
+  "pricing_facts": "电子申请注册费1545港币(有10%减免),商业登记费2350港币,法定秘书+注册地址1800-4500港币/年。初始总成本约5000-7400人民币。年审费用2000-3000港币(核实于2026-07)",
+  "china_facts": "内地居民完全支持线上远程办理,无需赴港,无需实缴资金。无国籍限制,只需提供身份证或护照,住址证明可用国内近三个月的水电费单或银行账单(核实于2026-07)",
+  "gotchas_facts": "需配置法定秘书和注册地址(可用虚拟地址);年度审计和税务申报成本;香港公司所得税17.5%但有很多免税政策;若长期不经营可能被注销;跨境税务规划需重视",
+  "fun_facts": "香港作为超级财务中心地位稳固;公司透明度和法律体系完善;国际商誉高;可快速进入东亚市场;税制灵活,适合控股架构;1-3个工作日即可完成注册(电子版证书)",
+  "use_case_hint": "跨境电商、国际贸易、品牌运营、融资上市、资产保护",
+  "alternatives_hint": [
+   "新加坡公司",
+   "美国LLC",
+   "英国公司",
+   "BVI公司"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "us-ein",
+  "name": "美国 EIN 雇主识别号",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.irs.gov/businesses/small-businesses-self-employed/get-an-employer-identification-number",
+  "pricing_facts": "完全免费。通过IRS官网在线申请(仅美国居民可用)。国际申请者可免费邮寄或传真SS-4表格到IRS国际号获取(核实于2026-07)",
+  "china_facts": "非美国居民包括中国人可完全免费获得。不需要SSN,无需美国银行卡,无需赴美。需要已注册的美国公司主体(LLC或C-Corp)。申请周期:邮寄6-8周,传真4-6周(核实于2026-07)",
+  "gotchas_facts": "不是个人税号,必须有美国公司主体才能申请;IRS查询系统有延迟,新EIN可能需1-2周才能激活;某些银行可能不接受邮件申请的EIN;需做好文件保存",
+  "fun_facts": "是全球出海者的必经之路,99%美国商业账户都需要EIN;完全免费且官方直接发放;申请流程虽慢但很可靠;可用于PayPal、Stripe、Amazon等平台账户认证;一经获得永久有效",
+  "use_case_hint": "开设美国银行账户、申请Stripe/PayPal账户、Amazon卖家注册、美国报税",
+  "alternatives_hint": [
+   "ITIN",
+   "SSN",
+   "香港税号"
+  ],
+  "suggested_tags": [
+   "免费",
+   "国内可注册",
+   "无需Key"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "deel-global-payroll",
+  "name": "Deel 全球工资和支付平台",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.deel.com/zh-cn/",
+  "pricing_facts": "EOR员工标准计划599美元/月起,企业计划899美元/月;承包商标准计划49美元/月起,防诉讼版325美元/月;美国PEO 125美元/月。每笔国际支付另收5美元+1-3%汇差费(核实于2026-07)",
+  "china_facts": "中国企业可在150+国家雇用员工。支持中文官网但客服仅英文24/7。中国用户可关联国内银行卡和中国员工账户支付工资。无需改组公司架构即可使用EOR服务(核实于2026-07)",
+  "gotchas_facts": "面向企业不面向个人,最低通常要求至少雇用1名员工;费用固定按月收费不灵活;国际汇款费用较高;税务复杂性因国而异;客服响应速度可能慢于小团队需求",
+  "fun_facts": "估值百亿美金独角兽,全球150+国家支持;2-3天完成薪资发放;自动化合规和税务处理;提供8种国际支付方式;可视化仪表板;Deel Card能直接发给员工使用",
+  "use_case_hint": "全球远程团队工资发放、跨境员工雇用、合规人力资源管理、自由职业者支付",
+  "alternatives_hint": [
+   "Knit",
+   "Rippling",
+   "Guidepoint",
+   "Payoneer"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "有中文"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "digital-nomad-visa",
+  "name": "数字游民签证概览",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.iom.int/news/digital-nomads-global-trend",
+  "pricing_facts": "概念词条,不适用。签证费用因国而异:葡萄牙D8€83-150/年,泰国DTV约2000泰铢,印尼B211A约6个月400美元,柬埔寨电子签约36美元(核实于2026-07)",
+  "china_facts": "全球超过65国推出数字游民签证,中国护照持有人基本都可申请。无需真实工作地点证明或收入证明在大多数国家。需稳定网络和远程工作能力(核实于2026-07)",
+  "gotchas_facts": "签证有效期通常1-2年,需要定期续签;某些国家有月收入要求(€3500-5000);不允许在当地工作,仅允许远程工作;税务待遇需个案研究;某些国家可能限制数字游民数量",
+  "fun_facts": "葡萄牙和泰国最受欢迎;部分国家支持家属同行;某些国家可转永居;无需投资或购房门槛;生活成本低,如泰国月均800-1500美元可舒适生活;网络社区很活跃",
+  "use_case_hint": "独立开发者、远程工作者、自由职业者长期居留、探索新市场、税务优化",
+  "alternatives_hint": [
+   "投资移民",
+   "工作签证",
+   "学生签证",
+   "养老签证"
+  ],
+  "suggested_tags": [
+   "付费",
+   "新手友好",
+   "好玩",
+   "待核实"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "paypal-international",
+  "name": "PayPal 国际账户",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.paypal.com/c2/webapps/mpp/account-selection",
+  "pricing_facts": "国区账户:提现35美元/笔,国际转账费5%。国际账户:部分本地转账免费,国际转账5%。货币兑换费0.5-2%。2026年1-12月有优惠费率针对美元收款(核实于2026-07)",
+  "china_facts": "中国大陆用户可注册国区账户或美区账户。国区需中文姓名+身份证,美区需邮箱+地址。美区账户需美国公司或美国银行卡激活,国区则更便利(核实于2026-07)",
+  "gotchas_facts": "国区账户限制出金到国内银行卡,费用很高;跨国账户之间转账可能有额外限制;某些商户不接受PayPal;账户冻结风险相对较高;中国IP登录可能受限",
+  "fun_facts": "全球支持202国家和25种货币;作为支付宝母公司蚂蚁集团的同门,在中国有天然优势;支持虚拟信用卡;移动App支付体验不错;中文客服相对专业",
+  "use_case_hint": "eBay/Amazon收款、国际B2B支付、跨国汇款、在线购物支付",
+  "alternatives_hint": [
+   "Wise",
+   "Stripe",
+   "Square Cash",
+   "Payoneer"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "有中文"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "overseas-tax-basics",
+  "name": "出海企业报税基础",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.lawyers.org.cn/info/3c63e902bce64283adae2e6d2e72abdb",
+  "pricing_facts": "概念词条,不适用。涉及OECD全球最低税15%框架、各国经济实质法、个人所得税和公司所得税等多维度规划(核实于2026-07)",
+  "china_facts": "中国出海企业需面对中国税务机关和海外税务机关的双重合规。从中国出口需正规报关,受金税四期监管;海外经营需符合当地税法和经济实质要求(核实于2026-07)",
+  "gotchas_facts": "离岸低税架构的优势在全球最低税框架下大幅削弱;有审计报告不代表经济实质合规;税务机关看的是交易是否有真实经济实质而非报表是否审过;空壳架构风险极高",
+  "fun_facts": "多实体架构是高效率的出海常见做法:国内运营实体负责采购和出口,港澳控股平台做国际资金池,当地运营实体负责当地经营;灵活的架构设计能合法优化税负;香港作为超级财务中心仍保有独特优势",
+  "use_case_hint": "企业出海架构设计、跨境转移定价规划、多国税务合规、避免反避税调查、国际融资和并购",
+  "alternatives_hint": [
+   "专业税务顾问",
+   "会计师事务所",
+   "法律咨询",
+   "金融顾问"
+  ],
+  "suggested_tags": [
+   "待核实"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "stripe-payment-gateway",
+  "name": "Stripe 美国支付网关",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://stripe.com/global",
+  "pricing_facts": "费用因国家而异:美国2.9%+30美分,欧洲2.4%+£0.20。无设置费、无月费。处理失败交易免费。2025年新推ITIN方案支持非美国居民个人开户(核实于2026-07)",
+  "china_facts": "中国大陆目前不在直接支持清单中。中国人需先注册美国公司,申请美国EIN,然后以公司名义注册Stripe账户。2025年后可使用ITIN(个人税号)作为替代方案(核实于2026-07)",
+  "gotchas_facts": "不支持虚拟货币、成人内容等敏感行业;账户审核严格且可能延迟;提现需要美国银行账户(Mercury等);汇率点差可能被对手方吸收;某些支付方式需单独认证",
+  "fun_facts": "全球最受欢迎的支付网关,支持42国家和100+种支付方式;API文档最完善;开发者社区最活跃;支持中文API文档;与Slack等企业应用无缝集成;虚拟卡功能强大",
+  "use_case_hint": "SaaS产品收款、电商支付、订阅管理、国际B2B支付、虚拟卡管理",
+  "alternatives_hint": [
+   "PayPal",
+   "Square",
+   "2Checkout",
+   "Adyen"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": true,
+  "_research_key": "banking"
+ }
+]

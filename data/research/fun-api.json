@@ -1,0 +1,851 @@
+[
+ {
+  "id": "unsplash-api",
+  "name": "Unsplash API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://unsplash.com/documentation",
+  "pricing_facts": "完全免费，演示状态 50 请求/小时，生产状态 5000 请求/小时（核实于 2026-07）",
+  "china_facts": "国内可直接注册使用，无需海外卡或手机号，仅需正确使用返回图片 URL 和标注摄影师、Unsplash 出处",
+  "gotchas_facts": "必须在下载时调用 download_location 端点，违反用途会被禁用访问",
+  "fun_facts": "拥有数百万张高清免费图片库，无需担心商业授权问题，支持无限下载和商业使用",
+  "use_case_hint": "构建图片库应用、UI 模型、摄影作品展示、设计灵感收集",
+  "alternatives_hint": [
+   "Pexels API",
+   "Pixabay API",
+   "Unsplash Next.js",
+   "Flickr API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "pexels-api",
+  "name": "Pexels API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.pexels.com/api/",
+  "pricing_facts": "完全免费，默认限制 200 请求/小时、20000 请求/月，符合条件可免费解除限制（核实于 2026-07）",
+  "china_facts": "国内可直接注册，无需海外卡或手机号",
+  "gotchas_facts": "申请无限制需要证明正当用途且非简单复制 API 功能，需提供正确的 Pexels 和摄影师标注",
+  "fun_facts": "完全免费无上限选项，涵盖高质量免费视频库（Pexels Videos），社区驱动内容持续增长",
+  "use_case_hint": "视频编辑、内容创作、网站背景素材、应用内图片填充",
+  "alternatives_hint": [
+   "Unsplash API",
+   "Pixabay API",
+   "Cloudinary API",
+   "Getty Images API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "无需Key",
+   "开发者友好"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "remove-bg-api",
+  "name": "Remove.bg API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.remove.bg/api",
+  "pricing_facts": "免费 50 次/月（预览分辨率），付费 0.20 欧/张标准版，€3-€89 月套餐可选（核实于 2026-07）",
+  "china_facts": "国内可注册使用，部分付费功能可能受区域限制，建议准备海外支付方式",
+  "gotchas_facts": "免费额度仅限预览分辨率，想要高分辨率输出必须付费，单位时间限制 500 张/分钟",
+  "fun_facts": "AI 背景移除效果业界领先，支持直接 API 集成，预处理免费让开发者先试水",
+  "use_case_hint": "电商图片处理、头像裁剪、产品图优化、自动化图片加工",
+  "alternatives_hint": [
+   "Poof.bg",
+   "ImageKit Remove Background",
+   "Cloudinary",
+   "Pixlr"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "AI能力"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "open-meteo-api",
+  "name": "Open-Meteo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://open-meteo.com/",
+  "pricing_facts": "免费 10000 次/日（非商业用），无需 API Key、无需注册，商业版月套餐 $20-$1000+（核实于 2026-07）",
+  "china_facts": "国内可直接免费使用，无地域限制，非商业用完全无门槛",
+  "gotchas_facts": "商业用需付费订阅，免费版需标注 CC BY 4.0 许可证，部分高级预报数据商业版专享",
+  "fun_facts": "汇聚欧洲央行、德国气象局、美国国家气象局等 15+ 权威气象机构数据，开源可自托管",
+  "use_case_hint": "天气应用、农业气象、航空天气、能源预报、旅游规划工具",
+  "alternatives_hint": [
+   "OpenWeatherMap",
+   "WeatherAPI.com",
+   "Visual Crossing",
+   "Tomorrow.io"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开源",
+   "可自托管",
+   "国内可注册"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "rest-countries-api",
+  "name": "REST Countries API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://restcountries.com/",
+  "pricing_facts": "完全免费，无需认证，已被 apilayer 收购持续维护（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "无已知限制，但建议尊重服务器资源，不建议极端频繁调用",
+  "fun_facts": "覆盖 250+ ISO 国家代码，返回首都、人口、货币、语言、边界、时区等结构化数据，API 设计简洁",
+  "use_case_hint": "地理信息展示、国家选择下拉菜单、多国应用本地化、教育资源、国际电商平台",
+  "alternatives_hint": [
+   "Nominatim",
+   "Geonames",
+   "Google Maps API",
+   "Mapbox API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "nominatim-osm-api",
+  "name": "Nominatim (OpenStreetMap)",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://nominatim.org/",
+  "pricing_facts": "免费，个人/教育/小规模使用，限制 1 请求/秒，商业大规模应用需自建实例或使用付费服务（核实于 2026-07）",
+  "china_facts": "国内可使用，但大陆网络可能访问不稳定，建议使用国内镜像或自建实例",
+  "gotchas_facts": "禁止自动完成搜索、禁止网格反向地理编码、禁止爬虫、应用主功能不能是地理编码（需自建），必须提供 HTTP Referer 或 User-Agent",
+  "fun_facts": "OpenStreetMap 社区维护，开源可自托管完全避免 API 限制，地理数据覆盖全球且持续众包更新",
+  "use_case_hint": "地址搜索、反向地理编码、地图应用辅助、位置验证、送餐应用地址解析",
+  "alternatives_hint": [
+   "Google Geocoding API",
+   "Mapbox Geocoding",
+   "HERE Geocoding",
+   "自建 Nominatim"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开源",
+   "可自托管",
+   "需配DNS"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "ipinfo-api",
+  "name": "IPinfo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://ipinfo.io/",
+  "pricing_facts": "免费版精度仅限国家级，基础版 $49/月 250K 查询，商业版 $90-∞/月（核实于 2026-07，2025 年大幅削弱免费版）",
+  "china_facts": "国内可注册，部分精准数据可能受地域限制，建议准备海外支付方式用于付费版",
+  "gotchas_facts": "2025 年免费版精度大幅下降，仅提供国家级地理信息，想要城市/运营商数据必须付费",
+  "fun_facts": "曾是业界最慷慨的免费 IP 定位 API，详细的 ASN 和运营商信息，适合企业地理定位需求",
+  "use_case_hint": "用户地理位置检测、内容本地化、欺诈检测、服务区域限制、CDN 节点选择",
+  "alternatives_hint": [
+   "MaxMind GeoIP2",
+   "IP2Location",
+   "GeoIP",
+   "Ipapi.co"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "frankfurter-api",
+  "name": "Frankfurter API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://frankfurter.dev/",
+  "pricing_facts": "完全免费，无配额限制（仅防滥用速率限制），开源可自托管（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "数据来自欧洲央行，仅包含主要货币兑换率，不支持加密货币",
+  "fun_facts": "欧洲央行官方汇率数据（权威可信），覆盖 84 家中央银行、201 种货币历史数据回溯至 1948 年，支持 JSON/CSV/NDJSON 多格式",
+  "use_case_hint": "外汇兑换计算、国际转账定价、财务报表、跨国电商定价、旅游成本估算",
+  "alternatives_hint": [
+   "ExchangeRate-API",
+   "Open Exchange Rates",
+   "Fixer.io",
+   "CurrencyAPI"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开源",
+   "可自托管"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "nasa-apis",
+  "name": "NASA APIs",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://api.nasa.gov/",
+  "pricing_facts": "完全免费，演示版本有限制，注册免费开发者 Key 后 1000 请求/小时，包含 APOD、Mars Rover、Earth Imagery 等多个子 API（核实于 2026-07）",
+  "china_facts": "国内可直接访问，无地域限制，无需海外卡或手机号，邮箱即可注册",
+  "gotchas_facts": "超限会被临时阻止 1 小时，Landsat 8 等某些数据需通过 EarthData 平台的 OAuth2 认证",
+  "fun_facts": "美国国家航空航天局官方数据，包含每日天文图片（APOD）、火星探测器照片、地球卫星影像、太阳数据等，数据量巨大且不断更新",
+  "use_case_hint": "天文科普应用、火星探险游戏、地球观测数据分析、教育课件、AR 天体展示",
+  "alternatives_hint": [
+   "ESA APIs",
+   "SpaceX API",
+   "Astronomy API",
+   "AstronomyAPI"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "pokeapi",
+  "name": "PokéAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://pokeapi.co/",
+  "pricing_facts": "完全免费，无需 API Key，月流量 50+ 亿次，公平使用政策鼓励缓存（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "静态数据库，更新频率一般，大量请求建议缓存或下载本地数据集",
+  "fun_facts": "宝可梦官方授权数据库，覆盖 1000+ 宝可梦、招式、属性、特性等详细信息，粉丝应用和学习项目最爱",
+  "use_case_hint": "宝可梦扇展应用、游戏开发、卡牌管理工具、宝可梦百科、Discord 机器人插件",
+  "alternatives_hint": [
+   "PokemonTCG API",
+   "GraphQL Pokemon API",
+   "Pokemon REST API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "deck-of-cards-api",
+  "name": "Deck of Cards API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://deckofcardsapi.com/",
+  "pricing_facts": "完全免费，无需 API Key，无正式配额，简单公平使用政策（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "功能单一，仅支持标准 52 张牌（4 花色 13 等级），不支持定制牌组",
+  "fun_facts": "经典教学 API（新手神器），逻辑简单但完整，是学习 REST API 设计的优秀范例，可用于各类卡牌游戏原型",
+  "use_case_hint": "卡牌游戏、随机算法学习、德州扑克、魔术表演、教学演示",
+  "alternatives_hint": [
+   "Spoonacular Cards",
+   "自建卡牌系统",
+   "GameDBAPI"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "bored-api",
+  "name": "Bored API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://bored-api.appbrewery.com/",
+  "pricing_facts": "完全免费，无需 API Key，无明确配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "数据库规模中等，某些活动可能出现重复推荐，活动建议数据更新不频繁",
+  "fun_facts": "超有趣的无聊救星 API，包含教育、娱乐、社交、烹饪、放松等 7 大类活动，支持按人数/难度/价格过滤",
+  "use_case_hint": "打发时间应用、随机活动推荐器、派对游戏、创意启蒙、团队建设工具",
+  "alternatives_hint": [
+   "Numbers API",
+   "Advice Slip API",
+   "Fun Fact API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "numbers-api",
+  "name": "Numbers API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://numbersapi.com/",
+  "pricing_facts": "完全免费，无需注册/Token/Key，无明确配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "数据库有限，某些数字可能无有趣事实返回，更新频率一般",
+  "fun_facts": "通过 URL 一行代码即可调用，支持数学、三角、日期等 4 种事实类型，饼干运气般的惊喜感",
+  "use_case_hint": "教育数学应用、日历提示、社交媒体内容、聊天机器人、心灵鸡汤插件",
+  "alternatives_hint": [
+   "Advice Slip API",
+   "Bored API",
+   "Chuck Norris API",
+   "ZenQuotes API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "open-library-api",
+  "name": "Open Library API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://openlibrary.org/developers/api",
+  "pricing_facts": "完全免费，低流量公开 Web API 和月度数据导出，无需 API Key（核实于 2026-07）",
+  "china_facts": "国内可直接访问（可能速度较慢），无地域限制，无需注册",
+  "gotchas_facts": "部分数据不完整（社区维护项目），搜索精度可能低于商业书籍数据库",
+  "fun_facts": "互联网档案馆 Internet Archive 旗下项目，拥有 2000+ 万本数字书籍，完全开源开放，支持 JSON/YAML/RDF/XML 多格式",
+  "use_case_hint": "电子书检索、图书馆应用、ISBN 查询、书籍推荐系统、教育资源库",
+  "alternatives_hint": [
+   "Google Books API",
+   "ISBNdb",
+   "Crossref",
+   "WorldCat API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开源",
+   "有中文"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "wikipedia-api",
+  "name": "Wikipedia API (MediaWiki)",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.mediawiki.org/wiki/Wikimedia_APIs",
+  "pricing_facts": "免费版 On-demand 50000/月、Snapshot 30/月，商业版按 SLA 付费，2026-07 大幅提升免费额度（核实于 2026-07）",
+  "china_facts": "国内可使用（需遵守维基百科中文版使用政策），无需注册但建议标注 User-Agent",
+  "gotchas_facts": "免费版需遵守 API 礼仪，禁止爬虫高频访问，商业用途需付费或明确标注来源",
+  "fun_facts": "全球最大百科全书官方 API，百万+ 词条覆盖全学科，2026 年新增结构化内容快照（Structured Contents），比谷歌知识库平价太多",
+  "use_case_hint": "百科知识展示、内容丰富的 AI 应用、教育工具、信息聚合、冷知识推送",
+  "alternatives_hint": [
+   "Wikidata API",
+   "Dbpedia",
+   "Google Knowledge Graph",
+   "自建知识库"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "有中文",
+   "开发者友好"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "quickchart-api",
+  "name": "QuickChart API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://quickchart.io/",
+  "pricing_facts": "免费 120 请求/分钟（2 张/秒/IP），无需 API Key，商业版定制定价，开源 GPLv3 可自托管（核实于 2026-07）",
+  "china_facts": "国内可使用，某些高负载场景可能遇到速率限制，建议获取 API Key 或自托管",
+  "gotchas_facts": "免费版限速较严，高流量应用需付费或自托管，仅支持 Chart.js 配置格式",
+  "fun_facts": "Chart.js 官方出图 API，支持柱状图、饼图、折线图等 15+ 图表类型，还能生成 QR 码，完美适配 Markdown 和 Slack",
+  "use_case_hint": "数据可视化、报表生成、Slack/Discord 机器人图表、Markdown 图表、没有前端的动态图表",
+  "alternatives_hint": [
+   "Plotly REST API",
+   "Chart Cloud",
+   "Google Charts",
+   "自建 Chart.js 服务"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开源",
+   "可自托管"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "screenshotone-api",
+  "name": "ScreenshotOne API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://screenshotone.com/",
+  "pricing_facts": "免费 100 张/月，$17/月 2000 张，$79/月 10000 张，$259/月 50000 张，失败截图不计数（核实于 2026-07）",
+  "china_facts": "国内可注册，部分功能（地理位置、广告过滤）需付费版，建议准备海外支付方式",
+  "gotchas_facts": "免费版无广告过滤和地理定位功能，高级功能需 $79+ 月套餐，API 响应时间较长（3-15 秒）",
+  "fun_facts": "市场领先的网页截图服务，支持 HTML/PDF 渲染、设备模拟、JavaScript 执行、PDF 导出，失败截图「不计费」逻辑超友好",
+  "use_case_hint": "网页快照存档、社交分享预览图、PDF 报告生成、网站监测、设计稿自动化截图",
+  "alternatives_hint": [
+   "Puppeteer Service",
+   "GrabzIt",
+   "ApiFlash",
+   "Scapinghub"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "have-i-been-pwned-api",
+  "name": "Have I Been Pwned API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://haveibeenpwned.com/api/v3",
+  "pricing_facts": "Pwned Passwords API 完全免费，邮箱检索需订阅，基础版 $3.50/月，专业版 $99/月，高 RPM 版 $800/月（核实于 2026-07）",
+  "china_facts": "国内可访问，部分付费功能可能需海外支付方式，免费 Pwned Passwords 功能无限制",
+  "gotchas_facts": "邮箱检索的大多数功能需订阅，免费版只能看浏览器历史，高 RPM 版本需要特殊资格",
+  "fun_facts": "Troy Hunt 创办的密码泄露检测权威数据库，Pwned Passwords 超 8 亿条泄露密码可免费 k-anonymity 检索（最安全的隐私保护），1Password/Dashlane 等密码管理器都在用",
+  "use_case_hint": "用户注册时密码安全检查、数据泄露监测、企业安全审计、浏览器扩展开发",
+  "alternatives_hint": [
+   "SecurityTrails",
+   "Shodan",
+   "BreachDirectory",
+   "自建泄露数据库"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "faker-api",
+  "name": "Faker API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.fakerapi.it/",
+  "pricing_facts": "完全免费，无需认证，支持自定义数量（最多 1000 行），无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "纯 API 生成，无图片存储功能，大批量请求可能较慢",
+  "fun_facts": "一行 URL 即可生成逼真的假数据（人名、邮箱、地址、电话等），支持多国语言和自定义 seed 生成可重现的数据，是测试和演示的完美助手",
+  "use_case_hint": "API 测试、数据库原型填充、演示应用制作、单元测试数据、UI 演示样本",
+  "alternatives_hint": [
+   "Mockaroo",
+   "Dummy JSON",
+   "RandomUser API",
+   "自建 Faker 脚本"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "mockaroo-api",
+  "name": "Mockaroo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.mockaroo.com/",
+  "pricing_facts": "免费 1000 行/次、200 请求/日，$50/年 100K 行/次，$500/年 1000W 行/次（核实于 2026-07）",
+  "china_facts": "国内可使用，无地域限制，免费版无需支付方式",
+  "gotchas_facts": "免费版 200 请求/日上限严格，高频测试需付费或用替代品",
+  "fun_facts": "零代码数据生成工具，支持 200+ 数据类型（JSON/CSV/SQL/Excel），用户界面友好，可视化定义 schema 无需代码能力",
+  "use_case_hint": "测试数据批量生成、数据库原型、API 开发演示、演示环境数据填充",
+  "alternatives_hint": [
+   "Faker API",
+   "Dummy JSON",
+   "GenerateData.com",
+   "自建脚本"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "新手友好"
+  ],
+  "is_addition": false
+ },
+ {
+  "id": "chuck-norris-jokes-api",
+  "name": "Chuck Norris Jokes API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://api.chucknorris.io/",
+  "pricing_facts": "完全免费，无需 API Key，支持多语言（8 种），无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "笑话库规模有限且更新不频繁，部分笑话可能过时",
+  "fun_facts": "开源手工策划的 Chuck Norris 事实库（网络文化经典），支持按分类获取或随机，还能接入 Slack 和 Facebook Messenger",
+  "use_case_hint": "闲聊机器人、社交媒体内容、团队通讯工具插件、编程教学娱乐化",
+  "alternatives_hint": [
+   "JokeAPI",
+   "Bored API",
+   "Advice Slip API",
+   "Dad Jokes API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "meowfacts-api",
+  "name": "MeowFacts API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://github.com/wh-iterabb-it/meowfacts",
+  "pricing_facts": "完全免费，无需认证，无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可使用，无地域限制，无需注册",
+  "gotchas_facts": "基础托管在 Heroku 可能偶尔宕机，数据库规模较小",
+  "fun_facts": "猫咪事实库，可获取单个或多个随机猫咪冷知识，支持多语言输出，撸猫爱好者和 Discord 机器人必备",
+  "use_case_hint": "猫主题应用、宠物知识库、闲聊机器人、社交内容生成",
+  "alternatives_hint": [
+   "The Cat API",
+   "Meow Me API",
+   "Cats API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "the-cat-api",
+  "name": "The Cat API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://thecatapi.com/",
+  "pricing_facts": "匿名免费基础使用，免费 API Key ~1000 请求/月，付费 Key 价格以官网为准（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册（但建议注册获取 Key）",
+  "gotchas_facts": "高级功能（上传、收藏）需付费，免费版限制较多",
+  "fun_facts": "数万张高质量猫咪图片库，支持按品种过滤、GIF、搞笑猫咪分类等，返回 URL 可在多媒体应用中直接展示",
+  "use_case_hint": "猫咪图片展示应用、社交媒体自动配图、随机宠物推荐、冥想应用背景",
+  "alternatives_hint": [
+   "MeowFacts API",
+   "Pexels API",
+   "Unsplash API",
+   "Kitten API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "weatherapi-com",
+  "name": "WeatherAPI.com",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.weatherapi.com/",
+  "pricing_facts": "免费 100w 次/月、15 天历史数据，付费 $2-$25/月，无需信用卡（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无地域限制，支持中文响应",
+  "gotchas_facts": "免费版 API 响应有约 500ms 延迟，某些高级功能仅付费版可用",
+  "fun_facts": "相比 OpenWeatherMap 对开发者友好得多，免费额度充足（100w 次/月足够中小应用），速度快，支持 JSON/XML 双格式，API 文档极棒",
+  "use_case_hint": "天气应用、气象数据分析、旅游提示、农业决策支持、户外活动规划",
+  "alternatives_hint": [
+   "Open-Meteo",
+   "OpenWeatherMap",
+   "Visual Crossing",
+   "Tomorrow.io"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "jokeapi",
+  "name": "JokeAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://sv443.net/jokeapi/v2/",
+  "pricing_facts": "完全免费，120 请求/分钟/IP 限制，无需 API Key，无注册要求（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "限速 120 请求/分钟可能对高频应用不够，笑话库规模中等",
+  "fun_facts": "多格式输出支持（JSON/XML/YAML/Text），程序员专用笑话分类，支持细粒度内容过滤（NSFW/宗教/政治/种族等），是 API 教学和演示的标准选择",
+  "use_case_hint": "编程教学、开发工具集成、闲聊机器人、社交网络内容、团队通讯插件",
+  "alternatives_hint": [
+   "Chuck Norris API",
+   "Official Joke API",
+   "Bored API",
+   "Dad Jokes API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "cocktail-db",
+  "name": "TheCocktailDB API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.thecocktaildb.com/api.php",
+  "pricing_facts": "测试 Key 免费，核心端点完全开放，付费 Supporter Key 低价可选（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册（测试 Key=1）",
+  "gotchas_facts": "测试 Key 功能有限，某些高级过滤需 Supporter Key，数据库规模取决于社区贡献",
+  "fun_facts": "开源鸡尾酒数据库，包含 600+ 鸡尾酒配方、成分、制作步骤、酒杯类型等详细信息，完美适配酒吧应用和调酒学习工具",
+  "use_case_hint": "鸡尾酒配方应用、酒吧菜单系统、调酒教学、随机饮料推荐、家宴规划助手",
+  "alternatives_hint": [
+   "Spoonacular Cocktail API",
+   "自建配方库",
+   "Drinks Search API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "advice-slip-api",
+  "name": "Advice Slip API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://api.adviceslip.com/",
+  "pricing_facts": "完全免费，1000+ 万条建议库，无需注册，无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "高频重复调用可能返回相同建议（缓存机制），数据库规模有限",
+  "fun_facts": "超简洁的人生建议 API，返回格式极其精简（单一 advice 字段），是学习 JSON 解析的教学必选，给人惊喜和启发的感觉",
+  "use_case_hint": "每日鸡汤推送、心灵鸡汤应用、桌面提示工具、社交媒体内容、冥想应用",
+  "alternatives_hint": [
+   "Numbers API",
+   "ZenQuotes API",
+   "Bored API",
+   "Quote API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "http-cat-api",
+  "name": "HTTP.Cat API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://http.cat/",
+  "pricing_facts": "完全免费，无需认证，支持 AVIF/JXL/JPG/WEBP/JSON 多格式（核实于 2026-07）",
+  "china_facts": "国内可直接使用，国际 CDN 分发速度很快，无需注册",
+  "gotchas_facts": "仅支持标准 HTTP 状态码（100-599），数据库固定（新增不常见状态码较慢）",
+  "fun_facts": "为每个 HTTP 状态码配一只萌猫表情，错误页面 DIY 首选，网络文化符号级别的冷门珍宝，让用户开心而不是沮丧",
+  "use_case_hint": "自定义错误页面、API 文档展示、开发工具插件、教学演示、社交分享内容",
+  "alternatives_hint": [
+   "HTTP Puppies",
+   "HTTP Status Dogs",
+   "自建错误页面"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "zenquotes-api",
+  "name": "ZenQuotes API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://zenquotes.io/",
+  "pricing_facts": "免费 5 请求/30 秒无认证，需要更高限制需注册获取 API Key（核实于 2026-07）",
+  "china_facts": "国内可使用，某些限制功能可能需海外支付方式，基础使用无门槛",
+  "gotchas_facts": "免费版限速 5/30s，高频应用需付费 Key，返回随机数据库中的古今中外名言",
+  "fun_facts": "历史名人和思想家的启蒙语录库，数千条精选名言，支持关键词搜索，是激励应用和冥想工具的标配数据源",
+  "use_case_hint": "每日心灵鸡汤、励志应用、桌面提示、社交内容生成、冥想音乐应用",
+  "alternatives_hint": [
+   "Advice Slip API",
+   "Numbers API",
+   "Bored API",
+   "Quote API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "agify-api",
+  "name": "Agify API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://agify.io/",
+  "pricing_facts": "免费 100 请求/日无认证，注册免费 Key 后 2500 名字/月，付费 $20+/月（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无需海外卡/手机号，仅需邮箱即可",
+  "gotchas_facts": "精度依赖数据集（基于 10 亿+ 人口数据），名字拼写和地域差异会影响准确度，结果是概率而非确定值",
+  "fun_facts": "根据名字预测年龄的 AI 黑科技，支持国家/语言范围，3 姐妹 API (Agify/Genderize/Nationalize) 可组合使用为「人物信息智能补全引擎」",
+  "use_case_hint": "用户画像补全、个性化推荐、数据分析研究、社交应用、用户细分系统",
+  "alternatives_hint": [
+   "Genderize API",
+   "Nationalize API",
+   "NameAPI",
+   "自建 ML 模型"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "AI能力"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "genderize-api",
+  "name": "Genderize API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://genderize.io/",
+  "pricing_facts": "免费 100 请求/日无认证，注册免费 Key 后 2500 名字/月，付费 $20+/月（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无需海外卡/手机号，仅需邮箱即可",
+  "gotchas_facts": "精度基于 10 亿+ 人口数据统计，非 100% 准确（返回概率值如 0.92），跨语言/文化准确度差异大",
+  "fun_facts": "根据名字预测性别的数据驱动 API，支持多国语言和地域范围调整，与 Agify/Nationalize 组合可打造「智能人物信息补全」系统",
+  "use_case_hint": "用户画像自动补全、营销目标人群分析、招聘候选人初筛、多语言用户系统",
+  "alternatives_hint": [
+   "Agify API",
+   "Nationalize API",
+   "NameAPI",
+   "自建模型"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "AI能力"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "nationalize-api",
+  "name": "Nationalize API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://nationalize.io/",
+  "pricing_facts": "免费 100 请求/日无认证，注册免费 Key 后 2500 名字/月，付费 $20+/月（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无需海外卡/手机号，仅需邮箱即可",
+  "gotchas_facts": "精度基于统计数据，新兴名字库覆盖不足，返回排序概率值（非 100% 确定）",
+  "fun_facts": "根据名字预测国籍的概率 AI API，返回国家代码列表+概率排序，与 Agify/Genderize 组合形成「三位一体人物信息推理引擎」",
+  "use_case_hint": "国际电商本地化、用户来源分析、跨国应用地域定制、国际化营销",
+  "alternatives_hint": [
+   "Agify API",
+   "Genderize API",
+   "IPinfo",
+   "自建数据库"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "AI能力"
+  ],
+  "is_addition": true
+ },
+ {
+  "id": "countapi",
+  "name": "CountAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://countapi.xyz",
+  "pricing_facts": "完全免费，无需认证，无明确配额限制（核实于 2026-07）",
+  "china_facts": "国内可使用，某些实例可能不稳定，无需注册",
+  "gotchas_facts": "官方实例已停更（countapi.xyz），但社区维护了多个替代实例，数据持久化可靠性一般",
+  "fun_facts": "极简计数器 API（Integer as a Service），支持命名空间隔离，完全无状态，是学习状态管理和 RESTful 计数的教学示范",
+  "use_case_hint": "网站访客计数、事件计数统计、简单消息计数、版本号管理、投票计数",
+  "alternatives_hint": [
+   "自建计数服务",
+   "Redis",
+   "Supabase",
+   "Firebase Realtime DB"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好"
+  ],
+  "is_addition": true
+ }
+]

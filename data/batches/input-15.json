@@ -1,0 +1,243 @@
+[
+ {
+  "id": "numbers-api",
+  "name": "Numbers API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://numbersapi.com/",
+  "pricing_facts": "完全免费，无需注册/Token/Key，无明确配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "数据库有限，某些数字可能无有趣事实返回，更新频率一般",
+  "fun_facts": "通过 URL 一行代码即可调用，支持数学、三角、日期等 4 种事实类型，饼干运气般的惊喜感",
+  "use_case_hint": "教育数学应用、日历提示、社交媒体内容、聊天机器人、心灵鸡汤插件",
+  "alternatives_hint": [
+   "Advice Slip API",
+   "Bored API",
+   "Chuck Norris API",
+   "ZenQuotes API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "open-library-api",
+  "name": "Open Library API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://openlibrary.org/developers/api",
+  "pricing_facts": "完全免费，低流量公开 Web API 和月度数据导出，无需 API Key（核实于 2026-07）",
+  "china_facts": "国内可直接访问（可能速度较慢），无地域限制，无需注册",
+  "gotchas_facts": "部分数据不完整（社区维护项目），搜索精度可能低于商业书籍数据库",
+  "fun_facts": "互联网档案馆 Internet Archive 旗下项目，拥有 2000+ 万本数字书籍，完全开源开放，支持 JSON/YAML/RDF/XML 多格式",
+  "use_case_hint": "电子书检索、图书馆应用、ISBN 查询、书籍推荐系统、教育资源库",
+  "alternatives_hint": [
+   "Google Books API",
+   "ISBNdb",
+   "Crossref",
+   "WorldCat API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开源",
+   "有中文"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "wikipedia-api",
+  "name": "Wikipedia API (MediaWiki)",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.mediawiki.org/wiki/Wikimedia_APIs",
+  "pricing_facts": "免费版 On-demand 50000/月、Snapshot 30/月，商业版按 SLA 付费，2026-07 大幅提升免费额度（核实于 2026-07）",
+  "china_facts": "国内可使用（需遵守维基百科中文版使用政策），无需注册但建议标注 User-Agent",
+  "gotchas_facts": "免费版需遵守 API 礼仪，禁止爬虫高频访问，商业用途需付费或明确标注来源",
+  "fun_facts": "全球最大百科全书官方 API，百万+ 词条覆盖全学科，2026 年新增结构化内容快照（Structured Contents），比谷歌知识库平价太多",
+  "use_case_hint": "百科知识展示、内容丰富的 AI 应用、教育工具、信息聚合、冷知识推送",
+  "alternatives_hint": [
+   "Wikidata API",
+   "Dbpedia",
+   "Google Knowledge Graph",
+   "自建知识库"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "有中文",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "quickchart-api",
+  "name": "QuickChart API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://quickchart.io/",
+  "pricing_facts": "免费 120 请求/分钟（2 张/秒/IP），无需 API Key，商业版定制定价，开源 GPLv3 可自托管（核实于 2026-07）",
+  "china_facts": "国内可使用，某些高负载场景可能遇到速率限制，建议获取 API Key 或自托管",
+  "gotchas_facts": "免费版限速较严，高流量应用需付费或自托管，仅支持 Chart.js 配置格式",
+  "fun_facts": "Chart.js 官方出图 API，支持柱状图、饼图、折线图等 15+ 图表类型，还能生成 QR 码，完美适配 Markdown 和 Slack",
+  "use_case_hint": "数据可视化、报表生成、Slack/Discord 机器人图表、Markdown 图表、没有前端的动态图表",
+  "alternatives_hint": [
+   "Plotly REST API",
+   "Chart Cloud",
+   "Google Charts",
+   "自建 Chart.js 服务"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开源",
+   "可自托管"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "screenshotone-api",
+  "name": "ScreenshotOne API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://screenshotone.com/",
+  "pricing_facts": "免费 100 张/月，$17/月 2000 张，$79/月 10000 张，$259/月 50000 张，失败截图不计数（核实于 2026-07）",
+  "china_facts": "国内可注册，部分功能（地理位置、广告过滤）需付费版，建议准备海外支付方式",
+  "gotchas_facts": "免费版无广告过滤和地理定位功能，高级功能需 $79+ 月套餐，API 响应时间较长（3-15 秒）",
+  "fun_facts": "市场领先的网页截图服务，支持 HTML/PDF 渲染、设备模拟、JavaScript 执行、PDF 导出，失败截图「不计费」逻辑超友好",
+  "use_case_hint": "网页快照存档、社交分享预览图、PDF 报告生成、网站监测、设计稿自动化截图",
+  "alternatives_hint": [
+   "Puppeteer Service",
+   "GrabzIt",
+   "ApiFlash",
+   "Scapinghub"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "have-i-been-pwned-api",
+  "name": "Have I Been Pwned API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://haveibeenpwned.com/api/v3",
+  "pricing_facts": "Pwned Passwords API 完全免费，邮箱检索需订阅，基础版 $3.50/月，专业版 $99/月，高 RPM 版 $800/月（核实于 2026-07）",
+  "china_facts": "国内可访问，部分付费功能可能需海外支付方式，免费 Pwned Passwords 功能无限制",
+  "gotchas_facts": "邮箱检索的大多数功能需订阅，免费版只能看浏览器历史，高 RPM 版本需要特殊资格",
+  "fun_facts": "Troy Hunt 创办的密码泄露检测权威数据库，Pwned Passwords 超 8 亿条泄露密码可免费 k-anonymity 检索（最安全的隐私保护），1Password/Dashlane 等密码管理器都在用",
+  "use_case_hint": "用户注册时密码安全检查、数据泄露监测、企业安全审计、浏览器扩展开发",
+  "alternatives_hint": [
+   "SecurityTrails",
+   "Shodan",
+   "BreachDirectory",
+   "自建泄露数据库"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "faker-api",
+  "name": "Faker API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.fakerapi.it/",
+  "pricing_facts": "完全免费，无需认证，支持自定义数量（最多 1000 行），无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "纯 API 生成，无图片存储功能，大批量请求可能较慢",
+  "fun_facts": "一行 URL 即可生成逼真的假数据（人名、邮箱、地址、电话等），支持多国语言和自定义 seed 生成可重现的数据，是测试和演示的完美助手",
+  "use_case_hint": "API 测试、数据库原型填充、演示应用制作、单元测试数据、UI 演示样本",
+  "alternatives_hint": [
+   "Mockaroo",
+   "Dummy JSON",
+   "RandomUser API",
+   "自建 Faker 脚本"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "mockaroo-api",
+  "name": "Mockaroo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.mockaroo.com/",
+  "pricing_facts": "免费 1000 行/次、200 请求/日，$50/年 100K 行/次，$500/年 1000W 行/次（核实于 2026-07）",
+  "china_facts": "国内可使用，无地域限制，免费版无需支付方式",
+  "gotchas_facts": "免费版 200 请求/日上限严格，高频测试需付费或用替代品",
+  "fun_facts": "零代码数据生成工具，支持 200+ 数据类型（JSON/CSV/SQL/Excel），用户界面友好，可视化定义 schema 无需代码能力",
+  "use_case_hint": "测试数据批量生成、数据库原型、API 开发演示、演示环境数据填充",
+  "alternatives_hint": [
+   "Faker API",
+   "Dummy JSON",
+   "GenerateData.com",
+   "自建脚本"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "chuck-norris-jokes-api",
+  "name": "Chuck Norris Jokes API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://api.chucknorris.io/",
+  "pricing_facts": "完全免费，无需 API Key，支持多语言（8 种），无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "笑话库规模有限且更新不频繁，部分笑话可能过时",
+  "fun_facts": "开源手工策划的 Chuck Norris 事实库（网络文化经典），支持按分类获取或随机，还能接入 Slack 和 Facebook Messenger",
+  "use_case_hint": "闲聊机器人、社交媒体内容、团队通讯工具插件、编程教学娱乐化",
+  "alternatives_hint": [
+   "JokeAPI",
+   "Bored API",
+   "Advice Slip API",
+   "Dad Jokes API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ }
+]

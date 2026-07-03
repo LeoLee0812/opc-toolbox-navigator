@@ -1,0 +1,249 @@
+[
+ {
+  "id": "genderize-api",
+  "name": "Genderize API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://genderize.io/",
+  "pricing_facts": "免费 100 请求/日无认证，注册免费 Key 后 2500 名字/月，付费 $20+/月（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无需海外卡/手机号，仅需邮箱即可",
+  "gotchas_facts": "精度基于 10 亿+ 人口数据统计，非 100% 准确（返回概率值如 0.92），跨语言/文化准确度差异大",
+  "fun_facts": "根据名字预测性别的数据驱动 API，支持多国语言和地域范围调整，与 Agify/Nationalize 组合可打造「智能人物信息补全」系统",
+  "use_case_hint": "用户画像自动补全、营销目标人群分析、招聘候选人初筛、多语言用户系统",
+  "alternatives_hint": [
+   "Agify API",
+   "Nationalize API",
+   "NameAPI",
+   "自建模型"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "AI能力"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "nationalize-api",
+  "name": "Nationalize API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://nationalize.io/",
+  "pricing_facts": "免费 100 请求/日无认证，注册免费 Key 后 2500 名字/月，付费 $20+/月（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无需海外卡/手机号，仅需邮箱即可",
+  "gotchas_facts": "精度基于统计数据，新兴名字库覆盖不足，返回排序概率值（非 100% 确定）",
+  "fun_facts": "根据名字预测国籍的概率 AI API，返回国家代码列表+概率排序，与 Agify/Genderize 组合形成「三位一体人物信息推理引擎」",
+  "use_case_hint": "国际电商本地化、用户来源分析、跨国应用地域定制、国际化营销",
+  "alternatives_hint": [
+   "Agify API",
+   "Genderize API",
+   "IPinfo",
+   "自建数据库"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "AI能力"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "countapi",
+  "name": "CountAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://countapi.xyz",
+  "pricing_facts": "完全免费，无需认证，无明确配额限制（核实于 2026-07）",
+  "china_facts": "国内可使用，某些实例可能不稳定，无需注册",
+  "gotchas_facts": "官方实例已停更（countapi.xyz），但社区维护了多个替代实例，数据持久化可靠性一般",
+  "fun_facts": "极简计数器 API（Integer as a Service），支持命名空间隔离，完全无状态，是学习状态管理和 RESTful 计数的教学示范",
+  "use_case_hint": "网站访客计数、事件计数统计、简单消息计数、版本号管理、投票计数",
+  "alternatives_hint": [
+   "自建计数服务",
+   "Redis",
+   "Supabase",
+   "Firebase Realtime DB"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "termly",
+  "name": "Termly",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "status": "active",
+  "official_url": "https://termly.io/",
+  "pricing_facts": "免费版：基础隐私政策1份+10k月度浏览;Starter $10/月(年结)或$14/月(月结):2份政策、10次编辑、50k月度浏览;Pro+ $15/月(年结)或$20/月(月结):无限政策和编辑、无限浏览量。年结可节省25%。支持超30项数据隐私法(GDPR/CCPA/CPRA等)。核实于2026-07。",
+  "china_facts": "官网未提及对中国用户的特殊限制。支持多语言。国内用户应可直接注册(无需境外卡或电话号)，建议直接测试官网注册流程。",
+  "gotchas_facts": "免费版有Termly品牌标记;Cookie同意横幅在免费版仅支持100月度访客;无限制变更政策需升级到Pro+。",
+  "fun_facts": "一键集成30+数据隐私法、AI驱动的Cookie扫描、支持Google Consent Mode v2、多地域合规配置自动化、30天退款保证。",
+  "use_case_hint": "快速为跨地域出海产品生成多国合规隐私政策、Cookie横幅和ToS;无需法务团队。",
+  "alternatives_hint": [
+   "iubenda",
+   "Cookiebot",
+   "OneTrust",
+   "Complianz"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "国内可注册",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "legal"
+ },
+ {
+  "id": "iubenda",
+  "name": "iubenda",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "status": "active",
+  "official_url": "https://www.iubenda.com/en/",
+  "pricing_facts": "免费14天试用(无需信用卡)。Essentials €4.99/月(年结)或€5.99/月(月结);Advanced €19.99/月(年结)或€21.99/月(月结);Ultimate €79.99/月(年结)或€89.99/月(月结)。年结可节省约16%。支持GDPR、CCPA/CPRA、LGPD、FADP等15+语言翻译。核实于2026-07。",
+  "china_facts": "官网未明确提及对中国大陆用户的注册限制。支持多语言(暂未发现中文)。建议联系客服或直接测试注册。",
+  "gotchas_facts": "免费版政策生成后会带iubenda水印;高级功能需付费;Cookie管理额度依计划而定。",
+  "fun_facts": "自动扫描集成27+语言、预设数十种服务的Cookie分类、即插即用与Shopify/WordPress集成、AI辅助合规、企业级文档控制。",
+  "use_case_hint": "为多国站点快速生成本地化隐私政策和Cookie管理方案;SaaS/电商出海必备。",
+  "alternatives_hint": [
+   "Termly",
+   "Complianz",
+   "Enzuzo",
+   "OneTrust"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "legal"
+ },
+ {
+  "id": "cookiebot",
+  "name": "Cookiebot",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "status": "active",
+  "official_url": "https://www.cookiebot.com/",
+  "pricing_facts": "免费版:1个域名、50个子页面。付费按子页面数自动升级:Essential €7/月(1.5k会话)、Plus €15/月、Pro €30/月、Business €50/月。已被Usercentrics收购。核实于2026-07,注意2025年8月后价格上涨,自动升级逻辑改变。",
+  "china_facts": "官网无特殊中国限制提及。建议国内用户直接测试注册。",
+  "gotchas_facts": "2025年8月起价格翻倍、自动升级逻辑变化、多域名用户成本急剧上升;按子页面而非访客数计费,高页面数网站成本高。",
+  "fun_facts": "全球200万+网站使用、支持45百万预分类Cookie库、自动扫描和更新Cookie清单、与企业级隐私政策生成集成。",
+  "use_case_hint": "中小型企业快速部署Cookie同意;需警惕成本随规模增长。",
+  "alternatives_hint": [
+   "Termly",
+   "OneTrust",
+   "Ketch",
+   "Enzuzo"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "自动化",
+   "待核实"
+  ],
+  "is_addition": false,
+  "_research_key": "legal"
+ },
+ {
+  "id": "onetrust",
+  "name": "OneTrust",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "status": "active",
+  "official_url": "https://www.onetrust.com/",
+  "pricing_facts": "2026年Q2起调整策略,最低年合同金额约$10k(企业级);不再发布小企业定价。面向中大型企业。超过750k网站使用。核实于2026-07。",
+  "china_facts": "官网无中国特殊说明。企业级服务,需销售团队报价。",
+  "gotchas_facts": "2026年起定价门槛大幅抬升,小微企业被定价排除;需签企业合同;功能复杂,实施周期长。",
+  "fun_facts": "业界最大的预分类Cookie库(4500万+条);支持45+法规;无代码Cookie拦截、标签管理、自动化扫描;$500k合规保证;全球最多企业选择。",
+  "use_case_hint": "大型互联网企业、跨国集团的全球合规管理平台;小团队应考虑替代方案。",
+  "alternatives_hint": [
+   "Termly",
+   "Cookiebot",
+   "Ketch",
+   "Enzuzo"
+  ],
+  "suggested_tags": [
+   "付费",
+   "企业级",
+   "无需Key",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "legal"
+ },
+ {
+  "id": "complianz",
+  "name": "Complianz",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "status": "active",
+  "official_url": "https://complianz.io/",
+  "pricing_facts": "Personal $59/年(1网站)、Professional $179/年(5网站)、Agency $399/年(25网站)。所有计划功能相同:多地域合规、Google Consent Mode v2、数据请求处理、A/B测试、混合Cookie扫描、IAB认证。无访问量或同意记录上限。30天退款保证。核实于2026-07。",
+  "china_facts": "WordPress专用插件。国内WordPress用户应可直接安装使用,无特殊限制。",
+  "gotchas_facts": "仅限WordPress(包括Shopify店铺某些情况);年付自动续费;中途升级会按时间比例计费。",
+  "fun_facts": "WordPress生态最友好的一体化隐私工具、无限同意记录和页面浏览量、30天退款保证、4.9/5评分(1200+评价)、支持多语言和多站点。",
+  "use_case_hint": "WordPress建站出海企业的一站式隐私合规解决方案;性价比高。",
+  "alternatives_hint": [
+   "Termly",
+   "iubenda",
+   "Enzuzo",
+   "WPLP Cookie Consent"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "WordPress专用",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "legal"
+ },
+ {
+  "id": "enzuzo",
+  "name": "Enzuzo",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "status": "active",
+  "official_url": "https://www.enzuzo.com/",
+  "pricing_facts": "免费版:5k访客+1域名,基础隐私政策+Cookie横幅+每月3次DSR请求。Starter $9/月(5k访客、1域名)、Growth $29/月(10k访客、4域名)、Pro $99/月(30k访客、10域名)。企业版无限域名和自动化。按访客流量计费,合同无约束。核实于2026-07。",
+  "china_facts": "官网无中国限制。国内用户应可直接注册。",
+  "gotchas_facts": "免费版功能有限;价格按访客流量自动升级;月度升级即时生效,降级保留至账期末。",
+  "fun_facts": "中端企业友好定价、CCPA/CPRA完整工具链(自动生成政策+Do-Not-Sell链接+DSR自动化+审计日志)、API接入、30分钟部署、无合同锁定。",
+  "use_case_hint": "快速增长的SaaS/电商团队进行CCPA/CPRA合规,定价随规模增长友好。",
+  "alternatives_hint": [
+   "Termly",
+   "Osano",
+   "Ketch",
+   "Clym"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "legal"
+ }
+]

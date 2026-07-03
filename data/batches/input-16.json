@@ -1,0 +1,242 @@
+[
+ {
+  "id": "meowfacts-api",
+  "name": "MeowFacts API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://github.com/wh-iterabb-it/meowfacts",
+  "pricing_facts": "完全免费，无需认证，无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可使用，无地域限制，无需注册",
+  "gotchas_facts": "基础托管在 Heroku 可能偶尔宕机，数据库规模较小",
+  "fun_facts": "猫咪事实库，可获取单个或多个随机猫咪冷知识，支持多语言输出，撸猫爱好者和 Discord 机器人必备",
+  "use_case_hint": "猫主题应用、宠物知识库、闲聊机器人、社交内容生成",
+  "alternatives_hint": [
+   "The Cat API",
+   "Meow Me API",
+   "Cats API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "the-cat-api",
+  "name": "The Cat API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://thecatapi.com/",
+  "pricing_facts": "匿名免费基础使用，免费 API Key ~1000 请求/月，付费 Key 价格以官网为准（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册（但建议注册获取 Key）",
+  "gotchas_facts": "高级功能（上传、收藏）需付费，免费版限制较多",
+  "fun_facts": "数万张高质量猫咪图片库，支持按品种过滤、GIF、搞笑猫咪分类等，返回 URL 可在多媒体应用中直接展示",
+  "use_case_hint": "猫咪图片展示应用、社交媒体自动配图、随机宠物推荐、冥想应用背景",
+  "alternatives_hint": [
+   "MeowFacts API",
+   "Pexels API",
+   "Unsplash API",
+   "Kitten API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "weatherapi-com",
+  "name": "WeatherAPI.com",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.weatherapi.com/",
+  "pricing_facts": "免费 100w 次/月、15 天历史数据，付费 $2-$25/月，无需信用卡（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无地域限制，支持中文响应",
+  "gotchas_facts": "免费版 API 响应有约 500ms 延迟，某些高级功能仅付费版可用",
+  "fun_facts": "相比 OpenWeatherMap 对开发者友好得多，免费额度充足（100w 次/月足够中小应用），速度快，支持 JSON/XML 双格式，API 文档极棒",
+  "use_case_hint": "天气应用、气象数据分析、旅游提示、农业决策支持、户外活动规划",
+  "alternatives_hint": [
+   "Open-Meteo",
+   "OpenWeatherMap",
+   "Visual Crossing",
+   "Tomorrow.io"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "jokeapi",
+  "name": "JokeAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://sv443.net/jokeapi/v2/",
+  "pricing_facts": "完全免费，120 请求/分钟/IP 限制，无需 API Key，无注册要求（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "限速 120 请求/分钟可能对高频应用不够，笑话库规模中等",
+  "fun_facts": "多格式输出支持（JSON/XML/YAML/Text），程序员专用笑话分类，支持细粒度内容过滤（NSFW/宗教/政治/种族等），是 API 教学和演示的标准选择",
+  "use_case_hint": "编程教学、开发工具集成、闲聊机器人、社交网络内容、团队通讯插件",
+  "alternatives_hint": [
+   "Chuck Norris API",
+   "Official Joke API",
+   "Bored API",
+   "Dad Jokes API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "cocktail-db",
+  "name": "TheCocktailDB API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.thecocktaildb.com/api.php",
+  "pricing_facts": "测试 Key 免费，核心端点完全开放，付费 Supporter Key 低价可选（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册（测试 Key=1）",
+  "gotchas_facts": "测试 Key 功能有限，某些高级过滤需 Supporter Key，数据库规模取决于社区贡献",
+  "fun_facts": "开源鸡尾酒数据库，包含 600+ 鸡尾酒配方、成分、制作步骤、酒杯类型等详细信息，完美适配酒吧应用和调酒学习工具",
+  "use_case_hint": "鸡尾酒配方应用、酒吧菜单系统、调酒教学、随机饮料推荐、家宴规划助手",
+  "alternatives_hint": [
+   "Spoonacular Cocktail API",
+   "自建配方库",
+   "Drinks Search API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "advice-slip-api",
+  "name": "Advice Slip API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://api.adviceslip.com/",
+  "pricing_facts": "完全免费，1000+ 万条建议库，无需注册，无已知配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "高频重复调用可能返回相同建议（缓存机制），数据库规模有限",
+  "fun_facts": "超简洁的人生建议 API，返回格式极其精简（单一 advice 字段），是学习 JSON 解析的教学必选，给人惊喜和启发的感觉",
+  "use_case_hint": "每日鸡汤推送、心灵鸡汤应用、桌面提示工具、社交媒体内容、冥想应用",
+  "alternatives_hint": [
+   "Numbers API",
+   "ZenQuotes API",
+   "Bored API",
+   "Quote API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "http-cat-api",
+  "name": "HTTP.Cat API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://http.cat/",
+  "pricing_facts": "完全免费，无需认证，支持 AVIF/JXL/JPG/WEBP/JSON 多格式（核实于 2026-07）",
+  "china_facts": "国内可直接使用，国际 CDN 分发速度很快，无需注册",
+  "gotchas_facts": "仅支持标准 HTTP 状态码（100-599），数据库固定（新增不常见状态码较慢）",
+  "fun_facts": "为每个 HTTP 状态码配一只萌猫表情，错误页面 DIY 首选，网络文化符号级别的冷门珍宝，让用户开心而不是沮丧",
+  "use_case_hint": "自定义错误页面、API 文档展示、开发工具插件、教学演示、社交分享内容",
+  "alternatives_hint": [
+   "HTTP Puppies",
+   "HTTP Status Dogs",
+   "自建错误页面"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "zenquotes-api",
+  "name": "ZenQuotes API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://zenquotes.io/",
+  "pricing_facts": "免费 5 请求/30 秒无认证，需要更高限制需注册获取 API Key（核实于 2026-07）",
+  "china_facts": "国内可使用，某些限制功能可能需海外支付方式，基础使用无门槛",
+  "gotchas_facts": "免费版限速 5/30s，高频应用需付费 Key，返回随机数据库中的古今中外名言",
+  "fun_facts": "历史名人和思想家的启蒙语录库，数千条精选名言，支持关键词搜索，是激励应用和冥想工具的标配数据源",
+  "use_case_hint": "每日心灵鸡汤、励志应用、桌面提示、社交内容生成、冥想音乐应用",
+  "alternatives_hint": [
+   "Advice Slip API",
+   "Numbers API",
+   "Bored API",
+   "Quote API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "agify-api",
+  "name": "Agify API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://agify.io/",
+  "pricing_facts": "免费 100 请求/日无认证，注册免费 Key 后 2500 名字/月，付费 $20+/月（核实于 2026-07）",
+  "china_facts": "国内可注册使用，无需海外卡/手机号，仅需邮箱即可",
+  "gotchas_facts": "精度依赖数据集（基于 10 亿+ 人口数据），名字拼写和地域差异会影响准确度，结果是概率而非确定值",
+  "fun_facts": "根据名字预测年龄的 AI 黑科技，支持国家/语言范围，3 姐妹 API (Agify/Genderize/Nationalize) 可组合使用为「人物信息智能补全引擎」",
+  "use_case_hint": "用户画像补全、个性化推荐、数据分析研究、社交应用、用户细分系统",
+  "alternatives_hint": [
+   "Genderize API",
+   "Nationalize API",
+   "NameAPI",
+   "自建 ML 模型"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "AI能力"
+  ],
+  "is_addition": true,
+  "_research_key": "fun-api"
+ }
+]

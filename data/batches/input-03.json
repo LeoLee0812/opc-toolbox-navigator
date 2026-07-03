@@ -1,0 +1,245 @@
+[
+ {
+  "id": "stability-ai",
+  "name": "Stability AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://platform.stability.ai",
+  "pricing_facts": "Google登录$25试用额度。Credit系统（1 Credit = $0.01）。Stable Image Ultra $0.08/张，Core $0.03/张，SD3.5 $0.065/张。Top-up $10/1000额度。无订阅制。（核实于 2026-07）",
+  "china_facts": "需Google账号登录验证，付费需国际支付方式",
+  "gotchas_facts": "新用户试用额度依赖Google认证；点数系统易造成浪费；SD3.5开源版(自托管)是节省成本最好方案",
+  "fun_facts": "**开源最友好**：Stable Diffusion全系开源免费（商业收入<$1M时），自己跑GPU零成本；Stable Image Ultra质量媲美DALL-E；支持图像编辑和扩展",
+  "use_case_hint": "产品原型插画、内容创作、图像编辑、印刷品设计、大批量生成",
+  "alternatives_hint": [
+   "Flux",
+   "Ideogram",
+   "DALL-E",
+   "Midjourney"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开源",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "runway-ml",
+  "name": "Runway ML",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://runwayml.com/api",
+  "pricing_facts": "Web Free 125额度。API独立定价按点数 $0.01/点。Gen-4 Video $0.05/点 ≈ $6/10秒。Standard $12/月，Pro $28/月，Max $76/月。企业 $0.03-0.04/点(年费 $5K-$25K)。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册Web版，API付费需国际支付方式",
+  "gotchas_facts": "Web版和API分开计费；视频生成点数消耗快；Veo 3等新模型极其昂贵",
+  "fun_facts": "**生成视频最全能**：支持Gen-4 Turbo/Aleph/Veo 3等多个前沿模型；Motion Brush精细控制；Web和API无缝配合",
+  "use_case_hint": "广告创意视频、产品演示、社交媒体内容、电影预告、AI电影制作",
+  "alternatives_hint": [
+   "Luma AI",
+   "Synthesia",
+   "Pika",
+   "D-ID"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "好玩",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://mistral.ai",
+  "pricing_facts": "Experiment层免费（约10亿令牌/月）。Large 3 $0.50/$1.50，Small 4 $0.15/$0.60，Codestral $0.30/$0.90 per 1M。Batch 50%折扣。初创 $30K补助。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册免费层，付费需支付方式，初创补助需申请",
+  "gotchas_facts": "免费层限用于评估非生产；Request费额外计算；Mistral Large速度慢",
+  "fun_facts": "**最便宜欧洲LLM**：Mistral Small是业界最便宜的生产级模型（$0.15/M）；开源模型Mistral 7B/Mixtral 8x7B社区流行；2024年推出MoE架构创新",
+  "use_case_hint": "成本优化应用、欧洲GDPR合规、代码生成、多语言任务",
+  "alternatives_hint": [
+   "Groq",
+   "Together AI",
+   "OpenRouter",
+   "Cohere API"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "cohere-api",
+  "name": "Cohere API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://cohere.com",
+  "pricing_facts": "Trial API免费，Production按量 $0.0375-$10 per 1M令牌。Command R $0.15/$0.60，R+ $2.50/$10。Rerank v3 $2/1M。Embed v3 $0.10/1M。月度账单 $250触发自动扣款。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册Trial免费层，Production需支付验证",
+  "gotchas_facts": "Trial限评估用途，生产环节需升级；月度$250自动计费；企业特性如RAG需高端模型",
+  "fun_facts": "**RAG最强**：Command R/R+专为长文档RAG优化（128K context+128K检索）；Rerank v3是业界最好的重排模型；Embed v3多语言（100+）且性价比高",
+  "use_case_hint": "企业知识库系统、长文档QA、法律文件分析、多语言应用、检索增强生成",
+  "alternatives_hint": [
+   "OpenRouter",
+   "Anthropic API",
+   "Mistral API",
+   "Together AI"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "twelve-labs",
+  "name": "Twelve Labs",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.twelvelabs.io",
+  "pricing_facts": "Free 600分钟视频。Pegasus 1.2索引 $0.042/分钟，API输入 $0.021/分钟，输出文本 $0.0075/1K令牌，嵌入 $0.0015/分钟。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，免费额度600分钟足够测试，付费需支付方式",
+  "gotchas_facts": "视频索引费用独立（每次上传都计费）；多个API调用可能重复计费；长视频摘要需多次调用",
+  "fun_facts": "**冷门视频AI宝藏**：Pegasus多模态编码器支持视频深度理解（时间+空间推理）；自然语言搜索视频而非标签；独有视频转文本生成摘要/报告功能",
+  "use_case_hint": "视频库检索、会议/讲座自动摘要、体育赛事精彩片段提取、新闻视频分析、教育视频智能标注",
+  "alternatives_hint": [
+   "Google Video Intelligence",
+   "AWS Rekognition Video",
+   "Runwayml"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "luma-ai",
+  "name": "Luma AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://lumalabs.ai",
+  "pricing_facts": "Web Free 125额度/月。API Build $5K/月(软限)，Scale可议。Ray 2 5秒 $0.95(1080p)/$1.05(4K)。Ray 2 Flash约 $0.60。失败生成退款。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册Web版享免费额度，API付费需国际支付",
+  "gotchas_facts": "Build层$5K软上限超过后自动升级；Ray 3系列极贵（HDR/EXR加价3倍）；Web版API无缝但需注意分开计费",
+  "fun_facts": "**视频生成最温柔**：失败生成自动退款（其他服务直接扣费）；Ray系列从入门到专业覆盖所有用途；支持多模式（Text-to-Video/Image-to-Video/Video-to-Video）",
+  "use_case_hint": "社交媒体视频、产品演示、创意广告、电影特效、虚拟演播间",
+  "alternatives_hint": [
+   "Runway ML",
+   "Synthesia",
+   "Pika",
+   "D-ID"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "好玩",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "synthesia",
+  "name": "Synthesia",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.synthesia.io",
+  "pricing_facts": "Free 10分钟/月。Starter $18-29/月10分钟，Creator $64-89/月30分钟含API，Enterprise定价。Studio Avatar $1000/年额外。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册享免费层，API访问需Creator+付费层",
+  "gotchas_facts": "Studio自定义头像需额外 $1000/年；高级功能(SCORM/视频翻译)需Enterprise；月度分钟数不滚存",
+  "fun_facts": "**数字人视频最专业**：90+预制Avatar库，1-Click视频翻译（配音+字幕），PowerPoint直接生成视频；品牌Avatar定制门槛高但效果顶级",
+  "use_case_hint": "企业培训视频、产品演示、营销内容、多语言推广、eLearning课程",
+  "alternatives_hint": [
+   "D-ID",
+   "Luma AI",
+   "Runway ML",
+   "Pika"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "d-id",
+  "name": "D-ID",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.d-id.com",
+  "pricing_facts": "Studio Free 5分钟(带水印)。Lite $5.90/月限512p，Pro $49.90/月1080p含API，Advanced $299.90/月无限API。API $5.90/分钟独立计费。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，免费层可尝试，API付费需国际支付方式",
+  "gotchas_facts": "分辨率受限(Lite仅512p)；Web和API分开计费；月分钟数不滚存",
+  "fun_facts": "**冷门宝藏**：Visual AI Agents支持实时流式对话AI头像（不只是预录视频），120+语言；可用于客服/虚拟顾问/交互式应用；失败补偿机制相对友好",
+  "use_case_hint": "虚拟客服、交互式演示、语言学习伙伴、直播带货、心理咨询AI",
+  "alternatives_hint": [
+   "Synthesia",
+   "Luma AI",
+   "Runway ML",
+   "Hume AI"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "好玩",
+   "冷门宝藏",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "posthog",
+  "name": "PostHog",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://posthog.com/pricing",
+  "pricing_facts": "免费额度:每月 1M 事件+5K 录像+1M 标志请求+100K 异常+1.5K 调查+1M 数据仓库行。按使用量付费:$0.00005/事件、$0.005/录像、$0.0001/标志请求。超大规模有体积折扣(最高 82%)。无月费,无需信用卡开启免费层。(核实于 2026-07)",
+  "china_facts": "官网未明确提及中国限制。中国用户可直接访问官网注册,免费层无需银行卡。(核实于 2026-07,中国合规性需进一步确认)",
+  "gotchas_facts": "免费层 1M 事件对中等规模产品可能快速用尽;超额后自动扣费;多项功能有单独计价(录像、标志、异常分别计费);长期数据保留需升级计划。",
+  "fun_facts": "集合分析、会话回放、特性标志、错误追踪、调查、数据仓库、AI 观测等 7+ 功能于一体;90%+ 用户免费使用;无限团队成员;简洁开源友好 API。",
+  "use_case_hint": "全栈产品分析首选:收集事件数据+回放用户会话+灰度发布新功能+追踪线上错误。",
+  "alternatives_hint": [
+   "Amplitude",
+   "Mixpanel",
+   "Heap",
+   "OpenPanel"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "可自托管"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ }
+]

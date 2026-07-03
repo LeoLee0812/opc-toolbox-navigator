@@ -1,0 +1,245 @@
+[
+ {
+  "id": "wise",
+  "name": "Wise",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://wise.com/us/pricing/",
+  "pricing_facts": "转账费:固定 $0.43 + 0.41% (因币种对而异)。无月费维持账户。汇率透明:mid-market 汇率 + 明确标示的费用,无隐藏费用。(核实于 2026-07)",
+  "china_facts": "中国用户可注册。支持人民币账户和转账。费用透明,无隐藏成本。是跨境汇款最经济的选择之一,特别适合 CNY↔USD 转换。(核实于 2026-07)",
+  "gotchas_facts": "不是支付处理器(Merchant of Record),只处理转账;创建多币种账户需验证;某些币种对实时报价可能有延迟;从 Wise 账户到 Wise 账户转账才最便宜。",
+  "fun_facts": "汇率最优(mid-market + 0.33-2% 费用,远低于银行 3-4%);140+ 货币支持;真实 P2P 汇兑;已帮助用户节省数十亿美金。",
+  "use_case_hint": "适合频繁国际转账、跨境薪资分配;作为 SaaS 提现工具的首选;CNY-USD 兑换最经济。",
+  "alternatives_hint": [
+   "Payoneer",
+   "PayPal",
+   "Airwallex",
+   "OFX"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "汇率透明",
+   "跨境转账专家"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "airwallex",
+  "name": "Airwallex",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.airwallex.com/cn/pricing/saas",
+  "pricing_facts": "国际卡 2.8% + $0.30(美国);欧洲卡 1.3% + €0.25。跨境支付 0.1-0.6%。本地转账(120+ 国家)免费。计划费:美国增长计划 $12/用户/月(前 10 用户免费)。(核实于 2026-07)",
+  "china_facts": "Airwallex 总部亚洲导向,明确支持中国/香港用户。收款账户支持 CNY。无需海外银行卡即可注册。是中国出海开发者的首选支付平台之一。(核实于 2026-07)",
+  "gotchas_facts": "美国国际卡费率 4.3% 相对较高;SWIFT 转账费 $15-$25;企业 API 需定制定价;平台费用与交易费用分开计算,总成本需分别评估。",
+  "fun_facts": "亚洲 FinTech 独角兽,重点支持亚太出海;中文支持到位;本地支付方式多(中国银行卡);企业级功能:工资单、供应商支付;2026 年计划上市。",
+  "use_case_hint": "适合有亚洲员工的国际企业;需要多货币、多地本地收付的 SaaS;中国团队远程分布式公司的资金汇集工具。",
+  "alternatives_hint": [
+   "Wise",
+   "PayPal",
+   "Stripe",
+   "Payoneer"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "亚洲友好",
+   "企业级"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "revenuecat",
+  "name": "RevenueCat",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.revenuecat.com/pricing",
+  "pricing_facts": "免费层:月收入追踪(MTR) ≤ $2,500 免费。Pro 及以上:MTR 超过 $2,500 后按 1% 收费。无座位许可、无交易费。企业自定义定价。(核实于 2026-07)",
+  "china_facts": "官网未明确指出地理限制。GDPR 合规、SOC2 认证表明国际可用。中国用户能否使用需确认。(核实于 2026-07,未能确认具体中国政策)",
+  "gotchas_facts": "不是支付处理器,是订阅管理层;功能依赖(如与 AppsFlyer 集成)需要 Grow 计划 $499/月,费用可能突增;针对属性伙伴的数据发送需单独订阅。",
+  "fun_facts": "iOS/Android/Web 跨平台订阅管理一站式;服务器端订阅控制、A/B 测试、远程付费墙配置;已服务超过 10 万 App;订阅经济的黄金标准工具。",
+  "use_case_hint": "适合需要跨平台订阅管理的 iOS/Android 应用;SaaS 产品需要精细化订阅分析、试验功能时的必选工具。",
+  "alternatives_hint": [
+   "Chargebee",
+   "Zuora",
+   "ProfitWell",
+   "Stripe Billing"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "AI能力"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "ko-fi",
+  "name": "Ko-fi",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://ko-fi.com/pricing",
+  "pricing_facts": "免费计划:打赏 0% 平台费;会员/商品销售/佣金 5% 平台费。Ko-fi Gold $12/月:移除所有平台费。处理费约 2.9% + $0.30 (Stripe/PayPal)。(核实于 2026-07)",
+  "china_facts": "使用 Stripe 处理支付,受 Stripe 地理限制。中国 mainland 用户无法直接接收款项。需通过香港或新加坡账户。对中国用户不友好。(核实于 2026-07)",
+  "gotchas_facts": "平台费率 5% 对专业创作者来说较高(Gold $12 月需 $240+ 销售才能打平);小额频繁交易成本高;依赖 Stripe,地理覆盖有限。",
+  "fun_facts": "150 万+ 创作者,已支付 $2 亿+;无月费免费计划;Twitch/YouTube 直播集成;会员功能、独占内容分享;简洁友好的创作者界面。",
+  "use_case_hint": "适合个人创作者、艺术家接受粉丝支持;小型创意项目变现;社区互动型内容创作。",
+  "alternatives_hint": [
+   "Gumroad",
+   "Buy Me a Coffee",
+   "Patreon",
+   "Stripe"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "新手友好",
+   "创意工作者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "stripe-atlas",
+  "name": "Stripe Atlas",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://stripe.com/atlas",
+  "pricing_facts": "$500 USD 一次性费用(包含州注册费)。首年代理人服务包含。之后年费 $100。提供 $50K 法务文件、$2.5K Stripe 信用、$50K 合作伙伴福利。(核实于 2026-07)",
+  "china_facts": "Stripe Atlas 仅针对美国 Delaware C-Corp/LLC 注册,对中国用户而言是美国公司注册工具。2026 Q1 达成 10 万注册量,但面向全球创业者。(核实于 2026-07)",
+  "gotchas_facts": "只能注册美国公司(Delaware);注册后需自行完成税务、银行账户等后续步骤;虽然一次性费用低,但美国公司维护成本(税务、合规、年费)年均 $1-2K;需要美国 SSN/EIN。",
+  "fun_facts": "Stripe 推出的创业加速器;2026 年创新增长 130% Y/Y;一站式:注册、EIN、美国银行账户、Stripe 支付集成;为初创企业节省数千美元法务费;已支持 10 万+ 公司成立。",
+  "use_case_hint": "适合希望快速注册美国公司的国际创业团队;与 Stripe 支付无缝集成;融资前完成公司注册(美国投资者倾向 C-Corp)。",
+  "alternatives_hint": [
+   "Delaware Secretary of State",
+   "LawTendo",
+   "Stripe",
+   "Mercury"
+  ],
+  "suggested_tags": [
+   "付费",
+   "公司注册",
+   "开发者友好",
+   "创业加速"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "buy-me-a-coffee",
+  "name": "Buy Me a Coffee",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://buymeacoffee.com/",
+  "pricing_facts": "免费计划:5% 平台费 + 2.9% + $0.30 处理费(Stripe/PayPal)。无月费。$5 赞助实际到手约 $4.30。无试用期。(核实于 2026-07)",
+  "china_facts": "支持 110+ 国家访问,但提现仅限 40+ 国家(Stripe 支持国家)。大陆中国 mainland 不在提现国家列表。港澳/台湾用户可能可用。对中国mainland用户不友好。(核实于 2026-07)",
+  "gotchas_facts": "平台费率固定 5%,对高频小额交易成本高;不支持中国 mainland 提现;只能通过 Stripe 支付(地理覆盖受限);小额支付处理费占比高。",
+  "fun_facts": "简洁一键式搭建粉丝支持页面;集成 Twitch、YouTube、Ko-fi;支持自定义收款页面;全球创作者生态(虽然 mainland 提现不支持);Stripe 背书,信任度高。",
+  "use_case_hint": "适合有海外粉丝基础的创作者;国际个人品牌建设;接受粉丝小额打赏/赞助。",
+  "alternatives_hint": [
+   "Ko-fi",
+   "Gumroad",
+   "Patreon",
+   "Polar"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "新手友好",
+   "国际创作者"
+  ],
+  "is_addition": true,
+  "_research_key": "payments"
+ },
+ {
+  "id": "dodo-payments",
+  "name": "Dodo Payments",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://dodopayments.com/pricing",
+  "pricing_facts": "4% + 40¢ 基础费率(美国国内)。国际卡 +1.5%,订阅 +0.5%。月额 <$1000 提现费 $5。分析 $10/月,事件数据 $1/百万。无月费。(核实于 2026-07)",
+  "china_facts": "覆盖 220+ 国家,印度/东南亚友好度高。官网未明确列出中国 mainland 但规模表明应包含。印度用户特别友好。建议确认中国具体政策。(核实于 2026-07,未能确认具体中国政策)",
+  "gotchas_facts": "实际费率 5.5-6%+(因为大多数订阅客户国际化);小额提现额外成本;分析、事件等增值功能额外收费;平台相对较新,生态不如 Paddle/Lemon Squeezy。",
+  "fun_facts": "专为印度/东南亚创业者设计的 MoR;恢复失败支付功能免费激活,仅按恢复金额 5% 收费;超过 1000 商家,处理数百万美元 GMV;社区文化强,开发者友好。",
+  "use_case_hint": "适合印度/南亚团队的国际 SaaS;订阅模式收费;需要本地支付方式支持的团队。",
+  "alternatives_hint": [
+   "Polar",
+   "Creem",
+   "Lemon Squeezy",
+   "Paddle"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "新兴市场友好"
+  ],
+  "is_addition": true,
+  "_research_key": "payments"
+ },
+ {
+  "id": "indie-developer-payment-comparison",
+  "name": "独立开发者收款方案对比",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.globalsolo.global/blog/stripe-vs-paddle-vs-lemon-squeezy-2026/",
+  "pricing_facts": "概念词条,不适用。参见各服务商具体定价。",
+  "china_facts": "概念词条,不适用。中国用户选型需考虑:Stripe/Paddle/Ko-fi 需海外账户;Payoneer/Wise/Airwallex 国内可用;Gumroad/Lemon Squeezy 中国政策不确定。",
+  "gotchas_facts": "选择时需权衡:费率 vs 功能 vs 地理覆盖 vs 中国可用性。无一站式完美方案,通常需多平台组合。",
+  "fun_facts": "2026 年独立开发者支付生态已形成竞争梯队:0-3% 费率(Creem 3.9%),3-5% 费率(Polar/Lemon 4-5%),高端方案(Paddle/Chargebee)。选择标准:产品类型、目标用户、提现需求。",
+  "use_case_hint": "建议阅读完整对比指南,根据自身业务模式、客户地域、提现方式选择最优组合。常见最优组合:Stripe + Wise(国际)、Lemon Squeezy + Payoneer(新手)、Polar + Airwallex(AI 团队)。",
+  "alternatives_hint": [
+   "Stripe",
+   "Paddle",
+   "Lemon Squeezy",
+   "Polar",
+   "Creem"
+  ],
+  "suggested_tags": [
+   "待核实",
+   "对比工具",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "react-bits",
+  "name": "React Bits",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://reactbits.dev",
+  "pricing_facts": "基础版永久免费开源,React Bits Pro于2026年2月推出,推出价首月特价,之后需访问官网确认具体定价(核实于 2026-07)",
+  "china_facts": "完全开源免费,无需注册,国内可直接访问和使用,无海外银行卡/手机号要求",
+  "gotchas_facts": "Pro版本需付费,但基础开源版本功能已足够大多数项目使用",
+  "fun_facts": "130+动画交互组件,每周持续更新,包含文本动画、UI元素、背景等,提供开箱即用的精细动画效果库",
+  "use_case_hint": "快速为网站添加精细的交互动画效果,构建动画组件库,设计炫彩登陆页和产品展示页",
+  "alternatives_hint": [
+   "Magic UI",
+   "Aceternity UI",
+   "Motion for React",
+   "Framer"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "有免费额度",
+   "好玩",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ }
+]

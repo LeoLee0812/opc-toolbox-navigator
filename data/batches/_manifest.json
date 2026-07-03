@@ -1,0 +1,426 @@
+[
+ {
+  "num": "01",
+  "count": 9,
+  "ids": [
+   "replicate",
+   "fal-ai",
+   "openrouter",
+   "groq",
+   "together-ai",
+   "elevenlabs",
+   "deepgram",
+   "assemblyai",
+   "flux-black-forest-labs"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-01.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-01.json"
+ },
+ {
+  "num": "02",
+  "count": 9,
+  "ids": [
+   "ideogram",
+   "suno",
+   "udio",
+   "hume-ai",
+   "perplexity-api",
+   "firecrawl",
+   "hugging-face-inference",
+   "anthropic-claude",
+   "google-gemini"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-02.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-02.json"
+ },
+ {
+  "num": "03",
+  "count": 9,
+  "ids": [
+   "stability-ai",
+   "runway-ml",
+   "mistral-ai",
+   "cohere-api",
+   "twelve-labs",
+   "luma-ai",
+   "synthesia",
+   "d-id",
+   "posthog"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-03.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-03.json"
+ },
+ {
+  "num": "04",
+  "count": 9,
+  "ids": [
+   "plausible",
+   "umami",
+   "mixpanel",
+   "google-analytics",
+   "dub",
+   "openpanel",
+   "canny",
+   "featurebase",
+   "sitemap-seo-basics"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-04.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-04.json"
+ },
+ {
+  "num": "05",
+  "count": 9,
+  "ids": [
+   "amplitude",
+   "heap",
+   "fathom-analytics",
+   "hotjar",
+   "clerk",
+   "supabase-auth",
+   "auth0",
+   "workos",
+   "better-auth"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-05.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-05.json"
+ },
+ {
+  "num": "06",
+  "count": 9,
+  "ids": [
+   "firebase-auth",
+   "stytch",
+   "kinde",
+   "supertokens",
+   "fusionauth",
+   "hsbc-hong-kong-account",
+   "za-bank-hong-kong",
+   "mercury-us-bank",
+   "wise-multi-currency"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-06.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-06.json"
+ },
+ {
+  "num": "07",
+  "count": 9,
+  "ids": [
+   "ocbc-singapore",
+   "us-llc-registration",
+   "hong-kong-company",
+   "us-ein",
+   "deel-global-payroll",
+   "digital-nomad-visa",
+   "paypal-international",
+   "overseas-tax-basics",
+   "stripe-payment-gateway"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-07.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-07.json"
+ },
+ {
+  "num": "08",
+  "count": 9,
+  "ids": [
+   "airalo-esim",
+   "google-voice",
+   "google-fi",
+   "jmp-chat",
+   "twilio",
+   "sms-activate",
+   "giffgaff",
+   "talkatone",
+   "tello"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-08.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-08.json"
+ },
+ {
+  "num": "09",
+  "count": 9,
+  "ids": [
+   "5sim",
+   "vonage-nexmo",
+   "supabase",
+   "firebase",
+   "neon",
+   "turso",
+   "pocketbase",
+   "convex",
+   "upstash"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-09.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-09.json"
+ },
+ {
+  "num": "10",
+  "count": 9,
+  "ids": [
+   "cloudflare-r2",
+   "aws-s3",
+   "uploadthing",
+   "mongodb-atlas",
+   "railway",
+   "vercel-storage",
+   "xata",
+   "hasura",
+   "vercel"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-10.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-10.json"
+ },
+ {
+  "num": "11",
+  "count": 9,
+  "ids": [
+   "netlify",
+   "cloudflare-pages",
+   "render",
+   "fly-io",
+   "hetzner",
+   "digitalocean",
+   "vultr",
+   "bandwagonhost",
+   "1panel"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-11.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-11.json"
+ },
+ {
+  "num": "12",
+  "count": 9,
+  "ids": [
+   "baota",
+   "linode",
+   "aws-lightsail",
+   "cloudflare-registrar",
+   "namecheap",
+   "porkbun",
+   "resend",
+   "google-workspace",
+   "zoho-mail"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-12.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-12.json"
+ },
+ {
+  "num": "13",
+  "count": 9,
+  "ids": [
+   "cloudflare-email-routing",
+   "spf-dkim-dmarc",
+   "email-domain-warmup",
+   "mailgun",
+   "forward-email",
+   "namesilo",
+   "unsplash-api",
+   "pexels-api",
+   "remove-bg-api"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-13.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-13.json"
+ },
+ {
+  "num": "14",
+  "count": 9,
+  "ids": [
+   "open-meteo-api",
+   "rest-countries-api",
+   "nominatim-osm-api",
+   "ipinfo-api",
+   "frankfurter-api",
+   "nasa-apis",
+   "pokeapi",
+   "deck-of-cards-api",
+   "bored-api"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-14.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-14.json"
+ },
+ {
+  "num": "15",
+  "count": 9,
+  "ids": [
+   "numbers-api",
+   "open-library-api",
+   "wikipedia-api",
+   "quickchart-api",
+   "screenshotone-api",
+   "have-i-been-pwned-api",
+   "faker-api",
+   "mockaroo-api",
+   "chuck-norris-jokes-api"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-15.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-15.json"
+ },
+ {
+  "num": "16",
+  "count": 9,
+  "ids": [
+   "meowfacts-api",
+   "the-cat-api",
+   "weatherapi-com",
+   "jokeapi",
+   "cocktail-db",
+   "advice-slip-api",
+   "http-cat-api",
+   "zenquotes-api",
+   "agify-api"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-16.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-16.json"
+ },
+ {
+  "num": "17",
+  "count": 9,
+  "ids": [
+   "genderize-api",
+   "nationalize-api",
+   "countapi",
+   "termly",
+   "iubenda",
+   "cookiebot",
+   "onetrust",
+   "complianz",
+   "enzuzo"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-17.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-17.json"
+ },
+ {
+  "num": "18",
+  "count": 9,
+  "ids": [
+   "osano",
+   "ketch",
+   "clym",
+   "app-privacy-policy-generator",
+   "gdpr-fundamentals",
+   "dpa-template",
+   "dpia-tool",
+   "appstore-playstore-compliance",
+   "loops"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-18.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-18.json"
+ },
+ {
+  "num": "19",
+  "count": 9,
+  "ids": [
+   "postmark",
+   "plunk",
+   "novu",
+   "onesignal",
+   "crisp",
+   "chatwoot",
+   "intercom",
+   "knock",
+   "firebase-cloud-messaging"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-19.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-19.json"
+ },
+ {
+  "num": "20",
+  "count": 9,
+  "ids": [
+   "courier",
+   "stripe",
+   "paddle",
+   "lemon-squeezy",
+   "creem",
+   "polar",
+   "gumroad",
+   "paypal",
+   "payoneer"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-20.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-20.json"
+ },
+ {
+  "num": "21",
+  "count": 9,
+  "ids": [
+   "wise",
+   "airwallex",
+   "revenuecat",
+   "ko-fi",
+   "stripe-atlas",
+   "buy-me-a-coffee",
+   "dodo-payments",
+   "indie-developer-payment-comparison",
+   "react-bits"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-21.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-21.json"
+ },
+ {
+  "num": "22",
+  "count": 9,
+  "ids": [
+   "aceternity-ui",
+   "magic-ui",
+   "cobe",
+   "tsparticles",
+   "cmdk",
+   "sonner",
+   "vaul",
+   "embla-carousel",
+   "react-tweet"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-22.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-22.json"
+ },
+ {
+  "num": "23",
+  "count": 9,
+  "ids": [
+   "tldraw",
+   "excalidraw",
+   "canvas-confetti",
+   "rough-js",
+   "matter-js",
+   "howler-js",
+   "p5-js",
+   "qrcode",
+   "html2canvas"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-23.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-23.json"
+ },
+ {
+  "num": "24",
+  "count": 9,
+  "ids": [
+   "dnd-kit",
+   "partykit",
+   "nuqs",
+   "zod",
+   "motion-react",
+   "zustand",
+   "three-js",
+   "gsap",
+   "jotai"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-24.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-24.json"
+ },
+ {
+  "num": "25",
+  "count": 8,
+  "ids": [
+   "anime-js",
+   "recharts",
+   "radix-ui",
+   "react-hook-form",
+   "date-fns",
+   "babylon-js",
+   "mantine",
+   "clsx"
+  ],
+  "input": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/input-25.json",
+  "output": "/Users/superlls/personal/opc-tools/opc-toolbox-navigator/data/batches/batch-25.json"
+ }
+]

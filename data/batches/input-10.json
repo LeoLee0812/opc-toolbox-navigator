@@ -1,0 +1,251 @@
+[
+ {
+  "id": "cloudflare-r2",
+  "name": "Cloudflare R2",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://www.cloudflare.com/products/r2",
+  "pricing_facts": "免费版:每月10GB存储+100万Class A操作+1000万Class B操作,永久免费(无12月限制)。付费版存储$0.015/GB/月,Class A操作$4.50/100万次,Class B操作$0.36/100万次。删除操作免费。(核实于 2026-07)",
+  "china_facts": "需要支付方式用于账户验证(可用PayPal或国际信用卡),免费额度内不扣费。中国用户可通过PayPal/国际卡注册,可国内直接使用。",
+  "gotchas_facts": "需要Cloudflare账户;免费额度仅限Standard storage(不包括Infrequent Access);需提供支付方式用于验证(虽然不收费)。",
+  "fun_facts": "对标AWS S3但无出站费用(egress free),全球加速,集成Cloudflare Workers,可作为免费图床方案。",
+  "use_case_hint": "静态资源托管、图片/视频库、备份存储、与Cloudflare Workers配合的serverless应用。",
+  "alternatives_hint": [
+   "AWS S3",
+   "UploadThing",
+   "Backblaze B2",
+   "MinIO"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "需海外银行卡",
+   "国内可注册",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "aws-s3",
+  "name": "AWS S3",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://aws.amazon.com/s3",
+  "pricing_facts": "免费额度变更(2025年7月后):新账户无永久免费5GB。改为$200抵用金(6个月有效,可用于全AWS服务)。存储定价$0.023/GB/月(0-50TB),超过500TB降至$0.021/GB/月。出站带宽前15GB/月免费(12月内)。(核实于 2026-07)",
+  "china_facts": "需要AWS账户,需要支付方式(国际信用卡或PayPal)。中国用户可注册(需要支持国际的支付方式)。有AWS中国区(由光环新网和西云数据运营)但独立账户。",
+  "gotchas_facts": "2025年后新账户免费模式大改,永久免费额度取消;请求费用(GET/PUT/DELETE)另收费;跨区域复制、加速传输等功能额外费用。",
+  "fun_facts": "行业标准对象存储,全球可用区最多,与AWS全栈集成;S3价格下降历史,逐年优化成本结构。",
+  "use_case_hint": "企业级数据存储、大规模应用、备份存储、媒体分发、与AWS其他服务深度集成。",
+  "alternatives_hint": [
+   "Cloudflare R2",
+   "Google Cloud Storage",
+   "Azure Blob Storage",
+   "DigitalOcean Spaces"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "国内可注册",
+   "企业级",
+   "无需Key"
+  ],
+  "is_addition": false,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "uploadthing",
+  "name": "UploadThing",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://uploadthing.com",
+  "pricing_facts": "免费版:2GB存储+无限上传/下载,无限个上传。Pro计划$10/月起:100GB存储。企业自定义。(核实于 2026-07)",
+  "china_facts": "支持邮箱/GitHub登录,免费版无需支付方式。付费版需国际支付但无特殊区域限制。",
+  "gotchas_facts": "免费版2GB较小,快速消耗;上传文件类型需预定义;存储数据保留期限有限(需检查文档)。",
+  "fun_facts": "TypeScript-first,与Next.js/React生态深度集成;自动验证文件类型,内置防止恶意上传。",
+  "use_case_hint": "用户头像上传、文件上传表单、媒体库、SaaS应用文件管理。",
+  "alternatives_hint": [
+   "Cloudflare R2",
+   "AWS S3",
+   "Vercel Blob",
+   "Filestack"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "开发者友好",
+   "国内可注册",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "mongodb-atlas",
+  "name": "MongoDB Atlas",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://www.mongodb.com/cloud/atlas",
+  "pricing_facts": "免费版M0:512MB存储+32MB排序内存+100ops/sec,永久免费。Flex Tier $8-30/月:动态定价+自动扩展。Dedicated从$57/月起。(核实于 2026-07)",
+  "china_facts": "支持Google/GitHub登录,免费M0版无需支付方式。付费版需支付方式。中国用户可注册但可能面临连接延迟(考虑选择亚太区节点)。",
+  "gotchas_facts": "免费版512MB很小,快速填满;只支持3个节点共享集群;无备份只有云端自动快照。",
+  "fun_facts": "NoSQL文档数据库,灵活schema;集成MongoDB Realm(移动/Web SDK);支持全文搜索、地理查询、变更流。",
+  "use_case_hint": "内容管理系统、社交应用、快速迭代需要灵活schema的项目。",
+  "alternatives_hint": [
+   "Firebase",
+   "Supabase",
+   "Neon",
+   "Xata"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "开发者友好",
+   "国内可注册",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "railway",
+  "name": "Railway",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://railway.com",
+  "pricing_facts": "免费试用:$5抵用金(30天内,无需信用卡)。之后Free计划$1/月抵用金,Hobby $5/月抵用金,Pro $20/月抵用金。使用量超额部分按消耗计费。(核实于 2026-07)",
+  "china_facts": "支持GitHub登录,Free试用无需支付方式。之后需要支付方式(国际信用卡/PayPal)。中国用户可注册。",
+  "gotchas_facts": "Free计划每月$1抵用金很有限;Sleep behavior对free/hobby可能暂停应用;出站带宽费用较高。",
+  "fun_facts": "一键部署GitHub仓库,自动检测框架(Next.js/Django/Rails);集成PostgreSQL/MySQL/MongoDB/Redis;部署体验简洁。",
+  "use_case_hint": "全栈应用部署(Next.js+数据库)、个人项目、需要快速迭代的MVP。",
+  "alternatives_hint": [
+   "Vercel",
+   "Render",
+   "Fly.io",
+   "Heroku"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "开发者友好",
+   "国内可注册",
+   "需海外银行卡",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "vercel-storage",
+  "name": "Vercel Storage (Blob)",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://vercel.com/docs/vercel-blob",
+  "pricing_facts": "Hobby计划(免费):每月1GB存储+10GB出站带宽,无时间限制。Pro计划:存储$0.023/GB/月,出站$0.05/GB,操作$0.40/100万次(简单)或$5/100万次(高级)。(核实于 2026-07)",
+  "china_facts": "通过Vercel账户(GitHub登录),Hobby无需支付方式。Pro需要支付方式。中国用户可注册。",
+  "gotchas_facts": "Hobby版1GB较小;仅限非商业用途;Pro计划多项费用(存储+带宽+操作)组合计算;注意文件TTL删除策略。",
+  "fun_facts": "完全集成Vercel部署,零配置使用;TypeScript SDK,与Next.js App Router无缝;全球CDN加速。",
+  "use_case_hint": "Next.js应用文件存储、用户生成内容、图片缓存。",
+  "alternatives_hint": [
+   "Cloudflare R2",
+   "AWS S3",
+   "UploadThing",
+   "Supabase Storage"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "开发者友好",
+   "国内可注册",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "xata",
+  "name": "Xata",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://xata.io",
+  "pricing_facts": "已取消传统免费层。新用户获$100入门学分(Cloud,14天内使用)。自托管开源免费(Apache 2.0)。Cloud按使用量:计算$0.012/小时(micro instance约$9/月if 24/7)+存储$0.28/GB/月。(核实于 2026-07)",
+  "china_facts": "支持邮箱/GitHub登录,$100学分需支付方式验证。付费版需国际支付。自托管无需支付。",
+  "gotchas_facts": "免费层已取消,仅$100试用期有限;计算和存储分开计费;需要信用卡注册才能使用学分。",
+  "fun_facts": "基于Postgres,100% vanilla SQL;copy-on-write分支功能(dev/staging/prod隔离);从spreadsheet重构到纯数据库。",
+  "use_case_hint": "Postgres serverless应用、开发分支管理、需要完整SQL功能的项目。",
+  "alternatives_hint": [
+   "Neon",
+   "PlanetScale",
+   "Supabase",
+   "Railway"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "国内可注册",
+   "可自托管"
+  ],
+  "is_addition": true,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "hasura",
+  "name": "Hasura",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "status": "active",
+  "official_url": "https://hasura.io",
+  "pricing_facts": "Hasura Cloud Free计划:免费试用,但资源上限,超限后项目暂停。Professional和Enterprise按使用量计费。开源社区版永久免费自托管(GitHub)。(核实于 2026-07,具体免费额度数字未能确认)",
+  "china_facts": "支持邮箱/GitHub登录,Free计划无需支付方式。付费版需支付方式。可自托管开源版无任何限制。",
+  "gotchas_facts": "Cloud免费版资源限制不清晰,超限项目会暂停;文档较复杂,学习曲线陡;GraphQL学习成本对新手高。",
+  "fun_facts": "自动生成GraphQL API(从数据库schema),实时订阅,权限控制(RBAC);减少80%后端代码。",
+  "use_case_hint": "快速生成GraphQL后端、实时数据应用、管理后台。",
+  "alternatives_hint": [
+   "PostgREST",
+   "Directus",
+   "Strapi",
+   "Supabase"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "开发者友好",
+   "可自托管",
+   "国内可注册",
+   "待核实"
+  ],
+  "is_addition": true,
+  "_research_key": "data-backend"
+ },
+ {
+  "id": "vercel",
+  "name": "Vercel",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "status": "active",
+  "official_url": "https://vercel.com",
+  "pricing_facts": "Hobby 免费版永久免费（禁止商业用途），Pro $20/用户/月+按量计费。新用户无需信用卡即可使用 Hobby 版。(核实于 2026-07)",
+  "china_facts": "中国用户可直接注册，Hobby 版无地域限制。付费时需要国际信用卡（Visa/Mastercard）。推荐使用 GitHub 账号 SSO 登录规避地域验证。",
+  "gotchas_facts": "Hobby 版明确禁止商业使用，超限自动删除；免费计划限制：4 小时 Active CPU/月、1M 函数调用/月、100GB 带宽；Vercel 在中国大陆默认域名可能被审查，需配合 Cloudflare 加速。",
+  "fun_facts": "一键 GitHub 集成，自动 Preview 部署，支持 Next.js 框架全栈开发，Web Analytics 和 Speed Insights 内置，全球 200+ 边缘节点。",
+  "use_case_hint": "部署 Next.js、React、Vue 等前端应用，API 路由快速搭建后端；个人博客、作品集、SaaS 原型快速上线。",
+  "alternatives_hint": [
+   "Netlify",
+   "Cloudflare Pages",
+   "Railway",
+   "GitHub Pages"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "需海外银行卡",
+   "国内可注册",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "deploy-vps"
+ }
+]

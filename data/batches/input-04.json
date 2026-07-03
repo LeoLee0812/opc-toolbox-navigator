@@ -1,0 +1,252 @@
+[
+ {
+  "id": "plausible",
+  "name": "Plausible",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://plausible.io/pricing",
+  "pricing_facts": "$9/月起(年付费),面向 10K 月均页面浏览量;$20/月面向 100K;$200/月面向 1M。30 天免费试用,无需信用卡。按月均浏览量阶梯定价,不按使用量超额扣费。(核实于 2026-07)",
+  "china_facts": "官网未明确提及中国支持情况。中国用户可注册,但需信用卡或 PayPal 支付。建议联系官方确认区域支持。(核实于 2026-07,未能确认中国具体政策)",
+  "gotchas_facts": "无永久免费层,仅 30 天试用;欧盟隐私优先定位可能导致数据处理限制;小型站点(月浏览 <1万)需年付费才有最低价。",
+  "fun_facts": "欧盟托管隐私优先;无 Cookie;GDPR/CCPA 天然合规;干净的 UI 和报表;代理商计划 50% 返佣。",
+  "use_case_hint": "隐私优先的独立开发者、欧盟企业的网站分析;无需 Cookie 横幅,提升用户体验。",
+  "alternatives_hint": [
+   "Fathom",
+   "Umami",
+   "Matomo",
+   "PostHog"
+  ],
+  "suggested_tags": [
+   "付费",
+   "有免费额度",
+   "隐私友好",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "umami",
+  "name": "Umami",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://umami.is/pricing",
+  "pricing_facts": "开源免费:可完全免费自托管(Docker/VPS)。云托管:Hobby $0 (100K 事件/月,3 个网站,无信用卡);Pro $20/月(1M 事件,20 个网站,2 年数据留存);Business 按需定制。14 天免费试用。(核实于 2026-07)",
+  "china_facts": "开源自托管完全无限制,可在中国服务器部署。云托管可能需要国际支付方式。(核实于 2026-07)",
+  "gotchas_facts": "自托管需基础服务器运维知识;云托管 Hobby 层限制较多(仅 100K 事件);数据导出需高级版本;较少的预制报表模板。",
+  "fun_facts": "MIT 开源,完全可控,无 Cookie,极简设计;自托管成本极低(€4-5/月 VPS);支持流式 API;官方云版和自托管版功能一致。",
+  "use_case_hint": "隐私极客、中小网站、想长期自主控制分析数据的开发者的首选。",
+  "alternatives_hint": [
+   "Matomo",
+   "Plausible",
+   "OpenPanel",
+   "Fathom"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开源",
+   "可自托管",
+   "隐私友好"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "mixpanel",
+  "name": "Mixpanel",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://mixpanel.com/pricing",
+  "pricing_facts": "永久免费:1M 月度事件、5 个保存报表/用户。然后按使用量付费:约 $0.00028/事件($0.28 per 1K)。企业版从 $25K/年起。无需信用卡启用免费层。(核实于 2026-07)",
+  "china_facts": "官网未明确提及中国限制。中国用户可注册免费层。付费层需信用卡或 Paypal。(核实于 2026-07)",
+  "gotchas_facts": "免费层仅 5 个报表/用户较为受限;事件量快速增长时超额计费可能显著;事件滑动窗口不可自定义;小细节特性需企业版。",
+  "fun_facts": "业界标杆产品分析工具;漏斗、留存、队列分析开箱即用;支持自定义事件、用户属性;强大的 A/B 测试;集成 Slack、Webhooks 等。",
+  "use_case_hint": "中等规模以上的 SaaS/App 产品分析:用户留存追踪、转化漏斗分析、用户分群。",
+  "alternatives_hint": [
+   "Amplitude",
+   "Heap",
+   "PostHog",
+   "OpenPanel"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "AI能力"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "google-analytics",
+  "name": "Google Analytics",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://analytics.google.com",
+  "pricing_facts": "GA4 标准版完全免费,无事件上限,无需信用卡。可追踪无限用户数、维度、自定义事件。BigQuery 集成首 10GB/月免费,后续 $0.02/GB;查询按 $5/TB 扫描费计价。GA4 360 企业版约 $50K/年起。(核实于 2026-07)",
+  "china_facts": "中国用户可直接注册 Google 账号使用 GA4,无需 VPN。数据存储在 Google 全球服务器。(核实于 2026-07)",
+  "gotchas_facts": "实施需要开发者配置跟踪代码;免费版数据保留 14 个月后删除;BigQuery 导出需额外成本;UI 复杂度高,新手学习曲线陡;用户定义字段 100 个限制。",
+  "fun_facts": "Google 生态深度集成(Search Console、Ads、Data Studio);强大的受众构建;无限自定义事件;标准报告数量多;支持跨域追踪。",
+  "use_case_hint": "已用 Google Ads/Search Console 的网站首选;需要深度流量分析、SEO 优化跟踪。",
+  "alternatives_hint": [
+   "Plausible",
+   "Fathom",
+   "Umami",
+   "Matomo"
+  ],
+  "suggested_tags": [
+   "免费",
+   "开发者友好",
+   "无需Key",
+   "中国可用"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "dub",
+  "name": "Dub",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://dub.co/pricing",
+  "pricing_facts": "免费层:25 新建链接/月、1K 追踪点击/月、3 个自定义域、30 天分析留存、API 访问。Pro $25/月:1K 链接、50K 点击、1 年留存。Business $75/月、Advanced $250/月、Enterprise 按需。(核实于 2026-07)",
+  "china_facts": "官网可访问,中国用户可注册。免费层无需支付方式。付费层需国际信用卡。(核实于 2026-07)",
+  "gotchas_facts": "免费层链接数极少(25/月),快速用尽;定价页已弱化免费层宣传;自定义域需第三方注册 DNS 配置;点击追踪需特定 UTM 参数。",
+  "fun_facts": "开源友好社区(GitHub 开源);强大的链接分析和 UTM 模板;支持 QR 码生成;API 开发友好;创意营销工具(Git.new);社交分享分析。",
+  "use_case_hint": "营销推广链接追踪、联盟营销管理、技术分享链接美化(Git.new 工具)。",
+  "alternatives_hint": [
+   "Bitly",
+   "Short.io",
+   "Linktree",
+   "Beacons"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "需DNS配置"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "openpanel",
+  "name": "OpenPanel",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://openpanel.dev/pricing",
+  "pricing_facts": "云托管:$2.50/月(5K 事件)、$5/月(10K 事件)、$20/月(100K 事件)、$90/月(1M 事件)。年付 2 月免费折扣。30 天免费试用,无需信用卡。开源自托管完全免费,事件无上限。(核实于 2026-07)",
+  "china_facts": "开源自托管可在中国服务器部署,完全无限制。云托管需国际支付。(核实于 2026-07)",
+  "gotchas_facts": "自托管需 Docker 部署和基础运维;云托管功能和自托管一致,易迁移;较新产品,生态还在建设中;中文文档有限。",
+  "fun_facts": "开源 Mixpanel 平替;事件、漏斗、留存、队列、用户档案、自定义仪表板、A/B 测试一应俱全;Docker 部署简洁;自托管和云完全功能同步。",
+  "use_case_hint": "想要低成本产品分析、对数据隐私/自主性有要求的初创、个人开发者。",
+  "alternatives_hint": [
+   "PostHog",
+   "Umami",
+   "Amplitude",
+   "Heap"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开源",
+   "可自托管",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "canny",
+  "name": "Canny",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://canny.io/pricing",
+  "pricing_facts": "免费:25 跟踪用户、1 个反馈板、公开路线图。$228/年(Core):100 用户 ~$19/月。$948/年(Pro):100 用户 ~$79/月。Business 按需 $5K-10K+/年。跟踪用户不按月重置。(核实于 2026-07)",
+  "china_facts": "官网可访问。中国用户可注册,免费层无需支付。付费层需国际信用卡。(核实于 2026-07)",
+  "gotchas_facts": "定价以跟踪用户数为基础,一旦用户投票/评论即被计为跟踪用户(永久不计),快速突破免费层;高端计划成本陡增(100 用户就需 $19/月+);功能门槛按计划分级。",
+  "fun_facts": "集反馈板、路线图、更新日志、投票系统于一体;一键集成 Jira/Linear/GitHub;用户反馈和优先级管理开箱即用;清洁简洁的产品界面。",
+  "use_case_hint": "独立开发者、初创收集用户反馈、展示产品路线图、提升用户参与度。",
+  "alternatives_hint": [
+   "Featurebase",
+   "Pendo",
+   "Intercom",
+   "Height"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "featurebase",
+  "name": "Featurebase",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://www.featurebase.app/pricing",
+  "pricing_facts": "免费:1 座位、反馈板、路线图、50 篇知识库文章、基础实时聊天、更新日志。$29/座位/月(Pro):无限文章、高级集成(Slack/Discord/Webhook)。$59-99/月 Advanced/Expert。Fibi AI 按解决数 $0.29/条计费。(核实于 2026-07)",
+  "china_facts": "官网可访问。中国用户可注册免费层,无需支付。付费需国际信用卡。(核实于 2026-07)",
+  "gotchas_facts": "免费层座位数有限(1 座位);按座位数线性计价,团队规模大快速变贵;知识库只有 50 篇;高级功能(自定义域名等)需付费;座位管理需要管理员操作。",
+  "fun_facts": "产品反馈+客服支持+知识库一体化解决方案;AI 客服助手(Fibi)自动处理常见问题;简洁直观 UI,新手友好;小团队一站式工具。",
+  "use_case_hint": "初创和小型 SaaS 一体化收集反馈、管理路线图、提供 AI 辅助客服。",
+  "alternatives_hint": [
+   "Canny",
+   "Pendo",
+   "Intercom",
+   "Slack"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "AI能力",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "sitemap-seo-basics",
+  "name": "Sitemap/SEO 基础",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://developers.google.com/search/docs/crawling-indexing/sitemaps/build-sitemap",
+  "pricing_facts": "概念词条,不适用。",
+  "china_facts": "概念词条,不适用。",
+  "gotchas_facts": "XML 格式必须符合 Sitemap 协议;Google 忽略 <priority> 和 <changefreq>,仅关注 <lastmod>;<lastmod> 值需真实准确;单文件上限 50K URLs,超大站点需分割。",
+  "fun_facts": "支持视频、图片、新闻等专属 Sitemap;Robots.txt 和 Search Console 双重提交;自动生成工具丰富(Screaming Frog、在线生成器等);是 SEO 基础设施必备。",
+  "use_case_hint": "网站 SEO 基础:加速 Google 索引新页面,提升爬虫效率,特别是大型网站、新站点、内容更新频繁的站点。",
+  "alternatives_hint": [
+   "Google Search Console",
+   "Robots.txt",
+   "结构化数据 Schema"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "analytics-growth"
+ }
+]

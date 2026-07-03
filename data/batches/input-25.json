@@ -1,0 +1,218 @@
+[
+ {
+  "id": "anime-js",
+  "name": "Anime.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://animejs.com",
+  "pricing_facts": "完全免费开源,100%免费仅依靠赞助(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "v4.0支持新text.split API用于复杂文本动画,仅17KB(压缩后),支持Web Animation API 3KB轻量版",
+  "fun_facts": "快速轻量级动画库,支持CSS/SVG/DOM/JS对象,内置Stagger和Timeline工具,v4新增复杂文本动画,可拖拽/投掷API",
+  "use_case_hint": "创建优雅的元素动画序列,实现文本逐字动画,构建交互动画效果",
+  "alternatives_hint": [
+   "Motion for React",
+   "GSAP",
+   "Framer"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "recharts",
+  "name": "Recharts",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://github.com/recharts/recharts",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "v3是2026标准版,SVG渲染,240万周下载量,完整TypeScript类型",
+  "fun_facts": "React + D3构建的图表库,2026年最成熟React图表解决方案,240万周下载,SVG渲染+完整TS类型+SSR友好,适合10000点以内的数据集",
+  "use_case_hint": "构建产品仪表盘和数据报表,创建分析可视化界面,展示实时数据趋势",
+  "alternatives_hint": [
+   "Tremor",
+   "Nivo",
+   "Plotly"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "radix-ui",
+  "name": "Radix UI",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://www.radix-ui.com/primitives",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "被WorkOS收购后某些组件更新放缓,但通过shadcn/ui持续发展(周下载131M)",
+  "fun_facts": "30+无样式可访问组件,WCAG标准无障碍,被shadcn/ui大量采用,2026年通过shadcn/ui间接成为最广泛使用的原始库",
+  "use_case_hint": "构建自定义设计系统,创建高度可访问的UI组件,实现企业级应用UI",
+  "alternatives_hint": [
+   "Headless UI",
+   "Base UI",
+   "Ark UI"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "react-hook-form",
+  "name": "React Hook Form",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://react-hook-form.com",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "默认使用非控制组件(refs而非state),减少重新渲染",
+  "fun_facts": "2026年表单状态管理金标准,非控制组件设计(refs避免过度重新渲染),推荐配合Zod验证,支持复杂表单字段级错误追踪和脏数据检测",
+  "use_case_hint": "构建高性能表单,实现复杂多字段表单,创建表单验证系统",
+  "alternatives_hint": [
+   "Formik",
+   "Zod",
+   "Yup"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "date-fns",
+  "name": "date-fns",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://date-fns.org",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "v4.4.0发布1个月前,v5.0.0-alpha测试中,新增@date-fns/tz时区包支持",
+  "fun_facts": "现代JavaScript日期工具库,200+函数,纯函数设计,100% TypeScript,v4新增第一类时区支持(@date-fns/tz),4000万周下载",
+  "use_case_hint": "处理复杂日期时间逻辑,实现国际化时区支持,构建日期选择器和日程管理",
+  "alternatives_hint": [
+   "Day.js",
+   "Luxon",
+   "Dayjs"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "babylon-js",
+  "name": "Babylon.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://www.babylonjs.com",
+  "pricing_facts": "完全免费开源,Apache 2.0许可(核实于 2026-07)",
+  "china_facts": "开源库,国内可直接使用,无注册无付费,无地域限制,但官网可能需翻墙",
+  "gotchas_facts": "v9.0最新版本,内置Havok物理引擎,支持WebGL和WebGPU,9月巴黎有技术大会",
+  "fun_facts": "Three.js的强大替代品,v9新增Frame Graph渲染管道、Large World浮点支持、集群光照(百上千动态灯)、面积灯支持,开箱即用Havok物理引擎,被Spotify/Disney等大厂采用",
+  "use_case_hint": "构建复杂3D场景和游戏,实现物理模拟和交互,创建企业级3D应用",
+  "alternatives_hint": [
+   "Three.js",
+   "Cesium.js",
+   "PlayCanvas"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "mantine",
+  "name": "Mantine",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://mantine.dev",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "v9.4.0最新版本(2026年6月发布),120+组件,70+Hooks",
+  "fun_facts": "全功能React组件库,120+高质量组件,开箱即用(自定义Select/日期选择器/通知等),完整API覆盖",
+  "use_case_hint": "快速构建管理后台界面,创建功能齐全的web应用,实现标准化企业UI系统",
+  "alternatives_hint": [
+   "Chakra UI",
+   "shadcn/ui",
+   "Material UI"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "新手友好",
+   "开发者友好"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "clsx",
+  "name": "clsx",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://github.com/lukeed/clsx",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "超轻量(239B),2026年新增clsx-react在JSX运行时层面集成",
+  "fun_facts": "超小类名工具库(仅239B),条件化构造className字符串,快速替代classnames,2026年新增clsx-react零导入JSX运行时支持",
+  "use_case_hint": "管理条件CSS类名,简化Tailwind条件应用,构建动态样式逻辑",
+  "alternatives_hint": [
+   "classnames",
+   "classname-variants",
+   "cn()"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ }
+]

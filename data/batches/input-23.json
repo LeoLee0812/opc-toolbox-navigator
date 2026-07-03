@@ -1,0 +1,244 @@
+[
+ {
+  "id": "tldraw",
+  "name": "tldraw",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://www.tldraw.com",
+  "pricing_facts": "Web应用完全免费无限制,SDK 开发者可享100天免费试用,之后创业版 $6000/年(≤10人团队)(核实于 2026-07)",
+  "china_facts": "Web应用无需注册可直接使用,SDK需付费或试用,支持国内用户但需海外支付方式",
+  "gotchas_facts": "SDK 采用年度订阅制,但个人和非商用仍可免费使用",
+  "fun_facts": "无登录协作白板,支持实时多人绘制和游标可见,40000+ GitHub星,无限画布架构,WebGL渲染提供卓越性能",
+  "use_case_hint": "构建协作设计平台,嵌入白板到应用中,创建实时头脑风暴工具",
+  "alternatives_hint": [
+   "Excalidraw",
+   "Spline",
+   "Figma"
+  ],
+  "suggested_tags": [
+   "开源",
+   "有免费额度",
+   "付费",
+   "需海外银行卡",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "excalidraw",
+  "name": "Excalidraw",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://excalidraw.com",
+  "pricing_facts": "100%免费开源,MIT许可,无任何付费版本(核实于 2026-07)",
+  "china_facts": "完全开源无需注册,支持国内直接访问和使用,无任何认证或付费要求",
+  "gotchas_facts": "90000+ GitHub星,社区高度活跃,支持本地存储和离线使用",
+  "fun_facts": "开源手绘风格白板工具,90000+ GitHub星,支持实时协作、本地优先设计、离线PWA模式,开箱即用的图表库(流程图/UML等),导出PNG/SVG/PDF",
+  "use_case_hint": "快速设计架构图和流程图,协作进行产品设计评审,创建用户交互原型",
+  "alternatives_hint": [
+   "tldraw",
+   "Spline",
+   "Figma"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "canvas-confetti",
+  "name": "canvas-confetti",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://github.com/catdad/canvas-confetti",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,无地域限制,国内可直接使用,无注册要求",
+  "gotchas_facts": "v1.9.4版本,8个月前发布,支持Web Worker异步渲染",
+  "fun_facts": "高性能纸屑动画库,可多次调用复用同一canvas元素,支持Web Worker避免主线程阻塞,自定义粒子数量、角度、颜色",
+  "use_case_hint": "为特殊时刻添加庆祝特效,游戏胜利/成就提示,产品发布庆祝动画",
+  "alternatives_hint": [
+   "js-confetti",
+   "party-js",
+   "tsParticles"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "好玩",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "rough-js",
+  "name": "rough.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://roughjs.com",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "超轻量级仅9KB(压缩后),支持Canvas和SVG双渲染",
+  "fun_facts": "手绘风格图形库(仅9KB gzipped),每次渲染略有不同创建自然感,支持线、曲线、圆、椭圆、多边形、SVG路径,影响了 RoughViz 等图表库",
+  "use_case_hint": "创建手绘风格数据可视化,为应用添加非正式插画感,构建创意白板效果",
+  "alternatives_hint": [
+   "Anime.js",
+   "GSAP",
+   "D3.js"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "冷门宝藏",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "matter-js",
+  "name": "matter.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://brm.io/matter-js",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源库,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "支持插件扩展,v0.20.0 版本,可用于游戏、模拟和互动体验",
+  "fun_facts": "2D刚体物理引擎,支持重力、碰撞、反弹、摩擦、睡眠物体、约束系统,跨浏览器兼容(IE9+),可驱动交互动画和物理游戏",
+  "use_case_hint": "为网站添加物理交互效果,创建点击触发的碰撞动画,构建轻量级物理游戏",
+  "alternatives_hint": [
+   "Babylon.js",
+   "Three.js",
+   "Cannon.js"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "冷门宝藏",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "howler-js",
+  "name": "howler.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://howlerjs.com",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册要求,无任何付费或认证障碍",
+  "gotchas_facts": "v2.2.3 版本,超轻量(7KB gzipped),零外部依赖",
+  "fun_facts": "跨浏览器音频库(仅7KB),优先使用 Web Audio API 降级到 HTML5 Audio,支持音频精灵、3D空间音效、立体声平移,支持13种音频格式",
+  "use_case_hint": "为游戏和交互应用添加背景音乐,实现音效和音频控制,创建沉浸式音频体验",
+  "alternatives_hint": [
+   "Tone.js",
+   "Web Audio API",
+   "Howler Native"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "冷门宝藏",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "p5-js",
+  "name": "p5.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://p5js.org",
+  "pricing_facts": "完全免费开源,LGPL许可(核实于 2026-07)",
+  "china_facts": "开源库,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "2026年支持现代 Promise/async-await 模式和多种色彩空间",
+  "fun_facts": "创意编程库,构建交互式视觉和生成艺术,支持 draw() 循环和事件驱动编程,2026年支持梯度和自定义着色器,包含丰富社区资源",
+  "use_case_hint": "创作生成艺术和数据可视化,构建交互式教学项目,快速原型创意想法",
+  "alternatives_hint": [
+   "Three.js",
+   "Babylon.js",
+   "Processing"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "qrcode",
+  "name": "qrcode",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://davidshimjs.github.io/qrcodejs",
+  "pricing_facts": "完全免费开源(核实于 2026-07)",
+  "china_facts": "开源库,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "支持多个库版本(qrcode.js, qrcode npm包等),周下载量百万级",
+  "fun_facts": "跨浏览器二维码生成器,支持HTML5 Canvas和DOM Table渲染,零依赖,node-qrcode npm包是最流行版本(周下载超百万)",
+  "use_case_hint": "生成产品链接二维码,创建WiFi/支付二维码,实现移动端扫码功能",
+  "alternatives_hint": [
+   "EasyQRCodeJS",
+   "QRious",
+   "jsQR"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "html2canvas",
+  "name": "html2canvas",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://html2canvas.hertzen.com",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "基于DOM渲染而非真实屏幕截图,2026年有新库采用完全不同方案(支持PDF/DXF等格式)",
+  "fun_facts": "客户端网页截图库,无需服务端处理,支持现代浏览器,基于DOM和CSS计算生成Canvas图像,仅需HTML即可截图任意部分",
+  "use_case_hint": "实现用户自助截图功能,创建可分享的内容卡片,生成报表预览图",
+  "alternatives_hint": [
+   "html2pdf",
+   "Playwright",
+   "Puppeteer"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ }
+]

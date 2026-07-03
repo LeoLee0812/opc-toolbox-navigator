@@ -1,0 +1,1570 @@
+[
+ {
+  "id": "replicate",
+  "name": "Replicate",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "fal-ai",
+  "name": "fal.ai",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "groq",
+  "name": "Groq",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "together-ai",
+  "name": "Together AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "deepgram",
+  "name": "Deepgram",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "assemblyai",
+  "name": "AssemblyAI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "flux-black-forest-labs",
+  "name": "Flux (Black Forest Labs)",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 1
+ },
+ {
+  "id": "ideogram",
+  "name": "Ideogram",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "suno",
+  "name": "Suno",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "udio",
+  "name": "Udio",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "hume-ai",
+  "name": "Hume AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "perplexity-api",
+  "name": "Perplexity API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "hugging-face-inference",
+  "name": "Hugging Face Inference API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "anthropic-claude",
+  "name": "Anthropic Claude API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "google-gemini",
+  "name": "Google Gemini API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 2
+ },
+ {
+  "id": "stability-ai",
+  "name": "Stability AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "runway-ml",
+  "name": "Runway ML",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "mistral-ai",
+  "name": "Mistral AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "cohere-api",
+  "name": "Cohere API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "twelve-labs",
+  "name": "Twelve Labs",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "luma-ai",
+  "name": "Luma AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "synthesia",
+  "name": "Synthesia",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "d-id",
+  "name": "D-ID",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "batch": 3
+ },
+ {
+  "id": "posthog",
+  "name": "PostHog",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 3
+ },
+ {
+  "id": "plausible",
+  "name": "Plausible",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "umami",
+  "name": "Umami",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "mixpanel",
+  "name": "Mixpanel",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "google-analytics",
+  "name": "Google Analytics",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "dub",
+  "name": "Dub",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "openpanel",
+  "name": "OpenPanel",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "canny",
+  "name": "Canny",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "featurebase",
+  "name": "Featurebase",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "sitemap-seo-basics",
+  "name": "Sitemap/SEO 基础",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 4
+ },
+ {
+  "id": "amplitude",
+  "name": "Amplitude",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 5
+ },
+ {
+  "id": "heap",
+  "name": "Heap",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 5
+ },
+ {
+  "id": "fathom-analytics",
+  "name": "Fathom Analytics",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 5
+ },
+ {
+  "id": "hotjar",
+  "name": "Hotjar",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "batch": 5
+ },
+ {
+  "id": "clerk",
+  "name": "Clerk",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 5
+ },
+ {
+  "id": "supabase-auth",
+  "name": "Supabase Auth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 5
+ },
+ {
+  "id": "auth0",
+  "name": "Auth0",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 5
+ },
+ {
+  "id": "workos",
+  "name": "WorkOS",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 5
+ },
+ {
+  "id": "better-auth",
+  "name": "Better Auth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 5
+ },
+ {
+  "id": "firebase-auth",
+  "name": "Firebase Auth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 6
+ },
+ {
+  "id": "stytch",
+  "name": "Stytch",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 6
+ },
+ {
+  "id": "kinde",
+  "name": "Kinde",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 6
+ },
+ {
+  "id": "supertokens",
+  "name": "SuperTokens",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 6
+ },
+ {
+  "id": "fusionauth",
+  "name": "FusionAuth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "batch": 6
+ },
+ {
+  "id": "hsbc-hong-kong-account",
+  "name": "HSBC 汇丰香港One账户",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 6
+ },
+ {
+  "id": "za-bank-hong-kong",
+  "name": "ZA Bank 众安银行",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 6
+ },
+ {
+  "id": "mercury-us-bank",
+  "name": "Mercury 美国商业银行",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 6
+ },
+ {
+  "id": "wise-multi-currency",
+  "name": "Wise 多币种账户",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 6
+ },
+ {
+  "id": "ocbc-singapore",
+  "name": "OCBC 新加坡华侨银行",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "us-llc-registration",
+  "name": "美国 LLC 注册",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "hong-kong-company",
+  "name": "香港公司注册",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "us-ein",
+  "name": "美国 EIN 雇主识别号",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "deel-global-payroll",
+  "name": "Deel 全球工资和支付平台",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "digital-nomad-visa",
+  "name": "数字游民签证概览",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "paypal-international",
+  "name": "PayPal 国际账户",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "overseas-tax-basics",
+  "name": "出海企业报税基础",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "stripe-payment-gateway",
+  "name": "Stripe 美国支付网关",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "batch": 7
+ },
+ {
+  "id": "airalo-esim",
+  "name": "Airalo eSIM",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "google-voice",
+  "name": "Google Voice",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "google-fi",
+  "name": "Google Fi",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "jmp-chat",
+  "name": "JMP.chat",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "twilio",
+  "name": "Twilio",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "sms-activate",
+  "name": "SMS-Activate",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "giffgaff",
+  "name": "Giffgaff",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "talkatone",
+  "name": "Talkatone",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "tello",
+  "name": "Tello Mobile",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 8
+ },
+ {
+  "id": "5sim",
+  "name": "5SIM",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 9
+ },
+ {
+  "id": "vonage-nexmo",
+  "name": "Vonage (Nexmo)",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "batch": 9
+ },
+ {
+  "id": "supabase",
+  "name": "Supabase",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 9
+ },
+ {
+  "id": "firebase",
+  "name": "Firebase",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 9
+ },
+ {
+  "id": "neon",
+  "name": "Neon",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 9
+ },
+ {
+  "id": "turso",
+  "name": "Turso",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 9
+ },
+ {
+  "id": "pocketbase",
+  "name": "PocketBase",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 9
+ },
+ {
+  "id": "convex",
+  "name": "Convex",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 9
+ },
+ {
+  "id": "upstash",
+  "name": "Upstash",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 9
+ },
+ {
+  "id": "cloudflare-r2",
+  "name": "Cloudflare R2",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "aws-s3",
+  "name": "AWS S3",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "uploadthing",
+  "name": "UploadThing",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "mongodb-atlas",
+  "name": "MongoDB Atlas",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "railway",
+  "name": "Railway",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "vercel-storage",
+  "name": "Vercel Storage (Blob)",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "xata",
+  "name": "Xata",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "hasura",
+  "name": "Hasura",
+  "part": "独立开发 SaaS 积木",
+  "category": "数据 & 后端 & 存储",
+  "batch": 10
+ },
+ {
+  "id": "vercel",
+  "name": "Vercel",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 10
+ },
+ {
+  "id": "netlify",
+  "name": "Netlify",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "cloudflare-pages",
+  "name": "Cloudflare Pages",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "render",
+  "name": "Render",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "fly-io",
+  "name": "Fly.io",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "hetzner",
+  "name": "Hetzner",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "digitalocean",
+  "name": "DigitalOcean",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "vultr",
+  "name": "Vultr",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "bandwagonhost",
+  "name": "搬瓦工 BandwagonHost",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "1panel",
+  "name": "1Panel",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 11
+ },
+ {
+  "id": "baota",
+  "name": "宝塔面板",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 12
+ },
+ {
+  "id": "linode",
+  "name": "Linode (Akamai)",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 12
+ },
+ {
+  "id": "aws-lightsail",
+  "name": "AWS Lightsail",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "batch": 12
+ },
+ {
+  "id": "cloudflare-registrar",
+  "name": "Cloudflare Registrar",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 12
+ },
+ {
+  "id": "namecheap",
+  "name": "Namecheap",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 12
+ },
+ {
+  "id": "porkbun",
+  "name": "Porkbun",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 12
+ },
+ {
+  "id": "resend",
+  "name": "Resend",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 12
+ },
+ {
+  "id": "google-workspace",
+  "name": "Google Workspace",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 12
+ },
+ {
+  "id": "zoho-mail",
+  "name": "Zoho Mail",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 12
+ },
+ {
+  "id": "cloudflare-email-routing",
+  "name": "Cloudflare Email Routing",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 13
+ },
+ {
+  "id": "spf-dkim-dmarc",
+  "name": "SPF/DKIM/DMARC 发信送达率",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 13
+ },
+ {
+  "id": "email-domain-warmup",
+  "name": "邮箱域名预热",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 13
+ },
+ {
+  "id": "mailgun",
+  "name": "Mailgun",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 13
+ },
+ {
+  "id": "forward-email",
+  "name": "Forward Email",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 13
+ },
+ {
+  "id": "namesilo",
+  "name": "NameSilo",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "batch": 13
+ },
+ {
+  "id": "unsplash-api",
+  "name": "Unsplash API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 13
+ },
+ {
+  "id": "pexels-api",
+  "name": "Pexels API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 13
+ },
+ {
+  "id": "remove-bg-api",
+  "name": "Remove.bg API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 13
+ },
+ {
+  "id": "open-meteo-api",
+  "name": "Open-Meteo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "rest-countries-api",
+  "name": "REST Countries API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "nominatim-osm-api",
+  "name": "Nominatim (OpenStreetMap)",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "ipinfo-api",
+  "name": "IPinfo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "frankfurter-api",
+  "name": "Frankfurter API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "nasa-apis",
+  "name": "NASA APIs",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "pokeapi",
+  "name": "PokéAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "deck-of-cards-api",
+  "name": "Deck of Cards API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "bored-api",
+  "name": "Bored API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 14
+ },
+ {
+  "id": "numbers-api",
+  "name": "Numbers API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "open-library-api",
+  "name": "Open Library API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "wikipedia-api",
+  "name": "Wikipedia API (MediaWiki)",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "quickchart-api",
+  "name": "QuickChart API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "screenshotone-api",
+  "name": "ScreenshotOne API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "have-i-been-pwned-api",
+  "name": "Have I Been Pwned API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "faker-api",
+  "name": "Faker API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "mockaroo-api",
+  "name": "Mockaroo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "chuck-norris-jokes-api",
+  "name": "Chuck Norris Jokes API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 15
+ },
+ {
+  "id": "meowfacts-api",
+  "name": "MeowFacts API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "the-cat-api",
+  "name": "The Cat API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "weatherapi-com",
+  "name": "WeatherAPI.com",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "jokeapi",
+  "name": "JokeAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "cocktail-db",
+  "name": "TheCocktailDB API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "advice-slip-api",
+  "name": "Advice Slip API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "http-cat-api",
+  "name": "HTTP.Cat API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "zenquotes-api",
+  "name": "ZenQuotes API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "agify-api",
+  "name": "Agify API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 16
+ },
+ {
+  "id": "genderize-api",
+  "name": "Genderize API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 17
+ },
+ {
+  "id": "nationalize-api",
+  "name": "Nationalize API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 17
+ },
+ {
+  "id": "countapi",
+  "name": "CountAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "batch": 17
+ },
+ {
+  "id": "termly",
+  "name": "Termly",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 17
+ },
+ {
+  "id": "iubenda",
+  "name": "iubenda",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 17
+ },
+ {
+  "id": "cookiebot",
+  "name": "Cookiebot",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 17
+ },
+ {
+  "id": "onetrust",
+  "name": "OneTrust",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 17
+ },
+ {
+  "id": "complianz",
+  "name": "Complianz",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 17
+ },
+ {
+  "id": "enzuzo",
+  "name": "Enzuzo",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 17
+ },
+ {
+  "id": "osano",
+  "name": "Osano",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "ketch",
+  "name": "Ketch",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "clym",
+  "name": "Clym",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "app-privacy-policy-generator",
+  "name": "App Privacy Policy Generator",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "gdpr-fundamentals",
+  "name": "GDPR 基础与合规要求",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "dpa-template",
+  "name": "数据处理协议 (DPA) 模板",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "dpia-tool",
+  "name": "数据保护影响评估 (DPIA) 工具",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "appstore-playstore-compliance",
+  "name": "App Store / Google Play 上架合规要求",
+  "part": "出海生存工具箱",
+  "category": "合规 & 法务 & 隐私",
+  "batch": 18
+ },
+ {
+  "id": "loops",
+  "name": "Loops",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 18
+ },
+ {
+  "id": "postmark",
+  "name": "Postmark",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "plunk",
+  "name": "Plunk",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "novu",
+  "name": "Novu",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "onesignal",
+  "name": "OneSignal",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "crisp",
+  "name": "Crisp",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "chatwoot",
+  "name": "Chatwoot",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "intercom",
+  "name": "Intercom",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "knock",
+  "name": "Knock",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "firebase-cloud-messaging",
+  "name": "Firebase Cloud Messaging",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 19
+ },
+ {
+  "id": "courier",
+  "name": "Courier",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "batch": 20
+ },
+ {
+  "id": "stripe",
+  "name": "Stripe",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "paddle",
+  "name": "Paddle",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "lemon-squeezy",
+  "name": "Lemon Squeezy",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "creem",
+  "name": "Creem",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "polar",
+  "name": "Polar",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "gumroad",
+  "name": "Gumroad",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "paypal",
+  "name": "PayPal",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "payoneer",
+  "name": "Payoneer",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 20
+ },
+ {
+  "id": "wise",
+  "name": "Wise",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "airwallex",
+  "name": "Airwallex",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "revenuecat",
+  "name": "RevenueCat",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "ko-fi",
+  "name": "Ko-fi",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "stripe-atlas",
+  "name": "Stripe Atlas",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "buy-me-a-coffee",
+  "name": "Buy Me a Coffee",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "dodo-payments",
+  "name": "Dodo Payments",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "indie-developer-payment-comparison",
+  "name": "独立开发者收款方案对比",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "batch": 21
+ },
+ {
+  "id": "react-bits",
+  "name": "React Bits",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 21
+ },
+ {
+  "id": "aceternity-ui",
+  "name": "Aceternity UI",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "magic-ui",
+  "name": "Magic UI",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "cobe",
+  "name": "Cobe",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "tsparticles",
+  "name": "tsParticles",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "cmdk",
+  "name": "cmdk",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "sonner",
+  "name": "Sonner",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "vaul",
+  "name": "Vaul",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "embla-carousel",
+  "name": "Embla Carousel",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "react-tweet",
+  "name": "react-tweet",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 22
+ },
+ {
+  "id": "tldraw",
+  "name": "tldraw",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "excalidraw",
+  "name": "Excalidraw",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "canvas-confetti",
+  "name": "canvas-confetti",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "rough-js",
+  "name": "rough.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "matter-js",
+  "name": "matter.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "howler-js",
+  "name": "howler.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "p5-js",
+  "name": "p5.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "qrcode",
+  "name": "qrcode",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "html2canvas",
+  "name": "html2canvas",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 23
+ },
+ {
+  "id": "dnd-kit",
+  "name": "dnd-kit",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "partykit",
+  "name": "PartyKit",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "nuqs",
+  "name": "nuqs",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "zod",
+  "name": "Zod",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "motion-react",
+  "name": "Motion for React",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "zustand",
+  "name": "Zustand",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "three-js",
+  "name": "Three.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "gsap",
+  "name": "GSAP",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "jotai",
+  "name": "Jotai",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 24
+ },
+ {
+  "id": "anime-js",
+  "name": "Anime.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ },
+ {
+  "id": "recharts",
+  "name": "Recharts",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ },
+ {
+  "id": "radix-ui",
+  "name": "Radix UI",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ },
+ {
+  "id": "react-hook-form",
+  "name": "React Hook Form",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ },
+ {
+  "id": "date-fns",
+  "name": "date-fns",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ },
+ {
+  "id": "babylon-js",
+  "name": "Babylon.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ },
+ {
+  "id": "mantine",
+  "name": "Mantine",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ },
+ {
+  "id": "clsx",
+  "name": "clsx",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "batch": 25
+ }
+]

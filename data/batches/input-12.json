@@ -1,0 +1,245 @@
+[
+ {
+  "id": "baota",
+  "name": "宝塔面板",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "status": "active",
+  "official_url": "https://bt.cn",
+  "pricing_facts": "免费版永久免费（功能受限），专业版 79 元/月或 699 元/年，企业版 999 元/年。支持阿里云/腾讯云/七牛等国内云厂商深度集成。(核实于 2026-07)",
+  "china_facts": "完全国产，中文支持最优，接受支付宝微信支付，与国内云厂商无缝对接（一键部署），合规性最好。",
+  "gotchas_facts": "免费版功能受限（如防火墙、防篡改），某些高级功能仅企业版提供，付费续费模式（非一次性）；国外访问速度慢。",
+  "fun_facts": "中文 UI 最完整，面板功能最全面（网站、数据库、备份、安全全覆盖），与国内云厂商深度集成（自动化部署脚本丰富），社区中文资源最丰富。",
+  "use_case_hint": "国内企业和个人网站托管，与国内云厂商配合，传统 LAMP/LNMP 部署。",
+  "alternatives_hint": [
+   "1Panel",
+   "Plesk",
+   "DirectAdmin"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "有中文",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "deploy-vps"
+ },
+ {
+  "id": "linode",
+  "name": "Linode (Akamai)",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "status": "active",
+  "official_url": "https://linode.com",
+  "pricing_facts": "共享 CPU $5/月起（1GB RAM Nanode），专用 CPU G6 $36/月起，G7 $43/月起，G8 $50/月起。新用户 $100 信用/60 天。(核实于 2026-07)",
+  "china_facts": "中国用户可注册，需国际信用卡。Akamai 收购后无特殊地域限制。",
+  "gotchas_facts": "Akamai 收购后部分应用受限制（如 Torrent、代理），备份需单独启用（按实例 20% 计费），某些旧计划已停止销售。",
+  "fun_facts": "75+ 部署计划选择最多，24 小时客服支持，新用户 $100 信用极为慷慨，Linode Kubernetes Engine（LKE）云原生友好。",
+  "use_case_hint": "灵活扩展的应用服务器，Kubernetes 容器编排，游戏/视频等高流量应用。",
+  "alternatives_hint": [
+   "DigitalOcean",
+   "Vultr",
+   "Hetzner"
+  ],
+  "suggested_tags": [
+   "付费",
+   "有免费额度",
+   "需海外银行卡",
+   "开发者友好"
+  ],
+  "is_addition": true,
+  "_research_key": "deploy-vps"
+ },
+ {
+  "id": "aws-lightsail",
+  "name": "AWS Lightsail",
+  "part": "出海生存工具箱",
+  "category": "建站 & 部署 & 服务器",
+  "status": "active",
+  "official_url": "https://aws.amazon.com/lightsail",
+  "pricing_facts": "IPv6-only $3.50/月，IPv4 标准 $5/月起。新用户免费 750 小时/月（3 个月）。按秒计费，月费封顶。(核实于 2026-07)",
+  "china_facts": "中国用户需要双币信用卡或虚拟卡（如 FomePay）。新用户 3 个月免费额度。",
+  "gotchas_facts": "停止实例不停止计费，必须删除才能停止扣费；中文文档和教程较少；国内访问需备案，网站托管需合规；IPv6-only 国内访问困难。",
+  "fun_facts": "AWS 官方支持，可无缝升级到 EC2/RDS 等 AWS 服务，全球 16+ 地区可用（含新加坡/日本/悉尼），2026 年新增马来西亚地区。",
+  "use_case_hint": "需要 AWS 生态支持的应用，后续可能升级到企业级 AWS 服务的项目。",
+  "alternatives_hint": [
+   "DigitalOcean",
+   "Vultr",
+   "Linode"
+  ],
+  "suggested_tags": [
+   "付费",
+   "有免费额度",
+   "需海外银行卡",
+   "开发者友好"
+  ],
+  "is_addition": true,
+  "_research_key": "deploy-vps"
+ },
+ {
+  "id": "cloudflare-registrar",
+  "name": "Cloudflare Registrar",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.cloudflare.com/products/registrar/",
+  "pricing_facts": "域名按成本价注册和续费，无加价。支持超过390个顶级域名。免费包含DNS、CDN、SSL证书、WHOIS隐私保护。具体TLD定价需登录Cloudflare仪表板查看(核实于2026-07)。",
+  "china_facts": "中国用户需要国外银行卡(Visa/MasterCard/American Express/Discover)或PayPal,不支持支付宝/微信支付。建议用虚拟信用卡绕过限制。",
+  "gotchas_facts": "无法更改名称服务器(锁定到Cloudflare DNS),国内访问网站可能较慢。需要Cloudflare账户,必须进行身份验证。",
+  "fun_facts": "成本价模式优势明显,无隐形续费成本。WHOIS隐私保护永久免费。与Cloudflare生态深度集成,支持自动DNSSEC配置,CDN和安全功能开箱即用。",
+  "use_case_hint": "独立站域名注册+CDN加速+安全防护一体化解决方案;想用Cloudflare Workers的开发者必选。",
+  "alternatives_hint": [
+   "Namecheap",
+   "Porkbun",
+   "NameSilo",
+   "GoDaddy"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "开发者友好",
+   "无需Key"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "namecheap",
+  "name": "Namecheap",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.namecheap.com/",
+  "pricing_facts": ".com注册$6.49/年,续费$18.48/年;.org注册$7.48/年;新域名注册常有$0.99起的促销。虚拟主机$1.48-$4.48/月起。每月三次优惠券波次覆盖域名、SSL、企业邮箱(核实于2026-07)。",
+  "china_facts": "不支持支付宝/微信,中国用户需要双币信用卡或通过虚拟信用卡(支持支付宝充值的虚拟卡)支付。可以通过PayPal+国内银行卡曲线支付。国内可直接注册账户。",
+  "gotchas_facts": "续费价格远高于首年注册价,.com首年可能$0.99但续费$18.48。需注意优惠券使用限制和时效性。国内银行卡支付常被拒。",
+  "fun_facts": "域名转移无需授权码(EPP)可直接转,支持1年到5年多年续费。界面中文支持良好,历史悠久(1999年成立)。SSL、邮箱、虚拟主机等周边产品完整。",
+  "use_case_hint": "首次购买域名且想要便宜首年价的出海新手;对比续费价后的中长期注册选择。",
+  "alternatives_hint": [
+   "Porkbun",
+   "NameSilo",
+   "GoDaddy",
+   "Cloudflare Registrar"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "有免费额度",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "porkbun",
+  "name": "Porkbun",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.porkbun.com/",
+  "pricing_facts": ".com注册$11.08/年,续费$11.08/年(注册续费同价);.net $12.52/年;.org $7.98/年(促销价);.eu $5.88/年。所有TLD支持多年续费。(核实于2026-07)",
+  "china_facts": "不支持支付宝/微信,但中国用户可用虚拟信用卡支付。可用支付宝为虚拟卡充值后完成购买。注册账户无地域限制,支持国内邮箱注册。",
+  "gotchas_facts": "无WHOIS隐私保护费用(已包含,这是优势),但转入时需要EPP授权码。界面全英文,新手可能需要翻译工具。",
+  "fun_facts": "所有域名永久免费WHOIS隐私保护(业界罕见,通常$10-15/年);Trustpilot评分4.9/5(23000+评价);注册和续费同价,无隐形费用;所有域名包含免费SSL、URL转发、邮件转发。24小时邮件支持+营业时间电话支持。",
+  "use_case_hint": "追求透明定价、长期成本低的独立开发者;需要隐私保护但不想额外付费。",
+  "alternatives_hint": [
+   "Namecheap",
+   "NameSilo",
+   "Cloudflare Registrar",
+   "GoDaddy"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "国内可注册",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "resend",
+  "name": "Resend",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://resend.com/",
+  "pricing_facts": "免费计划:3000封/月,100封/天限制,1个自定义域名。Pro $20-$35/月;Scale $90-$1150/月(按月度邮件量10万-250万);企业自定义价。超额费率$0.90-$0.46/千封邮件。(核实于2026-07)",
+  "china_facts": "国内IP可访问,可用国内邮箱注册。无明确信息表明对中国用户有限制,建议直接咨询。国内可直接使用其API。",
+  "gotchas_facts": "免费计划日限制严格(100封/天),超出无法自动扩容;Scale计划价格跳级幅度大(90到1150美元);需要核实国内收件箱送达率。",
+  "fun_facts": "API设计开发者友好,文档详尽;支持React Email等现代模板引擎;免费计划对小型项目友好(开发/测试无需付费);Scale等级含专用IP和Slack支持,企业级功能从起始价$90。",
+  "use_case_hint": "SaaS应用事务邮件发送(验证码、订单通知等);开发者初期测试无需信用卡;小型项目长期免费使用。",
+  "alternatives_hint": [
+   "Mailgun",
+   "SendGrid",
+   "Brevo"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "开发者友好",
+   "国内可注册",
+   "无需Key"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "google-workspace",
+  "name": "Google Workspace",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://workspace.google.com/pricing",
+  "pricing_facts": "业务入门版(Starter) $7/用户/月(新客前3月50%折扣后$3.50);业务标准版(Standard) $14/用户/月;Business Plus $20/用户/月;企业版定制。年付可降16%。新客限制首20用户,12个月内有效。(核实于2026-07,不同地区价格不同)",
+  "china_facts": "无官方中文界面,需要国外信用卡或PayPal。中国大陆用户访问Google服务受限(部分功能可能无法正常使用)。建议用代理或VPN。企业邮件送达国内不稳定。",
+  "gotchas_facts": "中国大陆无官方支持,部分功能受GFW影响不可用;企业邮件发往国内邮箱(QQ/网易)易被标记;需要注册Google账户且手机验证困难;最低购买单位限制。",
+  "fun_facts": "Google全套Office套件(Docs/Sheets/Slides)、云存储(30GB-5TB)、Meet视频会议(最多100-1000人)、Vault数据归档、高级安全功能;Gemini AI助理集成;99.9%钓鱼攻击拦截率;ad-free邮件体验。",
+  "use_case_hint": "B2B出海企业或跨国团队协作邮箱;需要完整Office套件的团队;关键内部通信需要高可靠性的中等规模公司。",
+  "alternatives_hint": [
+   "Zoho Mail",
+   "Microsoft 365",
+   "Proton Mail",
+   "Tutanota"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "zoho-mail",
+  "name": "Zoho Mail",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.zoho.com.cn/mail/",
+  "pricing_facts": "永久免费个人版,支持多设备同步;企业轻量版300元/5用户/年(60元/人/年,5GB存储);高级版200元/人/年(10GB存储);最高版100GB/50GB选项。15天免费试用。(核实于2026-07)",
+  "china_facts": "对中国用户友好,提供中文界面和5×8工作日中文技术支持+7×24英文支持。支持国内邮箱注册。数据中心在北京和上海。企业邮箱直接支持人民币采购。",
+  "gotchas_facts": "中国本土注册需要企业资质或个人认证;企业版价格相对低廉但功能可能不如国际品牌全面;国内收件箱可能对陌生发件人有限制。",
+  "fun_facts": "价格极其便宜,企业版人均60元/年可入门;与Zoho CRM/File等生态深度集成;中文支持一流(独特优势);免费版永久可用无广告;18个数据中心全球覆盖。",
+  "use_case_hint": "国内创业团队低成本企业邮箱方案;需要中文支持和人民币计费的中国出海公司;个人长期免费邮箱使用。",
+  "alternatives_hint": [
+   "Google Workspace",
+   "Microsoft 365",
+   "阿里企业邮箱",
+   "网易企业邮箱"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "国内可注册",
+   "有中文",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ }
+]

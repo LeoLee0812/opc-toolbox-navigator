@@ -1,0 +1,243 @@
+[
+ {
+  "id": "replicate",
+  "name": "Replicate",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://replicate.com",
+  "pricing_facts": "按硬件和时间计费，无免费层。CPU小型 $0.09/小时起，H100 GPU $43.92/小时。公开模型按时间或输出计费。2025年11月Cloudflare收购Replicate，服务继续运营（核实于 2026-07）",
+  "china_facts": "可用国内邮箱注册，需绑定国际信用卡或PayPal支付，无区域限制",
+  "gotchas_facts": "无免费试用额度，新用户需立即付费；模型冷启动时间长；私有模型按在线时间计费（包括空闲时间）",
+  "fun_facts": "官方模型输出定价透明（2025年1月推出），消除冷启动计费开销；支持微调私有模型，极度灵活；被Cloudflare收购后获得企业级支持",
+  "use_case_hint": "图像生成、文本转语音、模型微调、视频处理、任何开源模型的快速部署",
+  "alternatives_hint": [
+   "fal.ai",
+   "Together AI",
+   "Hugging Face Inference API",
+   "RunwayML"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "fal-ai",
+  "name": "fal.ai",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://fal.ai",
+  "pricing_facts": "免费注册获 $20免费额度，按预付额度消耗。Flux Schnell $0.025/张图，Pro $0.05/张。视频模型按秒数计费，Sora 2/Veo 3 $0.50/5秒。包含100+媒体生成模型。（核实于 2026-07）",
+  "china_facts": "支持国内邮箱注册，但需海外支付方式充值，部分模型可能有区域限制",
+  "gotchas_facts": "预付额度模式，余额未使用会浪费；视频生成价格较高；免费额度 $20 可快速用完",
+  "fun_facts": "一个API访问100+模型（Flux、Stable Diffusion、Kling等），省去切换多个服务；支持Sora 2和Veo 3等前沿视频模型；流式传输支持更快反馈",
+  "use_case_hint": "快速原型化多种媒体生成、集中管理多个模型、生产级视频/图像API",
+  "alternatives_hint": [
+   "Replicate",
+   "Runway ML",
+   "Black Forest Labs Flux",
+   "Stability AI"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "openrouter",
+  "name": "OpenRouter",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://openrouter.ai",
+  "pricing_facts": "聚合300+模型和60+提供商，按使用量付费，5.5%平台手续费。26个免费模型无需付费（Qwen3、DeepSeek V4 Flash等），免费用户每天50请求。带上自己的Key首100万请求免费，之后5%费用。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，支持Stripe/支付宝等，无地区限制",
+  "gotchas_facts": "5.5%的平台费用叠加模型成本；免费模型有速率限制（20请求/分钟）；BYOK虽然便宜但需自己提供API Key",
+  "fun_facts": "**冷门宝藏**：一个API统一300多个模型，包括OpenAI/Claude/Gemini/开源模型，省掉集成多个服务的麻烦；26个免费模型永不过期；支持提示缓存享受优惠",
+  "use_case_hint": "快速对比多个LLM效果、构建支持多模型切换的应用、用BYOK降低成本、AI智能体多模型支持",
+  "alternatives_hint": [
+   "Together AI",
+   "Groq",
+   "Anthropic API",
+   "OpenAI API"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "groq",
+  "name": "Groq",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://groq.com",
+  "pricing_facts": "免费层：30请求/分钟、6000令牌/分钟无信用卡。付费按输出令牌计费，Llama 3.1 8B $0.05/$0.08 per 1M，Qwen3 32B $0.08/$0.24。Batch处理50%折扣，提示缓存打五折。（核实于 2026-07）",
+  "china_facts": "国内邮箱可直接注册免费层，付费层需海外支付方式，但免费额度足以原型设计",
+  "gotchas_facts": "免费层速率限制严格（30 RPM），不适合生产；模型库较小（主要开源模型）；社区共享配额可能波动",
+  "fun_facts": "**最快LLM推理**：Groq LPU芯片提供500-3000+令牌/秒输出速度，比GPU快5-30倍；无信用卡免费原型最棒的选择；价格超便宜（Llama $0.05M）",
+  "use_case_hint": "低延迟实时应用、聊天机器人、流式生成、成本敏感的项目、快速原型",
+  "alternatives_hint": [
+   "Together AI",
+   "OpenRouter",
+   "Anthropic Claude API",
+   "Mistral API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "together-ai",
+  "name": "Together AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.together.ai",
+  "pricing_facts": "免费注册 $5额度（无卡），按量付费 $0.05-$9.00 per 1M令牌。DeepSeek V4最便宜选项，初创公司可申请 $15K-$50K支持。无缓存折扣。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册免费层，付费需海外支付方式，初创申请补助有机会",
+  "gotchas_facts": "$5免费额度快速用完，付费层价格相对标准；不提供提示缓存折扣；没有包月制，全是按量计费",
+  "fun_facts": "**开源模型天堂**：专注开源LLM（Llama、Qwen、DeepSeek），价格是官方50-70%；初创补助额度大（最高 $50K）；支持最新开源模型快速上线",
+  "use_case_hint": "开源模型应用、成本优化项目、初创快速迭代、多模型AB测试",
+  "alternatives_hint": [
+   "Groq",
+   "OpenRouter",
+   "Anthropic API",
+   "Mistral API"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "elevenlabs",
+  "name": "ElevenLabs",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://elevenlabs.io",
+  "pricing_facts": "免费层10000字/月不可商用。API独立定价：Free $0，Pro $99/月100额度，Scale $330/月660额度。TTS $0.10/1K字符。7种订阅层级 Free-$330/月。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，免费层可使用，商用需支付且绑定国际信用卡",
+  "gotchas_facts": "免费层无商用权，必须标注 ElevenLabs；字符计费模式，长文本快速烧额度；语音克隆需专业版",
+  "fun_facts": "**情感化语音**：支持语调控制、背景音、音质调节，TTS不是单调机械音；支持29种语言+方言；Voice Library包含500+预制声音",
+  "use_case_hint": "有声书生成、多语言配音、AI播客、对话AI应用、视频字幕配音",
+  "alternatives_hint": [
+   "Deepgram",
+   "Google Cloud TTS",
+   "Azure Speech",
+   "Hume AI"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "deepgram",
+  "name": "Deepgram",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://deepgram.com",
+  "pricing_facts": "$200免费额度无卡无期限。按量 $0.0043-$0.0078/分钟（Speech-to-Text）。Aura TTS按字符计费。年度预付 $4K+享折扣。企业定制价格。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，$200免费额度非常慷慨，无需支付即可原型设计",
+  "gotchas_facts": "$200额度虽大但只可一次性使用；实时流媒体和批处理费率不同；音频智能功能（情感识别）需额外付费",
+  "fun_facts": "**$200零成本试用**最慷慨的语音API；Nova-3 Multilingual支持99种语言；Flux专为实时对话优化；Voice Agent可自动处理呼叫",
+  "use_case_hint": "多语言转录系统、实时字幕、呼叫中心自动化、会议记录、语音智能分析",
+  "alternatives_hint": [
+   "AssemblyAI",
+   "Google Cloud Speech-to-Text",
+   "AWS Transcribe",
+   "ElevenLabs"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "assemblyai",
+  "name": "AssemblyAI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.assemblyai.com",
+  "pricing_facts": "$50无卡免费额度（相当333小时Universal-2）。按量 $0.0025-$0.0035/分钟。预录约 $0.15/小时，流媒体约 $0.25/小时。音频智能功能另计。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，$50额度足够初期测试，付费需国际支付方式",
+  "gotchas_facts": "额度一次性分配无月度回复；多个音频智能功能叠加会显著提价；免费层仅支持5个并发流媒体连接",
+  "fun_facts": "**性价比最好的转录API**：$0.15/小时Universal-2在业界最便宜；Speaker Diarization自动区分说话人；全功能免费试用不用担心隐藏费用",
+  "use_case_hint": "播客转录、访谈整理、会议记录、客服通话分析、内容创作字幕生成",
+  "alternatives_hint": [
+   "Deepgram",
+   "Google Cloud Speech",
+   "AWS Transcribe",
+   "Rev"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "flux-black-forest-labs",
+  "name": "Flux (Black Forest Labs)",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://bfl.ai",
+  "pricing_facts": "按点数计费（1点 = $0.01）。Flux 1.1 Pro $0.04/张，Flux 2 Pro按分辨率 $0.08-$0.25/张。无免费层，付费起步 $0.04/张。（核实于 2026-07）",
+  "china_facts": "需海外支付方式开通，国内邮箱可注册但需通过支付验证",
+  "gotchas_facts": "无免费试用层（直接付费）；支持文本到图像和图像编辑但功能较OpenAI/Midjourney单一；价格较高",
+  "fun_facts": "**最快的文生图**：Flux Schnell 0.8s内生成图像（业界最快）；质量极高（COCO和ImageReward排名顶级）；Flux Dev和Pro模型支持细粒度控制",
+  "use_case_hint": "高质量插画生成、设计原型、电商产品图、创意内容、批量图像生成",
+  "alternatives_hint": [
+   "Stability AI",
+   "Ideogram",
+   "fal.ai",
+   "Replicate"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "好玩",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ }
+]

@@ -1,0 +1,243 @@
+[
+ {
+  "id": "open-meteo-api",
+  "name": "Open-Meteo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://open-meteo.com/",
+  "pricing_facts": "免费 10000 次/日（非商业用），无需 API Key、无需注册，商业版月套餐 $20-$1000+（核实于 2026-07）",
+  "china_facts": "国内可直接免费使用，无地域限制，非商业用完全无门槛",
+  "gotchas_facts": "商业用需付费订阅，免费版需标注 CC BY 4.0 许可证，部分高级预报数据商业版专享",
+  "fun_facts": "汇聚欧洲央行、德国气象局、美国国家气象局等 15+ 权威气象机构数据，开源可自托管",
+  "use_case_hint": "天气应用、农业气象、航空天气、能源预报、旅游规划工具",
+  "alternatives_hint": [
+   "OpenWeatherMap",
+   "WeatherAPI.com",
+   "Visual Crossing",
+   "Tomorrow.io"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开源",
+   "可自托管",
+   "国内可注册"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "rest-countries-api",
+  "name": "REST Countries API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://restcountries.com/",
+  "pricing_facts": "完全免费，无需认证，已被 apilayer 收购持续维护（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "无已知限制，但建议尊重服务器资源，不建议极端频繁调用",
+  "fun_facts": "覆盖 250+ ISO 国家代码，返回首都、人口、货币、语言、边界、时区等结构化数据，API 设计简洁",
+  "use_case_hint": "地理信息展示、国家选择下拉菜单、多国应用本地化、教育资源、国际电商平台",
+  "alternatives_hint": [
+   "Nominatim",
+   "Geonames",
+   "Google Maps API",
+   "Mapbox API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "nominatim-osm-api",
+  "name": "Nominatim (OpenStreetMap)",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://nominatim.org/",
+  "pricing_facts": "免费，个人/教育/小规模使用，限制 1 请求/秒，商业大规模应用需自建实例或使用付费服务（核实于 2026-07）",
+  "china_facts": "国内可使用，但大陆网络可能访问不稳定，建议使用国内镜像或自建实例",
+  "gotchas_facts": "禁止自动完成搜索、禁止网格反向地理编码、禁止爬虫、应用主功能不能是地理编码（需自建），必须提供 HTTP Referer 或 User-Agent",
+  "fun_facts": "OpenStreetMap 社区维护，开源可自托管完全避免 API 限制，地理数据覆盖全球且持续众包更新",
+  "use_case_hint": "地址搜索、反向地理编码、地图应用辅助、位置验证、送餐应用地址解析",
+  "alternatives_hint": [
+   "Google Geocoding API",
+   "Mapbox Geocoding",
+   "HERE Geocoding",
+   "自建 Nominatim"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开源",
+   "可自托管",
+   "需配DNS"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "ipinfo-api",
+  "name": "IPinfo API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://ipinfo.io/",
+  "pricing_facts": "免费版精度仅限国家级，基础版 $49/月 250K 查询，商业版 $90-∞/月（核实于 2026-07，2025 年大幅削弱免费版）",
+  "china_facts": "国内可注册，部分精准数据可能受地域限制，建议准备海外支付方式用于付费版",
+  "gotchas_facts": "2025 年免费版精度大幅下降，仅提供国家级地理信息，想要城市/运营商数据必须付费",
+  "fun_facts": "曾是业界最慷慨的免费 IP 定位 API，详细的 ASN 和运营商信息，适合企业地理定位需求",
+  "use_case_hint": "用户地理位置检测、内容本地化、欺诈检测、服务区域限制、CDN 节点选择",
+  "alternatives_hint": [
+   "MaxMind GeoIP2",
+   "IP2Location",
+   "GeoIP",
+   "Ipapi.co"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "frankfurter-api",
+  "name": "Frankfurter API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://frankfurter.dev/",
+  "pricing_facts": "完全免费，无配额限制（仅防滥用速率限制），开源可自托管（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "数据来自欧洲央行，仅包含主要货币兑换率，不支持加密货币",
+  "fun_facts": "欧洲央行官方汇率数据（权威可信），覆盖 84 家中央银行、201 种货币历史数据回溯至 1948 年，支持 JSON/CSV/NDJSON 多格式",
+  "use_case_hint": "外汇兑换计算、国际转账定价、财务报表、跨国电商定价、旅游成本估算",
+  "alternatives_hint": [
+   "ExchangeRate-API",
+   "Open Exchange Rates",
+   "Fixer.io",
+   "CurrencyAPI"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开源",
+   "可自托管"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "nasa-apis",
+  "name": "NASA APIs",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://api.nasa.gov/",
+  "pricing_facts": "完全免费，演示版本有限制，注册免费开发者 Key 后 1000 请求/小时，包含 APOD、Mars Rover、Earth Imagery 等多个子 API（核实于 2026-07）",
+  "china_facts": "国内可直接访问，无地域限制，无需海外卡或手机号，邮箱即可注册",
+  "gotchas_facts": "超限会被临时阻止 1 小时，Landsat 8 等某些数据需通过 EarthData 平台的 OAuth2 认证",
+  "fun_facts": "美国国家航空航天局官方数据，包含每日天文图片（APOD）、火星探测器照片、地球卫星影像、太阳数据等，数据量巨大且不断更新",
+  "use_case_hint": "天文科普应用、火星探险游戏、地球观测数据分析、教育课件、AR 天体展示",
+  "alternatives_hint": [
+   "ESA APIs",
+   "SpaceX API",
+   "Astronomy API",
+   "AstronomyAPI"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "pokeapi",
+  "name": "PokéAPI",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://pokeapi.co/",
+  "pricing_facts": "完全免费，无需 API Key，月流量 50+ 亿次，公平使用政策鼓励缓存（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "静态数据库，更新频率一般，大量请求建议缓存或下载本地数据集",
+  "fun_facts": "宝可梦官方授权数据库，覆盖 1000+ 宝可梦、招式、属性、特性等详细信息，粉丝应用和学习项目最爱",
+  "use_case_hint": "宝可梦扇展应用、游戏开发、卡牌管理工具、宝可梦百科、Discord 机器人插件",
+  "alternatives_hint": [
+   "PokemonTCG API",
+   "GraphQL Pokemon API",
+   "Pokemon REST API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "deck-of-cards-api",
+  "name": "Deck of Cards API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://deckofcardsapi.com/",
+  "pricing_facts": "完全免费，无需 API Key，无正式配额，简单公平使用政策（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "功能单一，仅支持标准 52 张牌（4 花色 13 等级），不支持定制牌组",
+  "fun_facts": "经典教学 API（新手神器），逻辑简单但完整，是学习 REST API 设计的优秀范例，可用于各类卡牌游戏原型",
+  "use_case_hint": "卡牌游戏、随机算法学习、德州扑克、魔术表演、教学演示",
+  "alternatives_hint": [
+   "Spoonacular Cards",
+   "自建卡牌系统",
+   "GameDBAPI"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "bored-api",
+  "name": "Bored API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://bored-api.appbrewery.com/",
+  "pricing_facts": "完全免费，无需 API Key，无明确配额限制（核实于 2026-07）",
+  "china_facts": "国内可直接使用，无地域限制，无需注册",
+  "gotchas_facts": "数据库规模中等，某些活动可能出现重复推荐，活动建议数据更新不频繁",
+  "fun_facts": "超有趣的无聊救星 API，包含教育、娱乐、社交、烹饪、放松等 7 大类活动，支持按人数/难度/价格过滤",
+  "use_case_hint": "打发时间应用、随机活动推荐器、派对游戏、创意启蒙、团队建设工具",
+  "alternatives_hint": [
+   "Numbers API",
+   "Advice Slip API",
+   "Fun Fact API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ }
+]

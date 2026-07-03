@@ -1,0 +1,246 @@
+[
+ {
+  "id": "aceternity-ui",
+  "name": "Aceternity UI",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://ui.aceternity.com",
+  "pricing_facts": "免费基础版包含所有核心组件(MIT许可可商用),All-Access Pass一次性付费$199(核实于 2026-07,未能确认具体数字,以官网为准)",
+  "china_facts": "完全免费版无需注册可直接使用,Pro版支持国内用户购买但需海外银行卡或Stripe支付渠道",
+  "gotchas_facts": "Pro版采用一次性付费模式而非订阅,包含高级组件和模板",
+  "fun_facts": "海量微交互和动画代码库,基于 React + Tailwind CSS + Framer Motion 构建,开箱即用的复制粘贴组件设计",
+  "use_case_hint": "构建现代化 SaaS 登陆页,创建高质感产品演示页,快速原型设计交互界面",
+  "alternatives_hint": [
+   "Magic UI",
+   "React Bits",
+   "Radix UI",
+   "Mantine"
+  ],
+  "suggested_tags": [
+   "付费",
+   "有免费额度",
+   "需海外银行卡",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "magic-ui",
+  "name": "Magic UI",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://magicui.design",
+  "pricing_facts": "100%开源免费,MIT许可,无付费版本(核实于 2026-07)",
+  "china_facts": "完全开源,无需注册无地域限制,国内可直接访问和使用,无任何付费/认证要求",
+  "gotchas_facts": "150+动画组件均为开源,代码完全归用户所有",
+  "fun_facts": "150+免费开源动画组件和特效,基于 React、TypeScript、Tailwind CSS、Framer Motion,完全遵循 shadcn/ui 的复制粘贴组件哲学,给予开发者完整代码所有权",
+  "use_case_hint": "为 Next.js 应用快速加入精致动画效果,构建现代登陆页,创建炫彩交互界面",
+  "alternatives_hint": [
+   "React Bits",
+   "Aceternity UI",
+   "Embla Carousel",
+   "shadcn/ui"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "cobe",
+  "name": "Cobe",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://cobe.vercel.app",
+  "pricing_facts": "完全免费开源,无商用限制(核实于 2026-07)",
+  "china_facts": "开源库,国内可直接使用,无注册要求,无地域限制",
+  "gotchas_facts": "只有5KB(压缩后),超轻量级但功能完整",
+  "fun_facts": "仅5KB WebGL 地球库,框架无关(支持 React/Vue/Svelte 等任何框架),低多边形地球设计,可自定义标记、交互和旋转效果",
+  "use_case_hint": "为个人网站/作品集添加酷炫3D地球,构建全球互动地图,创建创意着陆页背景",
+  "alternatives_hint": [
+   "Three.js",
+   "Babylon.js",
+   "react-globe.gl"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "冷门宝藏",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "tsparticles",
+  "name": "tsParticles",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://particles.js.org",
+  "pricing_facts": "完全免费开源,无付费版本(核实于 2026-07)",
+  "china_facts": "开源项目,国内可直接使用,无注册要求,无任何付费或认证障碍",
+  "gotchas_facts": "支持超过10种框架集成(React/Vue/Angular/Svelte等),模块化架构可灵活选择功能",
+  "fun_facts": "轻松创建高度可定制的粒子特效、烟火爆炸和焰火动画,框架无关,8830+ GitHub星,最新版本v4.3.0,每周更新",
+  "use_case_hint": "为网站背景添加动态粒子特效,创建庆祝动画和胜利特效,构建浸沉式交互体验",
+  "alternatives_hint": [
+   "canvas-confetti",
+   "rough.js",
+   "Anime.js"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "cmdk",
+  "name": "cmdk",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://cmdk.paco.me",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,无地域限制,无注册无付费,国内可直接npm install使用",
+  "gotchas_facts": "无样式(unstyled)设计,需自行使用 Tailwind/CSS-in-JS 完成样式",
+  "fun_facts": "快速、可访问、精简的命令面板(⌘K)组件,由Paco Coursey开发,被Linear、Raycast等多个知名产品采用,支持2000-3000+菜单项",
+  "use_case_hint": "为应用构建快捷命令面板,创建搜索导航菜单,实现⌘K快捷操作",
+  "alternatives_hint": [
+   "react-cmdk",
+   "Headless UI",
+   "Radix UI"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "sonner",
+  "name": "Sonner",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://github.com/emilkowalski/sonner",
+  "pricing_facts": "完全免费开源,MIT许可,无付费版本(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册要求,无任何付费或认证障碍",
+  "gotchas_facts": "仅2.5KB(压缩后),支持自定义位置、数量限制、快捷键绑定",
+  "fun_facts": "React 18+专用的轻量级 Toast 通知组件,2026年成为 shadcn/ui 生态的默认选择,内置动画和崩溃防护,GitHub星增长率最高",
+  "use_case_hint": "为应用添加优雅的通知提示,实现成功/错误/加载状态反馈,构建用户友好的反馈系统",
+  "alternatives_hint": [
+   "react-hot-toast",
+   "react-toastify",
+   "Vaul"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "vaul",
+  "name": "Vaul",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://vaul.emilkowal.ski",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,无地域限制,无注册无付费,国内可直接使用",
+  "gotchas_facts": "无样式组件,需使用 Tailwind/CSS-in-JS 自行定制样式",
+  "fun_facts": "为 React 设计的流畅抽屉组件,替代移动端的 Dialog,支持 Snap Points(捕捉点)、背景缩放、多方向抽屉,由Emil Kowalski(Sonner作者)开发",
+  "use_case_hint": "为移动应用创建滑出抽屉菜单,实现底部操作表单,构建响应式导航体验",
+  "alternatives_hint": [
+   "Radix UI",
+   "Headless UI",
+   "Mantine"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "embla-carousel",
+  "name": "Embla Carousel",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://www.embla-carousel.com",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,无地域限制,国内可直接使用,无注册无付费",
+  "gotchas_facts": "超轻量级(~7KB gzipped),不含样式,不包含可选行为(自动播放/分页等需单独安装插件)",
+  "fun_facts": "轻量级轮播库(仅7KB),零依赖,基于hooks,2026年被 shadcn/ui 选为官方轮播组件底层,周下载量82万次,流体动画和精准滑动",
+  "use_case_hint": "为产品展示构建流畅轮播,创建图片库和相册,实现响应式内容切换",
+  "alternatives_hint": [
+   "Swiper",
+   "Splide",
+   "React Slick"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "react-tweet",
+  "name": "react-tweet",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://react-tweet.vercel.app",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可使用但需翻墙访问Twitter/X获取数据,无注册无海外卡要求",
+  "gotchas_facts": "无需 Twitter API v2 调用,reverse-engineering Twitter embed API,避免了 560KB 的 iframe 负载",
+  "fun_facts": "无需 Twitter API 即可嵌入推文,大幅降低加载体积(相比 iframe 减少 560KB),v3.3.0 版本,由Vercel开发维护",
+  "use_case_hint": "在博客/文章中嵌入精选推文,展示产品评价和用户见证,聚合社交媒体内容",
+  "alternatives_hint": [
+   "Embeds.is",
+   "Tweet Embed API",
+   "Social Card"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ }
+]

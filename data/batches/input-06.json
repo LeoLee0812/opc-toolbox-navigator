@@ -1,0 +1,252 @@
+[
+ {
+  "id": "firebase-auth",
+  "name": "Firebase Auth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://firebase.google.com/docs/auth",
+  "pricing_facts": "Spark 计划（免费）：50K MAU，邮件/社交认证，50 个 SAML/OIDC 用户。Blaze 按用量计费：超过 50K MAU 后按 Google Cloud 定价（通常 $0.0055-$0.0025/MAU）；短信认证按国家市场价计费。(核实于 2026-07)",
+  "china_facts": "国内用户可注册 Google 账号后使用，无需海外支付方式注册免费版。但国内访问 Google 服务器延迟较高（2-5 秒）；短信认证国内定价相对较贵，国内手机号均支持。",
+  "gotchas_facts": "免费版无手机号认证；短信验证单独计费且国内成本高；超出 50K MAU 定价较复杂，需查阅 Google Cloud 价格表；与 Google Cloud 账户绑定有账户管理复杂性。",
+  "fun_facts": "Google 官方产品，深度集成 Google 生态（Gmail、Google Sign-In、Google Play 等），Spark 免费版额度充足，支持 OAuth 多个社交提供商，有中文文档支持，与 Firebase 其他服务无缝集成。",
+  "use_case_hint": "需要 Google 生态集成的应用、创意工具、简单的内容应用、使用 Firebase 其他服务（实时数据库、存储、云函数）的全栈应用。",
+  "alternatives_hint": [
+   "Supabase Auth",
+   "Clerk",
+   "Auth0",
+   "Better Auth"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "有中文"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "stytch",
+  "name": "Stytch",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://stytch.com",
+  "pricing_facts": "免费：10K MAU + AI Agent、无限组织、5 个 SSO/SCIM 连接、1K M2M 令牌。按需付费：$0.10/额外 MAU，$125/额外 SSO 连接，$0.005/欺诈检查（超 10K 免费额度后），去除品牌 $99/月。(核实于 2026-07)",
+  "china_facts": "国际服务，国内用户可注册但需要海外支付方式升级付费功能。国内访问延迟中等（1-2 秒）。国内手机号可用但短信费用可能较高。",
+  "gotchas_facts": "免费 10K MAU 较低（同类产品通常 50K），超出后成本较高（$0.10/MAU）；国际 SMS 短信费用（某些地区超 $1/条）由用户承担；需要海外支付卡升级功能。",
+  "fun_facts": "业界最强的无密码认证体验（Magic Link、Email Code、OTP、WebAuthn 等），所有用户都能用到所有认证方式（无特性锁定），欺诈防护能力强，2026 年新增 AI Agent 支持。",
+  "use_case_hint": "无密码登录优先的应用、金融/支付应用、安全敏感的产品、用户体验为首的消费级 SaaS。",
+  "alternatives_hint": [
+   "Clerk",
+   "Kinde",
+   "Auth0",
+   "WorkOS"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "kinde",
+  "name": "Kinde",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://kinde.com",
+  "pricing_facts": "免费：10,500 MAU。Pro $25/月：同样免费 10,500 MAU，超出按 $0.0175/MAU 计费，解锁 API Key/Webhook/自定义角色。Plus $75/月 与 Scale $250/月 提供 6-13% MAU 折扣。(核实于 2026-07)",
+  "china_facts": "新兴产品，国内用户可注册，文档中文支持情况未明确，建议直接咨询。升级付费功能需要海外支付方式。",
+  "gotchas_facts": "相对较新产品，社区和中文文档资源较成熟服务商少；平台费用 0.5-0.7%（用于 Kinde 计费功能）；免费额度 10,500 不如 Clerk/Supabase 的 50K。",
+  "fun_facts": "新兴 All-in-One 平台，集成认证 + 特性开关 + 用户分析 + 计费功能（不只是认证），友好的用户界面和仪表板，快速增长的社区推荐，相对便宜的超额 MAU 定价（$0.0175/MAU）。",
+  "use_case_hint": "需要认证 + 特性开关 + 分析的初创 SaaS、想要一体化平台的小团队、成长型应用。",
+  "alternatives_hint": [
+   "Clerk",
+   "Stytch",
+   "Better Auth",
+   "Firebase Auth"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "supertokens",
+  "name": "SuperTokens",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://supertokens.com",
+  "pricing_facts": "开源免费自托管（无 MAU 限制）。云服务：首 5K MAU 免费，$0.02/MAU（最低 $100/月）。高级功能（MFA、Account Linking）$0.01 或 $0.005/MAU，每项最低 $100/月。体积折扣：10K+ MAU 或 5+ 组织获得优惠。(核实于 2026-07)",
+  "china_facts": "开源项目，国内开发者可自托管无任何限制。GitHub 代码公开，支持完整本地化，无需海外银行卡或海外手机号。国内企业可部署在国内云厂商（阿里云/腾讯云/华为云）。",
+  "gotchas_facts": "如选云服务，相对较高的最低 $100/月门槛；自托管需自行管理服务器和数据库；社区支持而非企业级 SLA；需要一定的技术能力。",
+  "fun_facts": "开源替代 Auth0/Firebase 的方案，Apache 2.0 License，自托管也支持托管服务灵活切换，完整认证功能（email/social/passwordless/MFA/RBAC），价格透明无隐藏费用，国内开发者友好。",
+  "use_case_hint": "需要开源灵活性的应用、成本敏感型初创、想从头控制认证流程的团队、国内独立开发者、有合规要求的企业应用。",
+  "alternatives_hint": [
+   "Better Auth",
+   "FusionAuth",
+   "Clerk",
+   "Auth0"
+  ],
+  "suggested_tags": [
+   "免费",
+   "开源",
+   "付费",
+   "开发者友好",
+   "可自托管",
+   "国内可注册"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "fusionauth",
+  "name": "FusionAuth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://fusionauth.io",
+  "pricing_facts": "社区版（免费）：自托管无限用户，核心认证功能。Starter $162/月（年付）：10K 用户，高级 MFA。Essentials $2,970/月（年付）：SSO、SCIM、安全功能。Enterprise $2,970/月（年付）：所有功能 + 24/7 支持。(核实于 2026-07)",
+  "china_facts": "开源项目和商业支持并行，国内用户可自托管无任何限制。支持国内数据库部署（MySQL/PostgreSQL），合规友好，可部署在国内云厂商。",
+  "gotchas_facts": "社区版需自行维护和支持；付费版定价相对较高（$2,970 起月费）；面向企业级应用；社区版有支持但无官方 SLA。",
+  "fun_facts": "老牌认证解决方案，企业级功能完整（SSO、SCIM、Audit Log、自定义主题），社区版完全免费功能强大无人数限制，支持自托管和云部署灵活选择，API 和主题定制能力强大。",
+  "use_case_hint": "企业应用、需要完整 SSO 的 B2B、自托管需求的产品、高度定制的认证系统、有合规审计需求的行业。",
+  "alternatives_hint": [
+   "SuperTokens",
+   "Better Auth",
+   "Keycloak",
+   "Auth0"
+  ],
+  "suggested_tags": [
+   "免费",
+   "开源",
+   "付费",
+   "开发者友好",
+   "可自托管"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "hsbc-hong-kong-account",
+  "name": "HSBC 汇丰香港One账户",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.hsbc.com.hk/zh-cn/accounts/products/one/",
+  "pricing_facts": "2026年1月1日前开户免费终身。2026年1月1日后新户:若连续3个月平均账户总值<10000港币,月费100港币;≥10000港币则免费。无开户费(核实于2026-07)",
+  "china_facts": "中国内地居民可线上申请,需有效港澳通行证(6个月以上有效期),需在90天内赴香港激活账户。支持港币、美元、人民币等多币种。国内可关联内地银行卡入金(核实于2026-07)",
+  "gotchas_facts": "新户若不想赴港激活无法开户;2026年新政后月费成为客户流失主要原因;账户若闲置需定期维持最低存款以避免手续费;长期未使用可能被冻结",
+  "fun_facts": "香港本地银行,安全性高,HSBC生态内可联动信用卡、投资账户;提供HSBCPay等便民功能;资产规模全球顶级;支持离岸人民币(CNH)账户用于套利",
+  "use_case_hint": "做港股美股投资、跨境电商、国际转账收款、资产保护和离岸资产配置",
+  "alternatives_hint": [
+   "ZA Bank",
+   "中银香港",
+   "渣打银行香港",
+   "OCBC新加坡"
+  ],
+  "suggested_tags": [
+   "需海外手机号",
+   "国内可注册",
+   "有中文",
+   "需赴港激活",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "za-bank-hong-kong",
+  "name": "ZA Bank 众安银行",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://www.zabank.hk/",
+  "pricing_facts": "完全免费:无开户费、无账户管理费、无年费、无最低存款要求。定期存款起存仅1港币。实时外汇兑换0手续费(核实于2026-07,开户奖励最高2026港币至2026-07-01)",
+  "china_facts": "内地居民仅需身份证原件、内地手机号、内地银行储蓄卡、港澳通行证出入境记录,无需赴港即可线上5分钟完成开户。完全支持国内用户远程申请(核实于2026-07)",
+  "gotchas_facts": "作为虚拟银行,提现速度可能不如传统银行;卡片需等待邮寄;某些境外商户可能不支持ZA Card;客服仅英文或粤语,无普通话",
+  "fun_facts": "香港首家虚拟银行,极简体验,5分钟完全开户无门槛;支持港元、美元、人民币三币种即时兑换;0汇率差;定期存款利率相对较高;支持保险、加密交易等金融服务;2026年股票佣金0费率",
+  "use_case_hint": "急速开港币账户、多币种兑换、港股美股零佣金交易、定期存款理财、小额跨境转账",
+  "alternatives_hint": [
+   "HSBC",
+   "Revolut",
+   "Wise",
+   "DBS虚拟银行"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "新手友好",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "mercury-us-bank",
+  "name": "Mercury 美国商业银行",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://mercury.com/",
+  "pricing_facts": "无开户费、无账户维护费、无最低存款要求。ACH转账免费,国内汇款5美元/笔,国际汇款20美元/笔,虚拟卡免费。与两家FDIC保险银行合作,最高保护$5M(核实于2026-07)",
+  "china_facts": "支持非美国居民和非美国公民开户,无需SSN。支持BVI、开曼、泽西、阿联酋、巴哈马、百慕大、新加坡注册的公司。中国人需先注册美国公司(LLC或C-Corp)再申请(核实于2026-07)",
+  "gotchas_facts": "不支持虚拟货币、成人内容、大麻等行业;银行合规审核严格;提现速度依赖SWIFT;汇率可能存在点差;初期可能面临临时冻结以进行合规检查",
+  "fun_facts": "为美国初创和中小企业专属设计,审批快速;支持自动化批量支付;提供虚拟卡用于订阅管理;集成Stripe、PayPal等支付网关;实时账户监控仪表板;仪表板UI简洁友好",
+  "use_case_hint": "美国公司收款、供应商支付、订阅管理、工资发放、跨境企业转账",
+  "alternatives_hint": [
+   "Square Cash",
+   "Stripe Treasury",
+   "Brex",
+   "Wise Business"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "国内可注册",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ },
+ {
+  "id": "wise-multi-currency",
+  "name": "Wise 多币种账户",
+  "part": "出海生存工具箱",
+  "category": "银行 & 身份 & 公司",
+  "status": "active",
+  "official_url": "https://wise.com/zh-cn/account/",
+  "pricing_facts": "开户完全免费,无账户维护费、无最低存款。汇率手续费从0.35%起(周末可能加费),交易手续费按类型:国际转账1-3美元+汇率费,提现1-2美元+汇率费,货币兑换0.35%起(核实于2026-07)",
+  "china_facts": "2025年起内地用户可用居民身份证直接验证开户,无需护照。但人民币入金受限,需通过港币、美元等第三方币种中转,港币入金完全无损。可关联国内银行卡出金但费用较高(核实于2026-07)",
+  "gotchas_facts": "人民币直接入金和充值不支持,需港币等转中间币种;某些国内银行可能风控提现;提现速度3-5工作日;大额转账需提供资金来源说明;额度限制每年人民币等值50万美元",
+  "fun_facts": "真实汇率转换,比银行和其他平台便宜30-50%;一个账户支持40+种货币;即时到账多数币种;全球16个国家可获取本地IBAN账号;手机App体验极佳;与148个国家银行合作",
+  "use_case_hint": "跨境转账、多币种存储、国际收款、远程工作工资收取、个人留学生汇款",
+  "alternatives_hint": [
+   "Revolut",
+   "Mercury",
+   "PayPal",
+   "OFX"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "国内可注册",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "banking"
+ }
+]

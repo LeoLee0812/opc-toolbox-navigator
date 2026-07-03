@@ -1,0 +1,247 @@
+[
+ {
+  "id": "amplitude",
+  "name": "Amplitude",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://amplitude.com/pricing",
+  "pricing_facts": "永久免费:10K MTU(月度活跃用户)、2M 月度事件,全平台功能(分析、会话回放、实验、问卷等)。Plus $99+/月:按使用量扩展。Growth/Enterprise 按需定制。申请学生/早期创业基金可获 1 年免费 Growth 计划。(核实于 2026-07)",
+  "china_facts": "官网可访问。中国用户可注册。免费层无需支付。付费需国际支付方式。(核实于 2026-07)",
+  "gotchas_facts": "定价基于 MTU(月度活跃用户),单个高频用户可占用大量 MTU 配额;超出 10K MTU 后自动升级至 Plus;Plus 版本按使用量滑动定价,成本透明但可快速增长;数据出口需额外协议。",
+  "fun_facts": "产品分析业界标杆;会话回放、A/B 测试、特性实验、AI 反馈分析、AI 智能体一应俱全;Slack/Webhook 集成;强大的用户分群和留存分析;学生创业基金申请 1 年免费。",
+  "use_case_hint": "成长期 SaaS/App:用户增长追踪、转化分析、A/B 测试优化、用户行为深度分析。",
+  "alternatives_hint": [
+   "Mixpanel",
+   "PostHog",
+   "Heap",
+   "OpenPanel"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "AI能力"
+  ],
+  "is_addition": true,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "heap",
+  "name": "Heap",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://www.heap.io/pricing",
+  "pricing_facts": "免费:10K 月度会话、核心分析图表、6 个月数据留存。Growth/Pro/Premier 按需报价,需联系销售。大多数用户反馈 Growth 版约 $1000/月起,按会话量和功能需求定制。(核实于 2026-07,未能确认具体数字)",
+  "china_facts": "官网可访问。中国用户可注册。免费层无需支付。付费需国际支付方式。(核实于 2026-07)",
+  "gotchas_facts": "免费层仅 10K 月度会话(会话定义可能广泛);超出后需联系销售定价,无公开透明价格;年度合约要求;用户普遍反馈'超额成本陡增';数据导出有限制。",
+  "fun_facts": "无需代码的自动事件捕获(所有点击、表单交互自动追踪);强大的会话回放和漏斗分析;支持 Sense AI 智能发现;Slack 集成;账户分析用于 B2B。",
+  "use_case_hint": "无开发资源的产品团队、需要会话回放和自动事件捕获的 B2B SaaS。",
+  "alternatives_hint": [
+   "PostHog",
+   "Mixpanel",
+   "Amplitude",
+   "FullSession"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "待核实"
+  ],
+  "is_addition": true,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "fathom-analytics",
+  "name": "Fathom Analytics",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://usefathom.com/pricing",
+  "pricing_facts": "无永久免费层,仅 7 天免费试用。$14/月(100K 月均页面浏览)、$24/月(500K)、$34/月(2M)。按月均浏览阶梯定价。每增加 100K 页面浏览 +$5/月。年付享 14% 折扣。(核实于 2026-07)",
+  "china_facts": "官网可访问。中国用户可注册试用,7 天后需支付。付费需国际信用卡。(核实于 2026-07)",
+  "gotchas_facts": "无永久免费层,必须付费;按页面浏览阶梯定价,灵活性强但透明度高;不支持深度事件追踪,仅页面级分析;UI 较简洁,高级分析功能较少。",
+  "fun_facts": "隐私优先(欧盟托管,加拿大公司);无 Cookie,GDPR/CCPA 天然合规;轻量级脚本(< 1KB);极简清洁 UI;适合中小网站;代理商计划 50% 返佣。",
+  "use_case_hint": "隐私敏感的独立网站、欧盟企业、不需要深度事件追踪的简单网站分析。",
+  "alternatives_hint": [
+   "Plausible",
+   "Umami",
+   "Matomo",
+   "PostHog"
+  ],
+  "suggested_tags": [
+   "付费",
+   "隐私友好",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "hotjar",
+  "name": "Hotjar",
+  "part": "独立开发 SaaS 积木",
+  "category": "分析 & 增长 & 变现",
+  "status": "active",
+  "official_url": "https://www.hotjar.com/pricing",
+  "pricing_facts": "免费:200K 月度会话(仅 5% 被录制成回放,最多 10K 回放)、热力图、基础问卷。Growth $49/月(年付 $588/年含年折):100 日均会话、1 年数据留存。Pro/Business 按需报价。无限座位成本。(核实于 2026-07)",
+  "china_facts": "官网可访问。中国用户可注册免费层。付费需国际信用卡。(核实于 2026-07)",
+  "gotchas_facts": "免费层会话录制上限严苛(200K 月度的仅 5%);2025 年被 Contentsquare 收购后产品架构调整,功能分拆为 DXA/VoC/PA 三个产品;涨价压力大(收购后价格有上调迹象);高级功能需多个产品组合。",
+  "fun_facts": "会话录制和热力图双结合,理解用户行为直观;问卷、反馈、转化漏斗一体化;支持移动 App 分析;新产品架构允许模块化选择;年付享 20% 折扣。",
+  "use_case_hint": "电商、SaaS 需要理解用户行为、优化转化率的产品团队;用户行为热力图+会话回放精准定位问题。",
+  "alternatives_hint": [
+   "PostHog",
+   "FullSession",
+   "Clarity",
+   "Logrocket"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "好玩",
+   "待核实"
+  ],
+  "is_addition": true,
+  "_research_key": "analytics-growth"
+ },
+ {
+  "id": "clerk",
+  "name": "Clerk",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://clerk.com",
+  "pricing_facts": "免费：50,000 MRU(月活跃用户)，无需信用卡。Pro 计划 $20/年或 $25/月，包含 50K MRU、企业连接、MFA、去除品牌。超出 50K MRU 后按 $0.02/个计费，有阶梯折扣。(核实于 2026-07)",
+  "china_facts": "可国内注册但服务器在海外，访问速度受网络影响。暂不直接支持微信 OAuth，需自定义集成。SMS 认证美国/加拿大 $0.01/条，国际市场价。升级付费功能需海外支付方式。",
+  "gotchas_facts": "国内用户升级付费计划需要海外银行卡；若需微信登录需自行集成；SMS 认证成本国家间差异大；国内访问可能受网络限制。",
+  "fun_facts": "50K 免费用户额度业界较高，无限应用数量，每个计划包含三个仪表板席位，开发者友好的 React 组件库和快速集成，产品体验一流。",
+  "use_case_hint": "创建 SaaS 应用、内部工具、移动应用等需要现代化用户认证的产品；特别适合前端开发者优先的项目。",
+  "alternatives_hint": [
+   "Supabase Auth",
+   "Auth0",
+   "Firebase Auth",
+   "Better Auth"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "supabase-auth",
+  "name": "Supabase Auth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://supabase.com/auth",
+  "pricing_facts": "免费：50,000 MAU，500MB 数据库，1GB 存储，5GB 流量。Pro $25/月包含 100K MAU，$0.00325/额外 MAU。高级 MFA $75/月。Team $599/月提供更高限额和 28 天审计日志。(核实于 2026-07)",
+  "china_facts": "支持手机号登录，可与阿里云 SMS 集成以支持国内短信。国内用户可直接使用但服务器在海外，可能存在网络延迟 1-3 秒。无需海外银行卡即可注册免费版。",
+  "gotchas_facts": "免费版无日备份、无 SLA、无 SSO、无泄露密码保护；免费项目闲置一周后自动暂停；需配置 SMS 提供商才能使用手机认证；超期需要信用卡升级。",
+  "fun_facts": "PostgreSQL 数据库 + Auth 一体化，支持国内短信集成方案，开源友好有 GitHub 代码，有中文文档资源和社区支持，实时数据库功能强大。",
+  "use_case_hint": "需要后端数据库的全栈应用、实时应用、需要国内短信验证场景、优先考虑数据库方案的项目。",
+  "alternatives_hint": [
+   "Clerk",
+   "Firebase Auth",
+   "Auth0",
+   "Better Auth"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开源",
+   "开发者友好",
+   "有中文"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "auth0",
+  "name": "Auth0",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://auth0.com",
+  "pricing_facts": "免费：25,000 MAU，无限社交连接，基础攻击保护。B2C Essentials $35/月（500 MAU起），Professional $240/月。B2B Essentials $150/月，Professional $800/月。年度计费优惠相当于赠送 1 个月。(核实于 2026-07)",
+  "china_facts": "国内用户可注册但访问响应时间约 2.7 秒。不支持微信/支付宝等国内第三方登录，不支持国内云厂商部署（仅 AWS/Azure）。升级付费功能需要海外支付方式。",
+  "gotchas_facts": "免费版无 MFA、无 RBAC、无高级攻击防护；B2B 功能与 B2C 分开定价可能产生费用叠加；国内访问延迟较高；文档中文资源不足。",
+  "fun_facts": "业界标准级解决方案，OAuth 提供商集成最丰富（500+），企业级功能完整成熟，2026 年新增 AI Agent 支持，产品体验和文档详尽。",
+  "use_case_hint": "需要企业级 SSO、复杂权限管理、多个 OAuth 提供商的产品；B2B SaaS 应用；对标准化有高要求的团队。",
+  "alternatives_hint": [
+   "Stytch",
+   "WorkOS",
+   "Okta",
+   "SuperTokens"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "workos",
+  "name": "WorkOS",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://workos.com",
+  "pricing_facts": "AuthKit 用户管理：首 1 百万 MAU 免费，之后每 100 万 MAU $2,500/月。SSO/Directory Sync：首 1-15 个连接 $125/个，16-30 个 $100/个，31-50 个 $80/个，递减至 101+ 个 $50/个。Audit Logs $125/月 + $99/月/100 万事件。(核实于 2026-07)",
+  "china_facts": "企业级服务，国内用户可注册但主要面向国际用户。部署支持 AWS/Azure，未明确支持国内云部署。升级付费功能需要海外支付方式。",
+  "gotchas_facts": "免费额度仅适用 AuthKit（基础认证），SSO/Directory 需付费连接；Audit Log 等高级功能有额外费用；面向企业级应用不适合个人开发者初期使用；1M MAU 免费额度超出后成本高。",
+  "fun_facts": "1 百万免费用户额度业界最慷慨，企业级 SSO/Directory Sync 解决方案完整，支持多租户应用的身份管理，与 Slack/Salesforce 等企业工具集成良好。",
+  "use_case_hint": "为企业客户提供 SSO 的 B2B SaaS、多租户平台、企业应用、需要员工目录同步的产品。",
+  "alternatives_hint": [
+   "Stytch",
+   "Auth0",
+   "Okta",
+   "SuperTokens"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ },
+ {
+  "id": "better-auth",
+  "name": "Better Auth",
+  "part": "独立开发 SaaS 积木",
+  "category": "认证 & 用户",
+  "status": "active",
+  "official_url": "https://better-auth.com",
+  "pricing_facts": "核心框架完全开源免费，MIT License，无用户数量限制。自托管仅需支付数据库费用（PostgreSQL $25-50/月）。可选管理服务面板、审计日志等增值功能额外计费。(核实于 2026-07)",
+  "china_facts": "开源项目，国内开发者可直接使用无任何限制。GitHub 代码公开访问，支持完整本地化和二次开发。无需海外银行卡或海外手机号，完全国内可用。",
+  "gotchas_facts": "虽然开源免费但无官方托管免费版；需自行管理数据库和服务器；社区支持而非商业支持 SLA；需要一定的部署运维能力。",
+  "fun_facts": "现代化 TypeScript 优先认证框架，插件系统灵活可扩展，技术栈先进，社区推荐度高（Reddit/HN 常见顶帖），与 Auth.js 血缘相近但更活跃开发，支持完整认证流程（MFA、SSO、RBAC）。",
+  "use_case_hint": "自托管应用、追求完全控制权的开发者、需要深度定制认证逻辑的产品、成本优先的初创企业。",
+  "alternatives_hint": [
+   "SuperTokens",
+   "FusionAuth",
+   "Auth.js",
+   "Clerk"
+  ],
+  "suggested_tags": [
+   "免费",
+   "开源",
+   "开发者友好",
+   "可自托管",
+   "国内可注册"
+  ],
+  "is_addition": false,
+  "_research_key": "auth"
+ }
+]

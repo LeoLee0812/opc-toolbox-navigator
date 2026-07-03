@@ -1,0 +1,244 @@
+[
+ {
+  "id": "ideogram",
+  "name": "Ideogram",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://ideogram.ai",
+  "pricing_facts": "网页版：Free 10额度/周，Basic $8/月400额度，Plus $20/月1000额度。API独立定价 $0.03/张（按需购买无订阅）。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册免费层，API付费需国际卡，网页版和API价格差异大（20倍）",
+  "gotchas_facts": "免费额度生成结果必须公开，API价格极贵（$0.03/张 vs 订阅 $0.002/张）；月度额度不滚存",
+  "fun_facts": "**文字渲染最好**：Ideogram最擅长在图像中生成准确文字，设计师最爱；3周生成3亿张图像说明用户基数大；支持最新扩展像素功能",
+  "use_case_hint": "海报设计、UI/UX视觉、社交媒体内容、印刷品、任何需要文字的设计",
+  "alternatives_hint": [
+   "Midjourney",
+   "DALL-E",
+   "Flux",
+   "Stable Diffusion"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "suno",
+  "name": "Suno",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://suno.com",
+  "pricing_facts": "**官方无公开API**。网页版：Free 50额度/天≈10首/天，Pro $10/月2500额度，Premier $30/月10000额度。第三方API提供商代管账户另付费。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册网页版，无需支付工具享受免费层，但无法获商用权",
+  "gotchas_facts": "官方没有开发者API，只有Web应用；Free层完全无商用权；第三方API风险高（账号管理不透明）",
+  "fun_facts": "**AI音乐天花板**：支持Suno v5.5最新引擎，生成质量接近专业制作；可跳过歌词直接输入音乐风格；50额度/天相当于10首原创音乐",
+  "use_case_hint": "YouTube背景音乐、游戏BGM、播客开场曲、短视频配乐、品牌音频品牌",
+  "alternatives_hint": [
+   "Udio",
+   "Mubert",
+   "AIVA",
+   "Soundraw"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "好玩",
+   "待核实"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "udio",
+  "name": "Udio",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.udio.com",
+  "pricing_facts": "Free 100额度/月（10额度/天）≈1-3首/天。Standard $10/月2400额度，Pro $30/月6000额度。额度按需购买 $3/100或 $25/1000永不过期。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，免费层可完整使用，付费需国际支付方式",
+  "gotchas_facts": "月额度不滚存，月末作废；免费层有每日上限；付费额度和订阅额度管理分开",
+  "fun_facts": "**免费层最慷慨**：100额度/月相比Suno免费层更多控制；支持Extend/Remix/Cover等高级功能；可直接用语音旋律创作而非只有文字",
+  "use_case_hint": "AI音乐创作、DJ混音、歌曲翻唱、音乐教育、短视频配乐",
+  "alternatives_hint": [
+   "Suno",
+   "AIVA",
+   "Mubert",
+   "Soundraw"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "付费",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "hume-ai",
+  "name": "Hume AI",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.hume.ai",
+  "pricing_facts": "Free 10000字/月。Starter $3/月30K字，Creator $14/月开启商用。API 音频Only $0.0639/分钟，视频+音频 $0.0828/分钟。缓存折扣50%。2025年10月 Octave 2降价50%。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，API需国际支付方式，但免费层字符额度足够测试",
+  "gotchas_facts": "字符计费模式，长音频转录消耗快；API和Web版本分开计费；情感分析需专业API端点",
+  "fun_facts": "**唯一情感感知TTS**：Octave 2能识别文本情感并调整语气语速，不是机械合成；EVI支持实时对话中的情感反应；成本随Octave 2降50%已显著改善",
+  "use_case_hint": "情感化客服AI、心理咨询机器人、教育交互系统、游戏NPC对话、治疗应用",
+  "alternatives_hint": [
+   "ElevenLabs",
+   "Google TTS",
+   "Deepgram Aura",
+   "AWS Polly"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "perplexity-api",
+  "name": "Perplexity API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://docs.perplexity.ai",
+  "pricing_facts": "**无免费API层**。Sonar API 按量 $1/$1(Base)~$3/$15(Pro) per 1M令牌。Sonar Pro含实时网络搜索。Request fee $5-$14/1K。Pro订阅($20/月)曾包 $5 API额度但已于2026年初取消。（核实于 2026-07）",
+  "china_facts": "需海外支付方式开通API，国内邮箱可注册但需实名验证",
+  "gotchas_facts": "**API无免费层**直接付费；Request Fee额外计费使总成本升高；已取消Pro订阅API福利",
+  "fun_facts": "**联网搜索AI**：Sonar Pro可实时网络搜索回答最新信息，不只用本地训练数据；性能在长上下文理解上表现好；价格在同类产品中居中",
+  "use_case_hint": "实时信息查询、研究论文搜索、新闻聚合、事实验证、深度问答系统",
+  "alternatives_hint": [
+   "OpenRouter",
+   "Anthropic API",
+   "Google Gemini API",
+   "Together AI"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "待核实"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "firecrawl",
+  "name": "Firecrawl",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://www.firecrawl.dev",
+  "pricing_facts": "Free 1000点数（一次性，非月度），Hobby $16/月，Standard $83/月，Growth $333/月，Scale $599/月。Scrape/Crawl/Map/Monitor各1额度/页，Search 2/10结果。额度月度不滚存。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，免费额度无需支付即可使用，付费需国际卡",
+  "gotchas_facts": "免费额度**一次性**不是月度（易被误导）；月额度不滚存损失浪费；Stealth Mode每页5额度价格贵",
+  "fun_facts": "**冷门Web爬虫宝藏**：支持JavaScript渲染（不是纯HTML），能爬SPA和动态网站；Stealth Mode躲避反爬；Map/Search功能独有（网站地图生成和搜索）",
+  "use_case_hint": "网站爬取、SEO分析、价格监控、竞对追踪、数据挖掘AI管道前置",
+  "alternatives_hint": [
+   "ScrapingBee",
+   "Bright Data",
+   "Apify",
+   "Oxylabs"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "hugging-face-inference",
+  "name": "Hugging Face Inference API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://huggingface.co/inference-api",
+  "pricing_facts": "Serverless Inference API 免费层有限制，$0.10/月额度。Inference Endpoints $0.03/小时(CPU)起，$0.50/小时(GPU)起。PRO $9/月/用户含更高ZeroGPU额度。（核实于 2026-07）",
+  "china_facts": "国内邮箱可注册，免费Inference API直接使用，Endpoints付费需支付方式",
+  "gotchas_facts": "免费API速率限制严格，不适生产；Endpoints需手动启停管理成本；ZeroGPU社区共享资源不稳定",
+  "fun_facts": "**最大模型库**：2M+预训练模型、500K+数据集、1M+Spaces。免费API虽然慢但能直接调用Llama/Qwen等开源模型；Inference Endpoints可Scale-to-Zero降成本",
+  "use_case_hint": "原型测试开源模型、生产级开源模型部署、模型微调、多模型聚合",
+  "alternatives_hint": [
+   "Together AI",
+   "Replicate",
+   "RunwayML",
+   "Modal"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "新手友好",
+   "可自托管"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "anthropic-claude",
+  "name": "Anthropic Claude API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://platform.claude.com",
+  "pricing_facts": "按量付费无订阅。Opus 4.8 $5/$25 per 1M令牌，Sonnet 4.6 $3/$15，Haiku 4.5 $1/$5。Batch处理50%折扣，提示缓存90%折扣。Fable 5/$Mythos 5 $10/1M。（核实于 2026-07）",
+  "china_facts": "需海外支付方式，无中国区服务，但国内邮箱可注册",
+  "gotchas_facts": "无免费层（直接付费）；输出令牌成本是输入5倍；Opus 4.8速度慢但成本高",
+  "fun_facts": "**最长上下文**：Opus 4.8/Sonnet 4.6支持200万令牌，业界之最；Prompt Caching一次缓存永远便宜；Batch API极度便宜（夜间处理）",
+  "use_case_hint": "长文档分析、复杂推理、代码生成、多轮对话系统、数据提取管道",
+  "alternatives_hint": [
+   "OpenRouter",
+   "Google Gemini API",
+   "OpenAI API",
+   "Mistral API"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ },
+ {
+  "id": "google-gemini",
+  "name": "Google Gemini API",
+  "part": "API & SDK 灵感库",
+  "category": "AI 能力 API",
+  "status": "active",
+  "official_url": "https://ai.google.dev",
+  "pricing_facts": "Free Flash models 30请求/分钟（2026年4月Pro模型移除免费层）。3.5 Flash $1.50/$9 per 1M，3.1 Pro $2/$12，Flash-Lite $0.25/$1.50。缓存50%折扣。超过20K context加价。（核实于 2026-07）",
+  "china_facts": "免费层可国内注册使用，付费需支付方式验证，某些区域API可用性不稳定",
+  "gotchas_facts": "2026年4月重大改动：Pro模型从免费移至付费；启用billing后免费层消失；高context令牌价格上升",
+  "fun_facts": "**多模态能力强**：支持视频、图像、文本混合输入，视频理解优秀；1M令牌上下文；Gemini 3.5 Flash速度快便宜",
+  "use_case_hint": "图像识别、视频分析、多模态理解、AI助手、OCR和文档处理",
+  "alternatives_hint": [
+   "Anthropic API",
+   "OpenRouter",
+   "Together AI",
+   "Mistral API"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "ai-api"
+ }
+]

@@ -1,0 +1,245 @@
+[
+ {
+  "id": "courier",
+  "name": "Courier",
+  "part": "独立开发 SaaS 积木",
+  "category": "邮件 & 通知 & 客服",
+  "status": "active",
+  "official_url": "https://www.courier.com/",
+  "pricing_facts": "免费: 10000 通知/月(所有渠道); 按量付费模式(具体价格需官网查询); 云端和自托管选项均可用; 核实于 2026-07",
+  "china_facts": "支持国际注册,需要信用卡,国内用户可注册,云服务基础设施海外,建议用于全球用户应用",
+  "gotchas_facts": "定价具体细节需查官网(未能从搜索结果获得完整信息),按量付费模式需精确计算成本",
+  "fun_facts": "API-first 多渠道通知路由平台(邮件、推送、SMS、应用内、Chat),预构建通知中心组件,可视化旅程编辑,偏好管理,无供应商锁定,融资 $35M 支持持续创新",
+  "use_case_hint": "多渠道通知编排,需要无锁定方案的大型应用,对路由能力有要求的企业",
+  "alternatives_hint": [
+   "Novu",
+   "Knock",
+   "OneSignal"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开发者友好",
+   "待核实"
+  ],
+  "is_addition": true,
+  "_research_key": "messaging-support"
+ },
+ {
+  "id": "stripe",
+  "name": "Stripe",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://stripe.com/pricing",
+  "pricing_facts": "无月费、无设置费。国际卡交易 3.4% + $0.50;国际卡额外 +0.5%;货币转换 +2%。无免费额度,按交易计费。(核实于 2026-07)",
+  "china_facts": "不支持大陆个人/公司直接开户。中国用户需通过香港或新加坡账户使用 Stripe。注册无需银行卡,但提现时需绑定相应国家真实银行账户。(核实于 2026-07)",
+  "gotchas_facts": "拒付费 $15/次(不可退);货币转换费用额外 1-2%;对中国市场支持有限,需海外银行账户才能真正使用。",
+  "fun_facts": "支持 135+ 货币和 100+ 支付方式;无上限 API 调用;Stripe 雷达欺诈检测免费;全球范围内企业信任的支付基础设施;与 Stripe Atlas 无缝集成。",
+  "use_case_hint": "适合需要全球支付接入、多货币交易的国际 SaaS;也适合与 Stripe Atlas 联动做公司注册。",
+  "alternatives_hint": [
+   "Paddle",
+   "Lemon Squeezy",
+   "Polar",
+   "Creem"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "开发者友好",
+   "AI能力"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "paddle",
+  "name": "Paddle",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.paddle.com/pricing",
+  "pricing_facts": "5% + $0.50 每笔交易,无月费,无隐藏费用。商品价格 <$10 可联系定制。实际成本约 7%,因为还要考虑货币转换和国际复杂性。(核实于 2026-07)",
+  "china_facts": "官网未明确说明中国限制。作为商户代理(MoR),全球税务合规已内置。中国用户可能可以注册,但提现需国际银行账户。(核实于 2026-07,未能确认具体中国政策)",
+  "gotchas_facts": "实际费率因货币和交易类型可能高达 7%;Paddle Retain 恢复功能按恢复金额的 10-15% 收费;大额客户(>$100K 月收入)可能获得更低定价。",
+  "fun_facts": "全球一站式解决方案:支付 + 税务合规 + 欺诈防护 + 退款保障;自动处理 VAT、销售税;充当商户代理,创建者无需担心法律问题。",
+  "use_case_hint": "适合需要全球税务自动化处理的 SaaS 和数字产品销售;免除跨域税务合规困扰。",
+  "alternatives_hint": [
+   "Stripe",
+   "Lemon Squeezy",
+   "Polar",
+   "Creem"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "需海外银行卡",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "lemon-squeezy",
+  "name": "Lemon Squeezy",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.lemonsqueezy.com/pricing",
+  "pricing_facts": "统一定价:5% + $0.50 每笔交易。无月费。国际交易额外 +1.5%,PayPal 额外 +1.5%,订阅额外 +0.5%。$5 商品实际费率 15%,$50 商品 6%。(核实于 2026-07)",
+  "china_facts": "官网未明确提及中国支持或限制。中国用户能否直接注册不确定。建议联系官方确认。(核实于 2026-07,未能确认具体数字)",
+  "gotchas_facts": "费率随交易额度有较大差异;小额商品(如 $5 以下)费率可达 15%;平台不可退费(退款时平台费 10% 不返还);无定制化企业价格。",
+  "fun_facts": "不收月费,完全按交易计费;无限产品数、客户数、文件存储;支持订阅、许可证生成、多渠道支付;创建者门槛低,快速上手。",
+  "use_case_hint": "适合初创开发者快速销售数字产品、SaaS;小型独立开发者的首选(相比 Paddle 费率更透明)。",
+  "alternatives_hint": [
+   "Paddle",
+   "Polar",
+   "Creem",
+   "Gumroad"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "新手友好",
+   "简单易用"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "creem",
+  "name": "Creem",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.creem.io/",
+  "pricing_facts": "3.9% + $0.40 每笔交易,统一费率,无月费。支持 80+ 货币、100+ 国家。(核实于 2026-07)",
+  "china_facts": "官网未明确列出中国(mainland)在支持的 100+ 国家之列。需直接联系确认。(核实于 2026-07,未能确认具体中国政策)",
+  "gotchas_facts": "虽然号称费率低于 Polar,但实际无论交易大小都是固定 3.9% + $0.40;平台较新,生态不如 Stripe/Paddle 成熟;收入分割功能还在完善中。",
+  "fun_facts": "主打收入分割功能(Revenue Splits):自动按贡献者/产品分成,适合多人协作;已处理百万美元 GMV,月均数百万笔交易;AI 初创创始人的首选之一。",
+  "use_case_hint": "适合有多人收入分成需求的 AI 工具、SaaS 团队;特别适合需要自动分账的独立项目。",
+  "alternatives_hint": [
+   "Polar",
+   "Lemon Squeezy",
+   "Paddle",
+   "Dodo Payments"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "AI能力",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "polar",
+  "name": "Polar",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://polar.sh/",
+  "pricing_facts": "Starter 免费(5% + 50¢);Pro $20/月(3.8% + 40¢);Growth $100/月(3.6% + 35¢);Scale $400/月(3.4% + 30¢)。创业计划 12 个月免费 Scale 层。(核实于 2026-07)",
+  "china_facts": "官网未明确提及支持国家列表。通过 Stripe Connect Express 支持全球 VAT/GST/销售税。中国用户能否注册需确认。(核实于 2026-07,未能确认具体中国政策)",
+  "gotchas_facts": "开源项目,但商业支持需付费;免费层费率高(5.5%),升级到 Pro 才划算;生态不如 Lemon Squeezy 成熟;部分功能还在测试阶段。",
+  "fun_facts": "开源 + MoR 混合模型;为 AI 初创设计,支持 token 消费计费;开发者友好,与开源社区关系紧密;已达 10,000+ 注册开发者(2026 初)。",
+  "use_case_hint": "适合 AI SaaS、token-based 计费模型;开源项目希望货币化;开发者文化浓厚的团队。",
+  "alternatives_hint": [
+   "Lemon Squeezy",
+   "Creem",
+   "Paddle",
+   "Stripe"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "开源",
+   "开发者友好",
+   "AI能力"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "gumroad",
+  "name": "Gumroad",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://gumroad.com/pricing",
+  "pricing_facts": "直接销售 10% + $0.50 每笔;市场发现 30% 每笔。无月费。自 2025 年 1 月起充当完全商户代理(MoR),自动处理全球销售税、VAT、GST。(核实于 2026-07)",
+  "china_facts": "官网未明确说明中国用户政策。Gumroad 2025 年恢复了 PayPal,支持 100+ 国家银行转账,但未特别提及中国mainland。(核实于 2026-07,未能确认具体中国政策)",
+  "gotchas_facts": "平台费率高(10% 或 30%);发现市场费率 30% 非常不经济;退款时平台费不返还;小额商品(如 $5)费率实际可达 20% 以上。",
+  "fun_facts": "社区创意氛围浓厚,已支付创作者 $2 亿+;支持订阅、许可证、会员;自动收税(MoR)减轻创作者负担;界面友好,新手最爱。",
+  "use_case_hint": "适合创意工作者(艺术、音乐、教程)快速变现;不适合大额或高频交易。",
+  "alternatives_hint": [
+   "Lemon Squeezy",
+   "Ko-fi",
+   "Stripe",
+   "Buy Me a Coffee"
+  ],
+  "suggested_tags": [
+   "付费",
+   "新手友好",
+   "社区",
+   "创意工作者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "paypal",
+  "name": "PayPal",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.paypal.com/us/business/paypal-business-fees",
+  "pricing_facts": "在线支付 3.49% + 49¢;标准卡 2.99% + 49¢;国际 +1.5%。小额支付 5% + 5¢。无月费(Payments Pro $30/月)。拒付费 $20,纠纷费 $15-$30。(核实于 2026-07)",
+  "china_facts": "中国用户可注册 PayPal 账户。支持中国银行卡 Visa/万事达。提现到中国银行卡需满足条件。部分功能在中国可能受限。(核实于 2026-07)",
+  "gotchas_facts": "费率较高;拒付费、纠纷费不可避免;国际转账额外成本;账户冻结风险(尤其对新卖家);即时提现费 1.5%。",
+  "fun_facts": "全球最大支付平台,信任度最高;支持 100+ 货币;中国用户友好度最高;与 eBay、Stripe 等平台集成。",
+  "use_case_hint": "适合有国内客户的出海卖家;需要全球支付兜底时的备选方案。",
+  "alternatives_hint": [
+   "Stripe",
+   "Wise",
+   "Payoneer",
+   "Airwallex"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "开发者友好",
+   "信任度高"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ },
+ {
+  "id": "payoneer",
+  "name": "Payoneer",
+  "part": "出海生存工具箱",
+  "category": "收款 & 支付",
+  "status": "active",
+  "official_url": "https://www.payoneer.com/about/pricing/",
+  "pricing_facts": "收款:信用卡 3%,ACH/eCheck 1%。提现:同币种 $1.50 固定费(月额 <$50K);跨币转账 +2% (vs mid-market)。年费 $29.95(年收入 >$2K 免除)。(核实于 2026-07)",
+  "china_facts": "中国用户可直接注册和使用。支持中国银行卡接收款项。提现到中国银行卡也支持。年费虽然存在但易于豁免,对中国用户相对友好。(核实于 2026-07)",
+  "gotchas_facts": "年费 $29.95(虽然易豁免);小额提现费高(月<$50K 时 $1.50,< $400 时固定 $4);ATM 取款费 $3.15 + 转换费;替代卡费 $12.95。",
+  "fun_facts": "全球 210+ 国家覆盖;对中国/印度市场友好;支持 UPI、本地支付方式;已覆盖数百万自由职业者;多币种账户。",
+  "use_case_hint": "适合中国自由职业者接收国外客户款项;全球支付兜底方案;特别适合与 Upwork 等平台结合。",
+  "alternatives_hint": [
+   "Wise",
+   "PayPal",
+   "Airwallex",
+   "Stripe"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "需海外银行卡",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "payments"
+ }
+]

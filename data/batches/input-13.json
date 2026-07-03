@@ -1,0 +1,246 @@
+[
+ {
+  "id": "cloudflare-email-routing",
+  "name": "Cloudflare Email Routing",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.cloudflare.com/products/email-routing/",
+  "pricing_facts": "邮件转发(接收和转发):完全免费,所有Cloudflare计划均包含。邮件发送(使用Workers):需付费Workers订阅,包含每月3000封免费邮件额度,超额按使用量计费。(核实于2026-07)",
+  "china_facts": "Cloudflare在中国可访问。邮件转发完全免费无需信用卡。发送功能需要Cloudflare账户,中国用户同样需要国外银行卡激活付费功能。",
+  "gotchas_facts": "免费计划只支持转发(收邮件),不能直接从自定义域名发邮件(需用Workers或第三方服务);每个账户最多50条路由规则;需配置DNS记录,非完全零配置。",
+  "fun_facts": "接收和转发层完全免费无限额;无需绑定信用卡;与Cloudflare DNS无缝配合;支持catch-all邮箱(捕获所有未定义别名);可配合Gmail实现免费企业邮箱;支持多个别名转发到不同收件箱。",
+  "use_case_hint": "个人品牌域名邮箱收件(结合Gmail);SOHO创业者零成本邮件收集;快速验证邮箱需求无需建立完整邮件系统。",
+  "alternatives_hint": [
+   "Forward Email",
+   "Cloudflare Registrar",
+   "收邮件专用方案"
+  ],
+  "suggested_tags": [
+   "免费",
+   "开发者友好",
+   "无需Key",
+   "需配DNS",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "spf-dkim-dmarc",
+  "name": "SPF/DKIM/DMARC 发信送达率",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.cloudflare.com/learning/email-security/dmarc-dkim-spf/",
+  "pricing_facts": "概念词条,不适用。",
+  "china_facts": "概念词条,不适用。",
+  "gotchas_facts": "SPF/DKIM/DMARC配置错误会导致邮件被拒或进垃圾箱;需要DNS修改权限;配置复杂,需要理解email认证原理;部分邮箱服务商对这些记录有特殊要求。",
+  "fun_facts": "SPF、DKIM、DMARC是业界标准的三层邮件认证体系。正确配置可将送达率提升20-40%,部分场景可达99.9%以上。2026年起Gmail、Outlook、Yahoo强制要求新发件人必须配置SPF或DKIM;DMARC处理政策灵活(隔离/拒收),支持监控报告。",
+  "use_case_hint": "提高邮件送达率(特别是发往国际邮箱);防止域名伪造;监控冒用域名发送的邮件;B2B邮件营销和事务邮件必须配置。",
+  "alternatives_hint": [
+   "ARC (Arc Message Signing)",
+   "BIMI (Brand Indicators for Message Identification)",
+   "邮件认证其他技术"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "email-domain-warmup",
+  "name": "邮箱域名预热",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://moderninbound.com/blog/domain-warmup-guide",
+  "pricing_facts": "概念词条,不适用。预热工具和服务价格范围$4.99/预热邮箱(24-48小时出成品)到$250+/月的企业级服务,参见各邮件预热工具定价。",
+  "china_facts": "概念词条,不适用。中国发件人向国外邮箱发送需要预热,向国内(QQ/网易)发送同样需要构建信誉度。",
+  "gotchas_facts": "预热周期长(3-6周为规范),短周期预热(14天)风险高;一旦被标记为垃圾发件人恢复困难;垃圾投诉率超0.1%即触发警告;需要多域名轮转(1000邮件/天需5-6个域名);预热失败成本高。",
+  "fun_facts": "2026年Gmail/Microsoft/Yahoo强制SPF/DKIM认证后预热更加关键;新域名冷启动首周送达率仅20-40%;规范14天预热协议可将首周送达率升至80%+;预热邮箱成本低($4.99/个),团队可提前20-30个域名储备;预热策略是B2B冷邮营销和大批量邮件的核心竞争力。",
+  "use_case_hint": "大规模冷邮营销前的域名信誉建立;SaaS产品邮件通知系统的初期可靠性保证;邮件轰炸类业务(如营销自动化)的基础设施;出海EDM营销必做功课。",
+  "alternatives_hint": [
+   "邮件营销平台内置预热",
+   "专业邮件代理服务",
+   "自建预热系统"
+  ],
+  "suggested_tags": [
+   "免费",
+   "付费",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "mailgun",
+  "name": "Mailgun",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.mailgun.com/",
+  "pricing_facts": "免费计划:100封/天,沙箱模式5个授权地址可月发5000封测试邮件;Basic $15/月(10000封);Foundation $35/月(50000封,含免费试用1月);Scale $90/月(100000封);企业自定义。超额$1.10-$1.80/千封。(核实于2026-07)",
+  "china_facts": "国内IP可访问。免费计划和沙箱账户可用国内邮箱注册。中国用户注册时常收不到验证码,需美国临时手机号。国内发件人向QQ/网易邮箱送达率受限,需专用IP和白名单。",
+  "gotchas_facts": "中国用户验证码接收困难;共享IP易被QQ邮箱拒收(QQ对Mailgun共享IP高度敏感);需付费升级到专用IP才能得到白名单机会;超额费率相对高;文档全英文。",
+  "fun_facts": "API设计优秀、文档详尽,开发者口碑业界顶级;RESTful API和SMTP都支持;免费沙箱完全免费,0成本测试;事件tracking完整(delivery/open/click/complaint),回调webhook灵活;自建webhook接收弹回、投诉、垃圾举报等;支持SMTP中继和API双接入。",
+  "use_case_hint": "开发者优先选择的邮件API;需要完整事件跟踪的营销自动化系统;SMTP集成场景;构建邮件处理系统的基础设施。",
+  "alternatives_hint": [
+   "SendGrid",
+   "Resend",
+   "Brevo",
+   "AWS SES"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开发者友好",
+   "国内可注册",
+   "需海外手机号",
+   "待核实"
+  ],
+  "is_addition": true,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "forward-email",
+  "name": "Forward Email",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://forwardemail.net/en",
+  "pricing_facts": "免费计划:邮件转发(不支持发送),无限域名,catch-all支持,50MB附件限;Enhanced Protection $3/月:完整收发、10GB存储、无限别名、月9000+发邮;Team $9/月:团队协作、权限管理、优先支持;企业$250/月。存储额外$3/月每10GB。(核实于2026-07)",
+  "china_facts": "中国用户可访问和使用。500K+全球用户中包括中国开发者。国内IP无限制。免费版完全无需信用卡,Enhanced版支持国际支付。部分中文社区有推荐和使用案例。",
+  "gotchas_facts": "免费版仅支持转发不支持发邮件;需要配置MX/CNAME DNS记录;存储容量相对小(10GB起);Team/企业版相对小众,国内用户社群小。",
+  "fun_facts": "100%开源、隐私优先,代码开源可自建;Cure53独立安全审计通过(2026年6月);AES-256加密、TLS传输;支持S/MIME加密转发、Sieve邮件过滤;500K+用户包括Netflix、Disney、Linux基金会;已发布官方webmail客户端(2026年2月);支持跨平台应用开发(macOS/Windows/Linux/iOS/Android)。",
+  "use_case_hint": "隐私至上的个人邮件转发系统;多域名管理的开发者;需要邮件自托管的技术用户;关注数据安全的出海者。",
+  "alternatives_hint": [
+   "Cloudflare Email Routing",
+   "Tutanota",
+   "Proton Mail",
+   "AnonAddy"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "开源",
+   "国内可注册",
+   "无需Key",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "namesilo",
+  "name": "NameSilo",
+  "part": "出海生存工具箱",
+  "category": "域名 & 邮箱基建",
+  "status": "active",
+  "official_url": "https://www.namesilo.com/",
+  "pricing_facts": ".com $10.99/年(注册与续费同价);.net约$9.78/年;.org约$10.72/年;.cc $8.97/年;冷门域名如.top首年$1.88续费$4.88。支持1-5年多年续费。新用户优惠码可减$1。(核实于2026-07)",
+  "china_facts": "中国用户友好,支持支付宝付款(直接支付或虚拟卡充值)。无需复杂实名认证,操作简洁。国内可直接注册账户。部分教程专门针对中国用户。",
+  "gotchas_facts": "WHOIS查询显示NameSilo保护地址(不是真实地址);界面全英文;国内用户群相对小,社区讨论较少;退款政策有限制(某些情况下不退)。",
+  "fun_facts": "所有域名永久免费WHOIS隐私保护(核心优势,业界标准$10-15/年);注册与续费同价,完全透明无隐形费用;支持支付宝付款(国内用户最大优势);优惠码生态活跃,经常有$1-$3优惠;免费DNS管理和邮件转发;Trustpilot高评分。",
+  "use_case_hint": "国内创业者首选的廉价域名注册;支付宝用户无需虚拟卡的直接选择;追求成本低和透明定价的长期持有者。",
+  "alternatives_hint": [
+   "Porkbun",
+   "Namecheap",
+   "Cloudflare Registrar",
+   "GoDaddy"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "无需Key",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "domain-email"
+ },
+ {
+  "id": "unsplash-api",
+  "name": "Unsplash API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://unsplash.com/documentation",
+  "pricing_facts": "完全免费，演示状态 50 请求/小时，生产状态 5000 请求/小时（核实于 2026-07）",
+  "china_facts": "国内可直接注册使用，无需海外卡或手机号，仅需正确使用返回图片 URL 和标注摄影师、Unsplash 出处",
+  "gotchas_facts": "必须在下载时调用 download_location 端点，违反用途会被禁用访问",
+  "fun_facts": "拥有数百万张高清免费图片库，无需担心商业授权问题，支持无限下载和商业使用",
+  "use_case_hint": "构建图片库应用、UI 模型、摄影作品展示、设计灵感收集",
+  "alternatives_hint": [
+   "Pexels API",
+   "Pixabay API",
+   "Unsplash Next.js",
+   "Flickr API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "pexels-api",
+  "name": "Pexels API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.pexels.com/api/",
+  "pricing_facts": "完全免费，默认限制 200 请求/小时、20000 请求/月，符合条件可免费解除限制（核实于 2026-07）",
+  "china_facts": "国内可直接注册，无需海外卡或手机号",
+  "gotchas_facts": "申请无限制需要证明正当用途且非简单复制 API 功能，需提供正确的 Pexels 和摄影师标注",
+  "fun_facts": "完全免费无上限选项，涵盖高质量免费视频库（Pexels Videos），社区驱动内容持续增长",
+  "use_case_hint": "视频编辑、内容创作、网站背景素材、应用内图片填充",
+  "alternatives_hint": [
+   "Unsplash API",
+   "Pixabay API",
+   "Cloudinary API",
+   "Getty Images API"
+  ],
+  "suggested_tags": [
+   "免费",
+   "有免费额度",
+   "无需Key",
+   "开发者友好"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ },
+ {
+  "id": "remove-bg-api",
+  "name": "Remove.bg API",
+  "part": "API & SDK 灵感库",
+  "category": "好玩 & 冷门 公共 API",
+  "status": "active",
+  "official_url": "https://www.remove.bg/api",
+  "pricing_facts": "免费 50 次/月（预览分辨率），付费 0.20 欧/张标准版，€3-€89 月套餐可选（核实于 2026-07）",
+  "china_facts": "国内可注册使用，部分付费功能可能受区域限制，建议准备海外支付方式",
+  "gotchas_facts": "免费额度仅限预览分辨率，想要高分辨率输出必须付费，单位时间限制 500 张/分钟",
+  "fun_facts": "AI 背景移除效果业界领先，支持直接 API 集成，预处理免费让开发者先试水",
+  "use_case_hint": "电商图片处理、头像裁剪、产品图优化、自动化图片加工",
+  "alternatives_hint": [
+   "Poof.bg",
+   "ImageKit Remove Background",
+   "Cloudinary",
+   "Pixlr"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "AI能力"
+  ],
+  "is_addition": false,
+  "_research_key": "fun-api"
+ }
+]

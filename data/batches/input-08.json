@@ -1,0 +1,251 @@
+[
+ {
+  "id": "airalo-esim",
+  "name": "Airalo eSIM",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://www.airalo.com/",
+  "pricing_facts": "起价约$4-5.50新加坡元（约$3.5-4 USD），按数据量和天数计费（如1GB一周$4），无免费额度。新用户首单15%优惠，推荐奖励$3-$3。核实于 2026-07",
+  "china_facts": "中国用户无区域限制，可国内直接购买，不需海外银行卡，支持国内支付方式，无特殊身份验证要求。需eSIM手机支持",
+  "gotchas_facts": "必须eSIM手机支持；激活后数据仅限在已购买套餐的国家/地区使用；套餐有效期过期后无法继续使用；不支持长期驻地需求",
+  "fun_facts": "全球150+国家地区覆盖；可随时购买，不需提前；支持多种支付方式；激活即用，无开卡费",
+  "use_case_hint": "短期出国旅游/商务必备；避免开卡费；比办理国际漫游更便宜；eSIM手机不受SIM卡槽限制",
+  "alternatives_hint": [
+   "Google Fi",
+   "Tello",
+   "Giffgaff",
+   "Tello"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "国内可注册",
+   "新手友好",
+   "好玩"
+  ],
+  "is_addition": false,
+  "_research_key": "comms"
+ },
+ {
+  "id": "google-voice",
+  "name": "Google Voice",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://voice.google.com/",
+  "pricing_facts": "永久免费美国号码，无月租；国内通话免费；接收短信免费；充值打电话到中国需人民币或美元（具体价格见voice.google.com/rates）；保号无要求。核实于 2026-07",
+  "china_facts": "2026年1月30日起强制身份认证（KYC），需上传政府颁发的身份证件；国内用户必须通过虚拟号码平台（如SMS-Activate）获取美国号码进行验证；需使用美国IP或VPN；Mainland不能直接注册",
+  "gotchas_facts": "注册需美国号码验证（鸡蛋问题，需先有号）；强制KYC认证限制隐私；国内收款充值困难（中国银行卡基本无法支付）；存在被Google关闭账户风险；不支持国内直接拨号接听",
+  "fun_facts": "真正的永久免费美国号码，无隐藏费用；接打美国加拿大号码免费；支持来电显示和语音信箱；可转接到其他号码",
+  "use_case_hint": "注册美国应用账户（ChatGPT、Claude、Telegram、Twitter等）；接收国际验证码；作为长期美国通讯号码",
+  "alternatives_hint": [
+   "Talkatone",
+   "JMP.chat",
+   "Tello",
+   "Giffgaff"
+  ],
+  "suggested_tags": [
+   "免费",
+   "国内可注册",
+   "需海外手机号",
+   "开发者友好",
+   "待核实"
+  ],
+  "is_addition": false,
+  "_research_key": "comms"
+ },
+ {
+  "id": "google-fi",
+  "name": "Google Fi",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://fi.google.com/",
+  "pricing_facts": "起价$30/月（美国基础套餐），按使用量计费，国际通话和数据在150+国家费率一致；新用户无免费试用（仅有7天无限数据试验期）；有免费来电显示。核实于 2026-07",
+  "china_facts": "需美国Google账户，需美国地址和支付方式（美国银行卡或信用卡）；中国用户需借用美国地址和卡才能激活；中国漫游支持但按国际通话资费计算",
+  "gotchas_facts": "必须使用Google Pixel/Android设备或兼容设备；需美国银行卡或信用卡（中国卡几乎无法支付）；中国漫游费用较高；需Sim卡支持（部分手机无法使用）",
+  "fun_facts": "150+国家费率统一（不像其他运营商按目的地差异定价）；自动选择最便宜网络运营商；支持国际短信；和Google账户集成",
+  "use_case_hint": "频繁国际出行的专业人士；跨国创业者；需要稳定美国号码和统一国际费率；Google Workspace企业用户",
+  "alternatives_hint": [
+   "Twilio",
+   "Vonage",
+   "Airalo",
+   "Giffgaff"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "开发者友好",
+   "国内可注册"
+  ],
+  "is_addition": false,
+  "_research_key": "comms"
+ },
+ {
+  "id": "jmp-chat",
+  "name": "JMP.chat",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://jmp.chat/",
+  "pricing_facts": "$4.99/月起（美国），包含虚拟号码和短信；支持自定义号码（需额外费用）；无免费试用。核实于 2026-07",
+  "china_facts": "仅在美国和加拿大提供服务，中国用户需通过VPN或代理访问；不支持中国直接注册（需美国地址）；支持支付方式受限",
+  "gotchas_facts": "仅限美国/加拿大，没有全球扩展计划；最小订阅$4.99/月；隐私导向但用户基数小，信息少",
+  "fun_facts": "隐私优先设计，支持Jabber、Matrix、Snikket、XMPP等开放协议；不要求身份验证（隐私友好）；与多个聊天客户端兼容",
+  "use_case_hint": "隐私保护第一需求的用户；喜欢开放协议而非被锁定在单一平台；需要长期稳定的虚拟号码",
+  "alternatives_hint": [
+   "Twilio",
+   "Google Voice",
+   "Talkatone",
+   "SMS-Activate"
+  ],
+  "suggested_tags": [
+   "付费",
+   "开发者友好",
+   "隐私友好"
+  ],
+  "is_addition": false,
+  "_research_key": "comms"
+ },
+ {
+  "id": "twilio",
+  "name": "Twilio",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://www.twilio.com/",
+  "pricing_facts": "新用户试用金$15.5 USD，有$10使用限制（防滥用）；本地号码$1.15-2.15/月起；SMS出站$0.0075 USD/条起；语音API $0.013-0.03/分钟。核实于 2026-07",
+  "china_facts": "中国号码和实体号都能注册（需VPN访问官网）；中国用户需要信用卡认证（几乎只能用国际信用卡）；试用期间免费用户仅限接收短信，无法发送跨国短信",
+  "gotchas_facts": "试用期10美元限制严格；免费期间无法发送国际短信；需要通过验证（可能被暂停账户）；API学习曲线陡峭；支持对新用户不太友好",
+  "fun_facts": "强大的开发者生态和API文档；支持全球150+国家号码；灵活的按量付费模式；提供语音、短信、WhatsApp等多渠道",
+  "use_case_hint": "应用程序双因素认证（2FA）；自动化短信通知系统；语音IVR系统；群发营销短信；OTP验证码服务",
+  "alternatives_hint": [
+   "Vonage",
+   "SMS-Activate",
+   "5SIM",
+   "Google Voice"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡",
+   "开发者友好",
+   "API能力"
+  ],
+  "is_addition": true,
+  "_research_key": "comms"
+ },
+ {
+  "id": "sms-activate",
+  "name": "SMS-Activate",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://sms-activate.io/",
+  "pricing_facts": "按次付费模式，一条验证码$0.02-0.05 USD（按国家和服务差异）；支持俄罗斯0.02、乌克兰0.03、美国0.05等；忠诚度计划1000卢布充值享70%优惠；无月费。核实于 2026-07",
+  "china_facts": "中国用户友好，中文界面支持；支持支付宝充值；首选中国区虚拟号接码平台（覆盖国内号段）；注册仅需邮箱，无身份验证要求；国内直接访问通常无阻",
+  "gotchas_facts": "接码成功率受服务商和国家影响；某些应用（如Google、Meta）对接码号码检测严格；号码可能被滥用（多人共享）；需要快速操作，号码生成后5分钟内必须接收验证码；新政策优先分配物理号而非虚拟号，提高成功率",
+  "fun_facts": "覆盖170+国家；支持支付宝和PayPal等多种支付；忠诚度计划返利高达70%；移动APP便捷操作；群控和API可用",
+  "use_case_hint": "快速注册海外应用账户（Telegram、Discord、Instagram等）；临时验证码接收；批量账户验证；绕过地区限制注册",
+  "alternatives_hint": [
+   "5SIM",
+   "SMS-Activate.ru",
+   "Twilio",
+   "Grizzly SMS"
+  ],
+  "suggested_tags": [
+   "付费",
+   "国内可注册",
+   "有中文",
+   "开发者友好",
+   "API能力"
+  ],
+  "is_addition": true,
+  "_research_key": "comms"
+ },
+ {
+  "id": "giffgaff",
+  "name": "Giffgaff",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://www.giffgaff.com/",
+  "pricing_facts": "实体卡或eSIM，初始充值£10最低；保号成本极低（180天一次，仅需发送一条短信£0.30，WiFi通话可降至£0.08）；漫游中国时本地通话费率：发短信0.30£/条、通话1£/分钟、接短信免费。核实于 2026-07",
+  "china_facts": "完全支持中国漫游（接收短信免费）；国内购买SIM卡简单（淘宝等电商10-30元人民币）；国内直接激活无需身份验证；无需海外银行卡（支付宝充值）；eSIM和实体卡均可国内使用；国行手机不需要Root即可激活eSIM",
+  "gotchas_facts": "官方已停止直接向中国邮寄（需从国内电商或代理购买SIM卡）；180天保号周期较长如忘记则号码被回收；国内漫游费用较高（用来收短信还好，打电话很贵）；需要插卡或eSIM激活后才能使用",
+  "fun_facts": "真正的英国实体号码（不是虚拟号）；高认可度，几乎所有平台都接受验证（相比虚拟号）；可在Amazon等英国电商平台注册；支持WIFI通话（降低成本）；号码稳定性高（3年无活动才被回收）",
+  "use_case_hint": "长期持有海外号码（保号成本低）；注册英国和欧洲应用；国内漫游接收验证码（虽然贵但很稳定）；跨境电商运营者；自媒体矩阵管理（需要多个真实号码）",
+  "alternatives_hint": [
+   "Tello",
+   "Talkatone",
+   "Google Voice",
+   "Airalo"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "国内可注册",
+   "新手友好",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "comms"
+ },
+ {
+  "id": "talkatone",
+  "name": "Talkatone",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://calling.talkatone.com/",
+  "pricing_facts": "完全免费获取美国号码（零月租）；30天内无任何活动则扣除30积分作为号码维护费（一条免费国内短信即可保号）；首次换号免费，后续换号$0.99；查看验证码需$0.99或$3.99/月订阅。核实于 2026-07",
+  "china_facts": "国内用户通常需要住宅IP才能注册（机房IP会被拒）；需使用VPN/代理访问；不需海外银行卡（可用微信Pay验证但通常难注册）；获取号码后在国内可正常使用",
+  "gotchas_facts": "对IP地址检测严格（只认住宅IP，不认VPN和数据中心IP）；注册困难对中国用户不友好；30天不活动会被征收维护费；查看SMS验证码需额外付费（非常烦人）；存在被限号或封号风险",
+  "fun_facts": "真实的美国号码（来自真实美国号码段，不是VoIP虚拟号）；真实号码认可度高，Facebook、Instagram等难验证平台也接受；永久免费（只要月活跃）；支持语音通话和短信",
+  "use_case_hint": "需要高认可度美国号码的应用注册；长期维护美国账户；接收国际验证码；群控或矩阵账户（需要真实号码）",
+  "alternatives_hint": [
+   "Google Voice",
+   "Tello",
+   "Giffgaff",
+   "JMP.chat"
+  ],
+  "suggested_tags": [
+   "免费",
+   "国内可注册",
+   "需海外手机号",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "comms"
+ },
+ {
+  "id": "tello",
+  "name": "Tello Mobile",
+  "part": "出海生存工具箱",
+  "category": "通信 & 号码",
+  "status": "active",
+  "official_url": "https://tello.com/",
+  "pricing_facts": "基础套餐$5/月（100分钟+无限短信），最低$5/月无合同；无限套餐$10/月（2026最新）；最低充值$20（漫游数据）；支持自定义套餐。核实于 2026-07",
+  "china_facts": "国内用户可购买（但需美国支付方式或代理）；eSIM激活无需物理邮件（国内可直接激活）；不支持中国直接注册（需虚拟号码或VPN验证）；支持国内漫游（需最低$5余额），250+国家数据漫游可用",
+  "gotchas_facts": "对机房IP和高风险节点敏感（注册建议用住宅代理）；常因欺诈被砍单（虽然风险下降）；eSIM激活需兼容设备；无线电视通话可能限制（某些地区）；国内使用需预先充值美金",
+  "fun_facts": "美国真实运营商（MVNO，基于T-Mobile）；支持eSIM（无需等待邮件，国内秒激活）；免费通话到60+国家（包括中国）；国际数据费率一致不按国家差异；支持WiFi Calling（降低成本）",
+  "use_case_hint": "需要美国真实号码的长期使用者；国际出差经常出国；需要稳定接收验证码和通话；对比Airalo成本更低的长期方案",
+  "alternatives_hint": [
+   "Google Fi",
+   "Giffgaff",
+   "Talkatone",
+   "Google Voice"
+  ],
+  "suggested_tags": [
+   "付费",
+   "需海外银行卡",
+   "国内可注册",
+   "新手友好",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "comms"
+ }
+]

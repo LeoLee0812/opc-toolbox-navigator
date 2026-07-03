@@ -1,0 +1,245 @@
+[
+ {
+  "id": "dnd-kit",
+  "name": "dnd-kit",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://dndkit.com",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "v0.5.0 版本(21天前发布),支持键盘导航和屏幕阅读器,WCAG 2.1 AA 无障碍",
+  "fun_facts": "2026年拖拽放置标准库,取代 react-beautiful-dnd,无头组件设计,支持指针/触摸/键盘交互,内置键盘和屏幕阅读器无障碍支持,支持列表/网格/嵌套/虚拟化等场景",
+  "use_case_hint": "构建可拖拽的任务管理看板,创建可排序的列表,实现拖拽式表单编辑",
+  "alternatives_hint": [
+   "react-beautiful-dnd",
+   "react-dnd",
+   "Vaul"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "partykit",
+  "name": "PartyKit",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://www.partykit.io",
+  "pricing_facts": "个人开发者免费(存储24h清空),商业用户在自己Cloudflare账户部署时免费(仅需支付CF计费)(核实于 2026-07)",
+  "china_facts": "部分功能需翻墙使用Cloudflare服务,但国内可访问官网和文档,无海外银行卡要求(自托管模式)",
+  "gotchas_facts": "被Cloudflare收购(2024年4月),部署依赖Cloudflare边缘计算,自托管无额外成本",
+  "fun_facts": "无服务器多人基础设施,全球超低延迟(<30ms),自动冬眠机制,按活跃连接付费模式,支持协作编辑、游戏、实时投票等场景",
+  "use_case_hint": "构建协作白板应用,创建实时多人游戏,实现群组编码工具",
+  "alternatives_hint": [
+   "Liveblocks",
+   "Firebase",
+   "Replicache"
+  ],
+  "suggested_tags": [
+   "有免费额度",
+   "付费",
+   "需海外银行卡",
+   "好玩",
+   "冷门宝藏"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "nuqs",
+  "name": "nuqs",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://nuqs.dev",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "支持 Next.js>=14.2.0,支持多个路由框架(Remix/React Router/TanStack Router等)",
+  "fun_facts": "Next.js URL查询状态库,类似 useState 但存储在URL中,支持类型安全、SSR、自定义序列化,完美适配 Next.js App Router",
+  "use_case_hint": "管理筛选条件和搜索参数,实现分页和排序保存,构建可分享的过滤状态",
+  "alternatives_hint": [
+   "useSearchParams",
+   "TanStack Router",
+   "React Router"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "zod",
+  "name": "Zod",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://zod.dev",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "TypeScript 5.5+,支持异步验证和复杂转换",
+  "fun_facts": "TypeScript优先的运行时验证库,一次定义自动推导类型,内置强大转换和强制转换能力,被 React Hook Form/Next.js 生态广泛采用",
+  "use_case_hint": "API请求验证,环境变量验证,表单数据类型安全验证",
+  "alternatives_hint": [
+   "Yup",
+   "Joi",
+   "Valibot"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": false,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "motion-react",
+  "name": "Motion for React",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "renamed",
+  "official_url": "https://motion.dev/docs/react",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "2025年中从 framer-motion 改名为 motion,包名从 framer-motion 改为 motion,v12版本添加新色彩空间支持",
+  "fun_facts": "前身为 Framer Motion,现为独立开源项目,月下载3000万次,混合引擎用Web Animations API实现120fps,支持手势识别(点击/拖拽/悬停),v12新增色彩空间和硬件加速滚动动画",
+  "use_case_hint": "构建平滑的UI动画和过渡,实现拖拽交互和手势动画,创建高性能布局动画",
+  "alternatives_hint": [
+   "Anime.js",
+   "GSAP",
+   "React Spring"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "zustand",
+  "name": "Zustand",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://github.com/pmndrs/zustand",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "2026年已成为最受欢迎状态管理库(超过Redux),超过50%项目选择",
+  "fun_facts": "2026年React状态管理战争的赢家,极小化API无需Provider包装,消除了Redux的样板代码,跨越50%市场份额(2023-2025年从28%→50%),推荐配合TanStack Query使用",
+  "use_case_hint": "管理应用全局状态,实现复杂客户端工作流,构建可扩展状态系统",
+  "alternatives_hint": [
+   "Jotai",
+   "Redux",
+   "Context API"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "新手友好"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "three-js",
+  "name": "Three.js",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://threejs.org",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源库,国内可直接使用,无注册无付费,无地域限制,但官网需翻墙",
+  "gotchas_facts": "r185版本,2000+GitHub贡献者,9月有巴黎三维周技术会议",
+  "fun_facts": "跨浏览器WebGL/WebGPU 3D库,通过JavaScript驱动GPU加速,支持模型加载、材质、灯光、动画等,WebAssembly版本(three.wasm)可跑到480+fps",
+  "use_case_hint": "构建交互式3D可视化,创建沉浸式网站体验,实现产品3D展示",
+  "alternatives_hint": [
+   "Babylon.js",
+   "Cesium.js",
+   "Oimo.js"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "好玩"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "gsap",
+  "name": "GSAP",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://gsap.com",
+  "pricing_facts": "100%免费(2025年4月Webflow收购后公开免费),包含所有高级插件(核实于 2026-07)",
+  "china_facts": "完全免费无需注册,国内可直接访问使用,无任何付费或认证障碍",
+  "gotchas_facts": "2024年10月被Webflow收购,2025年4月全部免费(包括SplitText/MorphSVG/ScrollTrigger等高级插件)",
+  "fun_facts": "业界最被低估的动画库!原为付费库2025年突然全免!月下载3000万,被Framer/Figma等大厂采用,性能比CSS快20x/jQuery快8x,毫秒级精度,支持DOM/SVG/Canvas/WebGL",
+  "use_case_hint": "创建复杂精准的动画序列,实现滚动触发动画,构建高性能网络动画",
+  "alternatives_hint": [
+   "Motion for React",
+   "Anime.js",
+   "Tweenmax"
+  ],
+  "suggested_tags": [
+   "免费",
+   "开源",
+   "无需Key",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ },
+ {
+  "id": "jotai",
+  "name": "Jotai",
+  "part": "API & SDK 灵感库",
+  "category": "被低估的 SDK / 前端库",
+  "status": "active",
+  "official_url": "https://jotai.org",
+  "pricing_facts": "完全免费开源,MIT许可(核实于 2026-07)",
+  "china_facts": "开源npm包,国内可直接使用,无注册无付费,无地域限制",
+  "gotchas_facts": "原子化设计,支持localStorage持久化、SSR、Redux风格reducer等扩展",
+  "fun_facts": "原始灵活的状态管理,使用atom构建状态图,自动优化渲染(解决Context额外渲染问题),支持Promise和异步atom,包含jotai/utils扩展工具包",
+  "use_case_hint": "构建从简单到复杂的状态系统,实现企业级应用状态管理,创建原子化的可复用状态",
+  "alternatives_hint": [
+   "Zustand",
+   "Recoil",
+   "Signals"
+  ],
+  "suggested_tags": [
+   "开源",
+   "免费",
+   "无需Key",
+   "开发者友好",
+   "冷门宝藏"
+  ],
+  "is_addition": true,
+  "_research_key": "sdk-libs"
+ }
+]
