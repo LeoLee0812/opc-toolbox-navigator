@@ -1,0 +1,243 @@
+[
+  {
+    "id": "open-meteo-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "Open-Meteo API",
+    "cn": "权威气象数据API",
+    "what": "汇聚全球15+权威气象机构数据的免费天气预报API，无需API Key即用",
+    "why": "别的天气API大多要注册拿Key还限额，它直接开放调用，数据还来自欧洲央行(不是，是德国气象局)、美国国家气象局等真正的官方源头，精度不输付费服务。而且开源可自托管，团队担心免费额度不够，直接部署一套自己的完全不花钱，这在天气数据这个赛道里几乎是独一份。",
+    "pricing": "免费 10000 次/日（非商业用，无需API Key）；商业版月套餐 $20-$1000+（核实于 2026-07）",
+    "setup": "低，无需注册无API Key，国内直接可用",
+    "china_fit": "国内可直接免费使用，无地域限制，非商业用完全无门槛",
+    "gotchas": "商业用需付费订阅；免费版需标注CC BY 4.0许可证；部分高级预报数据商业版专享",
+    "alternatives": [
+      "OpenWeatherMap",
+      "WeatherAPI.com",
+      "Visual Crossing",
+      "Tomorrow.io"
+    ],
+    "use_case": "做一个穿衣建议小工具，抓实时气温湿度自动推荐今天该怎么穿",
+    "tags": [
+      "免费",
+      "有免费额度",
+      "开源",
+      "可自托管",
+      "国内可注册"
+    ],
+    "official_url": "https://open-meteo.com/"
+  },
+  {
+    "id": "rest-countries-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "REST Countries API",
+    "cn": "国家数据库API",
+    "what": "覆盖250+国家的结构化地理信息API，返回首都、货币、语言、时区等，无需认证",
+    "why": "查一个国家的首都货币时区，本来要拼好几个数据源，它一个接口全给你，字段设计得干净利落，连国旗emoji都有。被apilayer收购后还在持续维护，不是那种更新一半就弃坑的野生项目，做国际化下拉框基本是首选。",
+    "pricing": "完全免费，无需认证（核实于 2026-07）",
+    "setup": "低，无需注册和API Key，国内可直接使用",
+    "china_fit": "国内可直接使用，无地域限制，无需注册",
+    "gotchas": "无已知限制，但建议尊重服务器资源，不建议极端频繁调用",
+    "alternatives": [
+      "Nominatim",
+      "Geonames",
+      "Google Maps API",
+      "Mapbox API"
+    ],
+    "use_case": "做一个今天去哪个国家转盘抽签工具，抽中自动显示首都货币和时差",
+    "tags": [
+      "免费",
+      "无需Key",
+      "开发者友好",
+      "新手友好"
+    ],
+    "official_url": "https://restcountries.com/"
+  },
+  {
+    "id": "nominatim-osm-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "Nominatim (OpenStreetMap)",
+    "cn": "开源地理编码API",
+    "what": "OpenStreetMap官方地理编码API，支持地址搜索和反向地理编码，完全开源可自建实例",
+    "why": "地理编码这事Google Maps按次收费收得很凶，它靠全球众包地图数据完全开源免费，还能自己搭一套摆脱限速——对预算紧张又想做地图功能的团队是救命稻草。但免费也有代价，用途和调用方式规矩不少，得先看清楚。",
+    "pricing": "免费（个人/教育/小规模使用，限制1请求/秒）；商业大规模应用需自建实例或使用付费服务（核实于 2026-07）",
+    "setup": "中，国内大陆网络不稳定需镜像或自建，有一定部署成本",
+    "china_fit": "国内可使用但大陆网络访问不稳定，建议使用国内镜像或自建实例",
+    "gotchas": "禁止自动完成搜索、禁止网格反向地理编码、禁止爬虫；应用主功能不能是地理编码（需自建）；必须提供HTTP Referer或User-Agent",
+    "alternatives": [
+      "Google Geocoding API",
+      "Mapbox Geocoding",
+      "HERE Geocoding",
+      "自建Nominatim"
+    ],
+    "use_case": "做一个收货地址自动校验插件，输入模糊地址自动纠正并转成经纬度",
+    "tags": [
+      "免费",
+      "有免费额度",
+      "开源",
+      "可自托管",
+      "需配DNS"
+    ],
+    "official_url": "https://nominatim.org/"
+  },
+  {
+    "id": "ipinfo-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "IPinfo API",
+    "cn": "IP地理位置API",
+    "what": "IP地址地理位置和运营商信息查询API，支持欺诈检测和内容本地化",
+    "why": "曾经是免费IP定位里最大方的一个，精确到城市和运营商都不要钱，可惜2025年被砍成免费版只剩国家级精度，想看城市和ISP得掏钱。放进来更多是提醒大家：白嫖的时代可能说没就没，选型时留个备用方案。",
+    "pricing": "免费版仅限国家级精度；基础版$49/月 250K查询；商业版$90-∞/月（核实于 2026-07，2025年大幅削弱免费版）",
+    "setup": "中，商业用需付费且需海外支付方式才能解锁好功能",
+    "china_fit": "国内可注册；部分精准数据可能受地域限制；建议准备海外支付方式用于付费版",
+    "gotchas": "2025年免费版精度大幅下降，仅提供国家级地理信息；想要城市/运营商数据必须付费",
+    "alternatives": [
+      "MaxMind GeoIP2",
+      "IP2Location",
+      "GeoIP",
+      "Ipapi.co"
+    ],
+    "use_case": "做一个访客来源地图挂件，网站访客的IP实时点亮世界地图上的城市",
+    "tags": [
+      "有免费额度",
+      "付费",
+      "需海外银行卡"
+    ],
+    "official_url": "https://ipinfo.io/"
+  },
+  {
+    "id": "frankfurter-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "Frankfurter API",
+    "cn": "汇率数据API",
+    "what": "欧洲央行官方汇率数据API，覆盖201种货币，历史数据回溯至1948年",
+    "why": "汇率数据源头直接是欧洲央行，权威到没话说，居然完全免费不限量还不用Key，历史数据能查到1948年，做财务系统或者复盘老汇率走势都够用。开源还能自托管，比一堆收费汇率API实在多了。",
+    "pricing": "完全免费，无配额限制（仅防滥用速率限制）；开源可自托管（核实于 2026-07）",
+    "setup": "低，无需注册无API Key，国内直接可用",
+    "china_fit": "国内可直接使用，无地域限制，无需注册",
+    "gotchas": "数据来自欧洲央行，仅包含主要货币兑换率，不支持加密货币",
+    "alternatives": [
+      "ExchangeRate-API",
+      "Open Exchange Rates",
+      "Fixer.io",
+      "CurrencyAPI"
+    ],
+    "use_case": "做一个汇率提醒机器人，人民币兑欧元跌破某个心理价位就自动推送",
+    "tags": [
+      "免费",
+      "无需Key",
+      "开源",
+      "可自托管"
+    ],
+    "official_url": "https://frankfurter.dev/"
+  },
+  {
+    "id": "nasa-apis",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "NASA APIs",
+    "cn": "NASA官方数据API",
+    "what": "美国国家航空航天局官方数据集，包含每日天文图片、火星探测器照片、地球卫星影像",
+    "why": "堂堂NASA把每日天文图片、火星车拍的照片、地球卫星影像全部开放给开发者随便调用，邮箱注册就给Key，这种量级的机构愿意这么大方真的少见。科普向应用、教育课件想找点硬核又免费的素材，这里基本管够。",
+    "pricing": "完全免费，演示版本有限制，注册免费开发者Key后1000请求/小时（核实于 2026-07）",
+    "setup": "低，邮箱即可注册，无需海外卡或手机号",
+    "china_fit": "国内可直接访问，无地域限制，无需海外卡或手机号，邮箱即可注册",
+    "gotchas": "超限会被临时阻止1小时；Landsat 8等某些数据需通过EarthData平台的OAuth2认证",
+    "alternatives": [
+      "ESA APIs",
+      "SpaceX API",
+      "Astronomy API",
+      "AstronomyAPI"
+    ],
+    "use_case": "做一个每日壁纸机器人，自动抓取NASA每日天文图片发到微信或Telegram群",
+    "tags": [
+      "免费",
+      "有免费额度",
+      "国内可注册",
+      "开发者友好"
+    ],
+    "official_url": "https://api.nasa.gov/"
+  },
+  {
+    "id": "pokeapi",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "PokéAPI",
+    "cn": "宝可梦数据库API",
+    "what": "宝可梦官方授权数据库API，覆盖1000+宝可梦、招式、属性、特性等详细信息",
+    "why": "谁能想到查宝可梦招式属性还有一个官方授权的免费数据库，而且月流量能扛住50多亿次调用，说明真有一大堆粉丝项目在用它。数据全到离谱，从种族值到进化链一应俱全，是养成粉丝向小项目最省心的数据来源。",
+    "pricing": "完全免费，无需API Key，月流量50+亿次，公平使用政策鼓励缓存（核实于 2026-07）",
+    "setup": "低，无需注册和API Key，国内可直接使用",
+    "china_fit": "国内可直接使用，无地域限制，无需注册",
+    "gotchas": "静态数据库更新频率一般；大量请求建议缓存或下载本地数据集",
+    "alternatives": [
+      "PokemonTCG API",
+      "GraphQL Pokemon API",
+      "Pokemon REST API"
+    ],
+    "use_case": "做一个宝可梦属性克制速查插件，对战前一秒查出最优打法",
+    "tags": [
+      "免费",
+      "无需Key",
+      "新手友好",
+      "好玩"
+    ],
+    "official_url": "https://pokeapi.co/"
+  },
+  {
+    "id": "deck-of-cards-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "Deck of Cards API",
+    "cn": "卡牌游戏API",
+    "what": "标准52张牌的卡牌管理API，支持洗牌、发牌等操作，适合各类卡牌游戏原型",
+    "why": "接口设计简单到一看就懂，洗牌、发牌、开新副牌堆几个动作全覆盖，特别适合刚学REST API的新手练手，十分钟就能跑起来一个像样的demo。虽然功能单一，但正因为单一才成了教学范例里的常客。",
+    "pricing": "完全免费，无需API Key，无正式配额，简单公平使用政策（核实于 2026-07）",
+    "setup": "低，无需注册和API Key，国内可直接使用",
+    "china_fit": "国内可直接使用，无地域限制，无需注册",
+    "gotchas": "功能单一，仅支持标准52张牌（4花色13等级），不支持定制牌组",
+    "alternatives": [
+      "Spoonacular Cards",
+      "自建卡牌系统",
+      "GameDBAPI"
+    ],
+    "use_case": "做一个线上德州扑克发牌演示器，边练REST调用边看真实洗牌效果",
+    "tags": [
+      "免费",
+      "无需Key",
+      "新手友好",
+      "好玩"
+    ],
+    "official_url": "https://deckofcardsapi.com/"
+  },
+  {
+    "id": "bored-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "Bored API",
+    "cn": "活动推荐API",
+    "what": "随机活动推荐API，涵盖教育、娱乐、社交、烹饪等7大类，支持按人数、难度、价格过滤",
+    "why": "光看名字就很有梗，专治不知道干啥的空虚周末，还能按人数、难度、花费筛选，比自己瞎想靠谱。完全免费无Key的冷门小众API，拿来做派对小游戏或者团建破冰工具，效果出奇地好。",
+    "pricing": "完全免费，无需API Key，无明确配额限制（核实于 2026-07）",
+    "setup": "低，无需注册和API Key，国内可直接使用",
+    "china_fit": "国内可直接使用，无地域限制，无需注册",
+    "gotchas": "数据库规模中等，某些活动可能出现重复推荐，活动建议数据更新不频繁",
+    "alternatives": [
+      "Numbers API",
+      "Advice Slip API",
+      "Fun Fact API"
+    ],
+    "use_case": "做一个不知道干啥按钮，点一下随机蹦出一个周末活动建议",
+    "tags": [
+      "免费",
+      "无需Key",
+      "好玩",
+      "冷门宝藏"
+    ],
+    "official_url": "https://bored-api.appbrewery.com/"
+  }
+]
