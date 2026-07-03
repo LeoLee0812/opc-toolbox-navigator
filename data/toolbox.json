@@ -1,0 +1,36 @@
+[
+  {
+    "id": "resend",
+    "part": "出海生存工具箱",
+    "category": "域名 & 邮箱基建",
+    "name": "Resend",
+    "cn": "开发者友好的发信服务",
+    "what": "给开发者做的发邮件 API,几行代码就能发验证码/通知邮件。",
+    "why": "占位数据:等待阶段 B/C 流水线产出后替换。",
+    "pricing": "以官网为准(核实于 2026-07)。",
+    "setup": "低——拿 API key、验证域名、调接口。",
+    "china_fit": "注册无需海外银行卡。",
+    "gotchas": "不配好 SPF/DKIM/DMARC 容易进垃圾箱。",
+    "alternatives": ["Postmark", "Loops"],
+    "use_case": "任何要发验证码、欢迎信、通知的 Web/App。",
+    "tags": ["有免费额度", "开发者友好", "需配DNS"],
+    "official_url": "https://resend.com"
+  },
+  {
+    "id": "open-meteo",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "name": "Open-Meteo",
+    "cn": "免费无 Key 天气 API",
+    "what": "完全免费、无需注册的天气预报 API。",
+    "why": "占位数据:等待阶段 B/C 流水线产出后替换。",
+    "pricing": "非商用免费(核实于 2026-07)。",
+    "setup": "低——一个 GET 请求就能拿到数据。",
+    "china_fit": "全球通用,无特殊限制。",
+    "gotchas": "商用需付费授权。",
+    "alternatives": ["OpenWeatherMap"],
+    "use_case": "给任何 App 加天气小组件。",
+    "tags": ["免费", "无需Key", "好玩"],
+    "official_url": "https://open-meteo.com"
+  }
+]

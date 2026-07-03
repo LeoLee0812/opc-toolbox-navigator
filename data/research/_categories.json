@@ -1,0 +1,93 @@
+[
+  {
+    "key": "payments",
+    "part": "出海生存工具箱",
+    "category": "收款 & 支付",
+    "target": 16,
+    "seeds": ["Stripe", "Paddle", "Lemon Squeezy", "Creem", "Polar", "Gumroad", "PayPal", "Payoneer", "Wise", "Airwallex 空中云汇", "RevenueCat", "Ko-fi", "Stripe Atlas", "独立开发者收款方案对比"]
+  },
+  {
+    "key": "banking",
+    "part": "出海生存工具箱",
+    "category": "银行 & 身份 & 公司",
+    "target": 12,
+    "seeds": ["香港银行卡(汇丰/ZA Bank/众安)", "Mercury 美国商业银行", "新加坡银行账户", "美国 LLC 注册", "香港公司注册", "EIN 申请", "Wise 多币种账户", "Deel", "出海报税基础", "数字游民签证概览"]
+  },
+  {
+    "key": "comms",
+    "part": "出海生存工具箱",
+    "category": "通信 & 号码",
+    "target": 10,
+    "seeds": ["海外实体电话卡", "Airalo eSIM", "Google Voice", "Google Fi", "接码/虚拟号码平台", "JMP.chat", "海外手机号方案", "二次验证短信坑"]
+  },
+  {
+    "key": "domain-email",
+    "part": "出海生存工具箱",
+    "category": "域名 & 邮箱基建",
+    "target": 12,
+    "seeds": ["Cloudflare Registrar", "Namecheap", "Porkbun", "Resend", "Google Workspace", "Zoho Mail", "Cloudflare Email Routing", "SPF/DKIM/DMARC 发信送达率", "邮箱域名预热"]
+  },
+  {
+    "key": "deploy-vps",
+    "part": "出海生存工具箱",
+    "category": "建站 & 部署 & 服务器",
+    "target": 14,
+    "seeds": ["Vercel", "Netlify", "Cloudflare Pages", "Railway", "Render", "Fly.io", "Hetzner", "DigitalOcean", "Vultr", "搬瓦工 BandwagonHost", "1Panel", "宝塔面板"]
+  },
+  {
+    "key": "legal",
+    "part": "出海生存工具箱",
+    "category": "合规 & 法务 & 隐私",
+    "target": 10,
+    "seeds": ["隐私政策生成器", "GDPR 基础", "Cookie 同意方案", "ToS 模板", "Termly", "App Store / Google Play 上架合规", "数据出境合规"]
+  },
+  {
+    "key": "auth",
+    "part": "独立开发 SaaS 积木",
+    "category": "认证 & 用户",
+    "target": 10,
+    "seeds": ["Clerk", "Supabase Auth", "Auth0", "WorkOS", "Auth.js (NextAuth)", "Better Auth", "Firebase Auth", "Magic Link 登录"]
+  },
+  {
+    "key": "data-backend",
+    "part": "独立开发 SaaS 积木",
+    "category": "数据 & 后端 & 存储",
+    "target": 14,
+    "seeds": ["Supabase", "Firebase", "Neon", "Turso", "PocketBase", "Convex", "Upstash", "Cloudflare R2", "AWS S3", "UploadThing"]
+  },
+  {
+    "key": "messaging-support",
+    "part": "独立开发 SaaS 积木",
+    "category": "邮件 & 通知 & 客服",
+    "target": 12,
+    "seeds": ["Resend", "Loops", "Postmark", "Plunk", "Novu", "OneSignal", "Crisp", "Chatwoot", "Intercom"]
+  },
+  {
+    "key": "analytics-growth",
+    "part": "独立开发 SaaS 积木",
+    "category": "分析 & 增长 & 变现",
+    "target": 14,
+    "seeds": ["PostHog", "Plausible", "Umami", "Mixpanel", "Google Analytics", "Dub", "OpenPanel", "Canny", "Featurebase", "Sitemap/SEO 基础"]
+  },
+  {
+    "key": "ai-api",
+    "part": "API & SDK 灵感库",
+    "category": "AI 能力 API",
+    "target": 26,
+    "seeds": ["Replicate", "fal.ai", "OpenRouter", "Groq", "Together AI", "ElevenLabs", "Deepgram", "AssemblyAI", "Flux (Black Forest Labs)", "Ideogram", "Suno", "Udio", "Hume AI", "Perplexity API", "Firecrawl"]
+  },
+  {
+    "key": "fun-api",
+    "part": "API & SDK 灵感库",
+    "category": "好玩 & 冷门 公共 API",
+    "target": 34,
+    "seeds": ["Unsplash API", "Pexels API", "Remove.bg", "Open-Meteo", "REST Countries", "Nominatim (OpenStreetMap)", "IPinfo", "Frankfurter", "NASA APIs", "PokéAPI", "Deck of Cards API", "Bored API", "Numbers API", "Open Library", "Wikipedia API", "QuickChart", "ScreenshotOne", "Have I Been Pwned", "Faker API", "Mockaroo"]
+  },
+  {
+    "key": "sdk-libs",
+    "part": "API & SDK 灵感库",
+    "category": "被低估的 SDK / 前端库",
+    "target": 36,
+    "seeds": ["react-bits", "Aceternity UI", "Magic UI", "cobe", "tsParticles", "cmdk", "Sonner", "Vaul", "Embla Carousel", "react-tweet", "tldraw", "Excalidraw", "canvas-confetti", "rough.js", "matter.js", "howler.js", "p5.js", "qrcode", "html2canvas", "dnd-kit", "PartyKit", "nuqs", "zod"]
+  }
+]
